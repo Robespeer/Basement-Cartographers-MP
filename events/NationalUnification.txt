@@ -1993,3 +1993,21 @@ country_event = {
         }
     }
 }
+
+# Better Event to Inherit
+country_event = {
+    id = 98652
+    title = "EVTNAME98650" #Unification
+    desc = "EVTDESC98650"
+    picture = "Celebration"
+
+    is_triggered_only = yes
+
+    option = {
+        name = "EVT98650OPTA"
+        FROM = { inherit = THIS }
+        ai_chance = {
+            factor = 75
+		}
+    }
+}

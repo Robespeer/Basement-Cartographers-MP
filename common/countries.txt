@@ -564,6 +564,7 @@ UTI        ="countries/Utility Tag.txt"
 
 ##BCMP
 PBA        ="countries/Portugal-Brazil.txt"
+SAM        ="countries/South America.txt"
 ##
 
 ##HoD Dominions
