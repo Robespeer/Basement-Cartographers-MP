@@ -3,30 +3,36 @@ political_decisions = {
     banda_oriental = {
     picture = banda_oriental
         potential = {
-            tag = ARG
+            OR = {
+                tag = ARC
+                tag = ARG
+            }
             NOT = {
                 has_country_flag = banda_oriental_is_ours
             }
         }
 
         allow = {
-            romanticism = 1
-            is_greater_power = yes
+            state_n_government = 1
         }
 
         effect = {
-            badboy = 10
+            badboy = 8
             set_country_flag = banda_oriental_is_ours #Uruguay provinces
             2344 = {
+                add_core = ARC
                 add_core = ARG
             }
             2345 = {
+                add_core = ARC
                 add_core = ARG
             }
             2346 = {
+                add_core = ARC
                 add_core = ARG
             }
             2347 = {
+                add_core = ARC
                 add_core = ARG
             }
 
@@ -50,7 +56,6 @@ political_decisions = {
 
         allow = {
             nationalism_n_imperialism = 1
-            is_greater_power = yes
         }
 
         effect = {
@@ -88,7 +93,6 @@ political_decisions = {
         allow = {
             war = no
             is_mobilised = no
-            prestige = 50
             nationalism_n_imperialism = 1
             PRG = {
                 OR = {
@@ -163,7 +167,6 @@ political_decisions = {
 
         effect = {
             prestige = 30
-            badboy = 10
             random_country = {
                 limit = {
                     exists = yes
@@ -178,6 +181,7 @@ political_decisions = {
             URU = { all_core = { add_core = LPL } }
             BOL = { all_core = { add_core = LPL } }
             change_tag = LPL
+			add_accepted_culture = south_andean
             random_country = {
                 limit = {
                     tag = ARG
@@ -296,10 +300,157 @@ political_decisions = {
                 }
                 country_event = 98650
             }
-            916 = { remove_core = LPL }
-            2305 = { remove_core = LPL }
-            2309 = { remove_core = LPL }
-            2420 = { remove_core = LPL }
+			2420 = {
+				add_core = THIS
+			}
+			2462 = {
+				add_core = THIS
+			}
+			2305 = {
+				add_core = THIS
+			}
+			2309 = {
+				add_core = THIS
+			}
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+
+    unite_with_south_andeans = {
+    picture = unite_la_plata
+        potential = {
+            tag = LPL
+            NOT = {
+                has_country_flag = unite_with_south_andeans_flag
+            }
+        }
+
+        allow = {
+            owns = 2310
+        }
+
+        effect = {
+            badboy = 20
+            CHL = { all_core = { add_core = LPL } }
+            PEU = { all_core = { add_core = LPL } }
+            set_country_flag = unite_with_south_andeans_flag
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+
+    unite_south_america = {
+        picture = unite_la_plata
+        potential = {
+            tag = LPL
+			has_country_flag = unite_with_south_andeans_flag
+            NOT = {
+                has_country_flag = unite_south_america_flag
+            }
+        }
+
+        allow = {
+            war = no
+            is_mobilised = no
+            revolution_n_counterrevolution = 1
+            owns = 2324
+            owns = 2295
+            owns = 2463
+            CLM = {
+                OR = {
+                    exists = no
+                    is_mobilised = no
+                }
+                vassal_of = THIS
+            }
+            ECU = {
+                OR = {
+                    exists = no
+                    is_mobilised = no
+                }
+                OR = {
+                    in_sphere = THIS
+                    vassal_of = THIS
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { in_sphere = THIS }
+                        }
+                    }
+                }
+            }
+            VNZ = {
+                OR = {
+                    exists = no
+                    is_mobilised = no
+                }
+                OR = {
+                    in_sphere = THIS
+                    vassal_of = THIS
+                    all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { in_sphere = THIS }
+                        }
+                    }
+                }
+            }
+            BRZ = {
+                OR = {
+                    exists = no
+                    is_mobilised = no
+                }
+                vassal_of = THIS
+            }
+        }
+
+        effect = {
+            set_country_flag = unite_south_america_flag
+            CLM = { all_core = { add_core = LPL } }
+            ECU = { all_core = { add_core = LPL } }
+            VNZ = { all_core = { add_core = LPL } }
+            BRZ = { all_core = { add_core = LPL } }
+            GUY = { all_core = { add_core = LPL } }
+			add_accepted_culture = north_andean
+			add_accepted_culture = afro_caribeno
+			add_accepted_culture = brazilian
+			add_accepted_culture = afro_brazilian
+			add_country_modifier = { name = small_immigration_boom duration = 36500 }
+            random_country = {
+                limit = {
+                    tag = ECU
+                    exists = yes
+                    ai = yes
+                }
+                THIS = { inherit = ECU }
+            }
+            random_country = {
+                limit = {
+                    tag = CLM
+                    exists = yes
+                    ai = yes
+                }
+                THIS = { inherit = CLM }
+            }
+            random_country = {
+                limit = {
+                    tag = VNZ
+                    exists = yes
+                    ai = yes
+                }
+                THIS = { inherit = VNZ }
+            }
+            random_country = {
+                limit = {
+                    tag = BRZ
+                    exists = yes
+                    ai = yes
+                }
+                THIS = { inherit = BRZ }
+            }
         }
 
         ai_will_do = { factor = 1 }

@@ -19,7 +19,7 @@ country_event = {
 
     option = {
         name = "EVT4661010PTB" #Don't Recognize it
-        badboy = 10
+        badboy = 5
         relation = {
             who = PRG
             value = -200

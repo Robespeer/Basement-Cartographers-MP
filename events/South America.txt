@@ -698,7 +698,6 @@ country_event = {
 
     option = {
         name = "EVTOPT4661007A"
-        badboy = -2
         war_exhaustion = -10
         any_owned = {
             limit = { OR = { is_core = BOL is_core = PBC } }
@@ -723,7 +722,7 @@ country_event = {
 
     option = {
         name = "EVTOPT4661007B"
-        badboy = 5
+        badboy = 2
         2315 = { add_core = ARC }
         relation = {
             who = FROM
