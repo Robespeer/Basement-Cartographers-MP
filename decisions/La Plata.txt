@@ -327,7 +327,11 @@ political_decisions = {
         }
 
         allow = {
-            owns = 2310
+            BOL = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
         }
 
         effect = {
@@ -342,13 +346,13 @@ political_decisions = {
         }
     }
 
-    unite_south_america = {
+    lpl_unite_hispanic_south_america = {
         picture = unite_la_plata
         potential = {
             tag = LPL
 			has_country_flag = unite_with_south_andeans_flag
             NOT = {
-                has_country_flag = unite_south_america_flag
+                has_country_flag = unite_hispanic_south_america_flag
             }
         }
 
@@ -356,8 +360,12 @@ political_decisions = {
             war = no
             is_mobilised = no
             revolution_n_counterrevolution = 1
-            owns = 2324
-            owns = 2295
+            CHL = {
+                all_core = { owned_by = THIS }
+            }
+            PEU = {
+                all_core = { owned_by = THIS }
+            }
             owns = 2463
             CLM = {
                 OR = {
@@ -398,26 +406,16 @@ political_decisions = {
                     }
                 }
             }
-            BRZ = {
-                OR = {
-                    exists = no
-                    is_mobilised = no
-                }
-                vassal_of = THIS
-            }
         }
 
         effect = {
-            set_country_flag = unite_south_america_flag
+            set_country_flag = unite_hispanic_south_america_flag
             CLM = { all_core = { add_core = LPL } }
             ECU = { all_core = { add_core = LPL } }
             VNZ = { all_core = { add_core = LPL } }
-            BRZ = { all_core = { add_core = LPL } }
             GUY = { all_core = { add_core = LPL } }
 			add_accepted_culture = north_andean
 			add_accepted_culture = afro_caribeno
-			add_accepted_culture = brazilian
-			add_accepted_culture = afro_brazilian
 			add_country_modifier = { name = small_immigration_boom duration = 36500 }
             random_country = {
                 limit = {
@@ -442,14 +440,6 @@ political_decisions = {
                     ai = yes
                 }
                 THIS = { inherit = VNZ }
-            }
-            random_country = {
-                limit = {
-                    tag = BRZ
-                    exists = yes
-                    ai = yes
-                }
-                THIS = { inherit = BRZ }
             }
         }
 
