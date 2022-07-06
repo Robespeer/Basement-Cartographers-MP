@@ -372,7 +372,15 @@ political_decisions = {
                     exists = no
                     is_mobilised = no
                 }
-                vassal_of = THIS
+				OR = {
+					vassal_of = THIS
+					all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { vassal_of = THIS }
+                        }
+                    }
+				}
             }
             ECU = {
                 OR = {
