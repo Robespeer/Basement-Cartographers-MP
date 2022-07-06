@@ -317,7 +317,7 @@ political_decisions = {
         ai_will_do = { factor = 1 }
     }
 
-    unite_with_south_andeans = {
+    lpl_unite_with_south_andeans = {
     picture = unite_la_plata
         potential = {
             tag = LPL
