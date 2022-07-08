@@ -131,19 +131,7 @@ political_decisions = {
                 tag = PRU
             }
             NOT = { has_global_flag = watching_the_rhine }
-            OR = {
-                has_country_flag = french_claimed_the_rhine
-                NOT = { relation = { who = FRA value = 0 } }
-                575 = { owner = { NOT = { is_culture_group = germanic } } }
-                576 = { owner = { NOT = { is_culture_group = germanic } } }
-                577 = { owner = { NOT = { is_culture_group = germanic } } }
-                572 = { owner = { NOT = { is_culture_group = germanic } } }
-                PRU_578 = { owner = { NOT = { is_culture_group = germanic } } }
-                PRU_570 = { owner = { NOT = { is_culture_group = germanic } } }
-                BAD_586 = { owner = { NOT = { is_culture_group = germanic } } }
-                WUR_589 = { owner = { NOT = { is_culture_group = germanic } } }
-                HES_2560 = { owner = { NOT = { is_culture_group = germanic } } }
-            }
+            has_country_flag = french_claimed_the_rhine
         }
 
         allow = {
@@ -162,6 +150,52 @@ political_decisions = {
                     value = jingoism
                 }
             }
+			573 = {
+				remove_core = FRA
+			}
+			574 = {
+				remove_core = FRA
+			}
+			572 = {
+				remove_core = FRA
+			}
+			396 = {
+				remove_core = FRA
+			}
+			576 = {
+				remove_core = FRA
+			}
+			575 = {
+				remove_core = FRA
+			}
+			577 = {
+				remove_core = FRA
+			}
+			571 = {
+				remove_core = FRA
+			}
+			570 = {
+				remove_core = FRA
+			}
+        }
+    }
+
+    the_german_baltic_duchy = {
+        potential = {
+			tag = GER
+        }
+
+        allow = {
+			and = (
+				nationalism_n_imperialism = 1
+				raider_group_doctrine = 1
+			}
+        }
+
+        effect = {
+            badboy = 15
+            LAT = { all_core = { add_core = GER } }
+            EST = { all_core = { add_core = GER } }
         }
     }
 

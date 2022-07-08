@@ -245,7 +245,7 @@ political_decisions = {
         }
 
         effect = {
-            badboy = 5
+            badboy = 10
             any_country = {
                 limit = {
                     OR = {
@@ -258,16 +258,33 @@ political_decisions = {
                     value = -100
                 }
             }
-            casus_belli = {
-                target = PRU
-                type = acquire_state
-                months = 12
-            }
-            casus_belli = {
-                target = PRU
-                type = free_peoples
-                months = 12
-            }
+			573 = {
+				add_core = THIS
+			}
+			574 = {
+				add_core = THIS
+			}
+			572 = {
+				add_core = THIS
+			}
+			396 = {
+				add_core = THIS
+			}
+			576 = {
+				add_core = THIS
+			}
+			575 = {
+				add_core = THIS
+			}
+			577 = {
+				add_core = THIS
+			}
+			571 = {
+				add_core = THIS
+			}
+			570 = {
+				add_core = THIS
+			}
             prestige = 10
             set_country_flag = crisis_on_the_rhine
         }
