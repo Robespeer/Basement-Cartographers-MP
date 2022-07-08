@@ -28,7 +28,6 @@ country_event = {
                 value = 100
             }
         }
-        create_alliance = FROM
         add_country_modifier = {
             name = kalmar_union
             duration = -1
@@ -82,7 +81,7 @@ country_event = {
             country_event = 49502
         }
         ai_chance = {
-            factor = 10
+            factor = 0
             modifier = {
                 factor = 0.5
                 in_sphere = FROM

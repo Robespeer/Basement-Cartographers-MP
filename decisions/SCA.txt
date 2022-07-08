@@ -56,31 +56,23 @@ political_decisions = {
             }
 
             prestige_factor = -0.1
-
-            random_owned = {
-                limit = {
-                    any_pop = { has_pop_culture = finnish }
-                    owner = { NOT = { accepted_culture = finnish } }
-                }
-                owner = {
-                    add_accepted_culture = finnish
-                    any_pop = {
-                        limit = { has_pop_culture = finnish }
-                        militancy = -1
-                        consciousness = -3
-                    }
-                }
+            add_accepted_culture = finnish
+			any_pop = {
+                limit = { has_pop_culture = finnish }
+                militancy = -1
+                consciousness = -3
             }
-
-            random_owned = {
-                limit = {
-                    is_core = FIN
-                }
-                owner = {
-                    FIN = { all_core = { add_core = SCA } }
-                }
+			any_country = {
+				any_owned = {
+					limit = {
+						OR = {
+							is_core = FIN
+							region = RUS_339
+						}
+					}
+					add_core = SCA
+				}
             }
-
 
             random_owned = {
                 limit = {
@@ -111,7 +103,7 @@ political_decisions = {
             }
         }
 
-        ai_will_do = { factor = 1     }
+        ai_will_do = { factor = 1 }
     }
 
     move_capital_to_gothenburg = {
@@ -168,54 +160,35 @@ political_decisions = {
         allow = {
             war = no
             SWE = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            in_sphere = THIS
-                            war = no
-                            OR = {
-                                is_vassal = no
-                                vassal_of = THIS
-                                AND = {
-                                    is_vassal = yes
-                                    overlord = {
-                                        is_culture_group = scandinavian
-                                        OR = {
-                                            in_sphere = THIS
-                                            vassal_of = THIS
-                                        }
-                                    }
-                                }
-                            }
+                OR = {
+                    exists = no
+                    is_mobilised = no
+                }
+				OR = {
+					vassal_of = THIS
+					all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { vassal_of = THIS }
+							is_core = { FIN }
                         }
                     }
-                }
+				}
             }
 			NOR = {
-                all_core = {
-                    OR = {
-                        owned_by = THIS
-                        owner = {
-                            in_sphere = THIS
-                            war = no
-                            OR = {
-                                is_vassal = no
-                                vassal_of = THIS
-                                AND = {
-                                    is_vassal = yes
-                                    overlord = {
-                                        is_culture_group = scandinavian
-                                        OR = {
-                                            in_sphere = THIS
-                                            vassal_of = THIS
-                                        }
-                                    }
-                                }
-                            }
+                OR = {
+                    exists = no
+                    is_mobilised = no
+                }
+				OR = {
+					vassal_of = THIS
+					all_core = {
+                        OR = {
+                            owned_by = THIS
+                            owner = { vassal_of = THIS }
                         }
                     }
-                }
+				}
             }
 			366 = {
                 OR = {
@@ -338,6 +311,9 @@ political_decisions = {
                         }
                     }
                 }
+				369 = { add_core = SCA }
+				529 = { add_core = SCA }
+				530 = { add_core = SCA }
                 country_event = 11101
             }
         }
@@ -411,6 +387,7 @@ political_decisions = {
                 }
                 country_event = 49501
             }
+			create_vassal = DEN
             add_country_modifier = {
                 name = leader_of_kalmar
                 duration = -1
@@ -610,6 +587,7 @@ political_decisions = {
     usurp_kalmar = {
         picture = reform_kalmar
         potential = {
+			ai = no
             has_country_modifier = kalmar_union
             capital_scope = { continent = europe }
             NOT = { exists = SCA }
@@ -752,6 +730,149 @@ political_decisions = {
             set_global_flag = oslo_is_back
             prestige = 2
             313 = { change_province_name = "Oslo" }
+        }
+    }
+	
+	take_the_baltics = {
+    picture = form_scandinavia
+        potential = {
+            tag = SCA
+            has_country_flag = nordism_embraced
+			NOT = { has_country_flag = take_the_baltics }
+        }
+
+        allow = {
+            FIN = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+
+        effect = {
+            badboy = 20
+            EST = { all_core = { add_core = SCA } }
+			LAT = { all_core = { add_core = SCA } }
+			add_accepted_culture = estonian
+			add_accepted_culture = latvian
+            set_country_flag = take_the_baltics
+			any_country = {
+				any_owned = {
+					limit = { region = RUS_994 }
+					add_core = SCA
+				}
+			}
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	take_the_baltics = {
+    picture = form_scandinavia
+        potential = {
+            tag = SCA
+            has_country_flag = nordism_embraced
+			NOT = { has_country_flag = take_the_baltics }
+        }
+
+        allow = {
+            FIN = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+
+        effect = {
+            badboy = 20
+            EST = { all_core = { add_core = SCA } }
+			LAT = { all_core = { add_core = SCA } }
+			add_accepted_culture = estonian
+			add_accepted_culture = latvian
+            set_country_flag = take_the_baltics
+			any_country = {
+				any_owned = {
+					limit = { region = RUS_994 }
+					add_core = SCA
+				}
+			}
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	recover_swedish_pomerania = {
+    picture = form_scandinavia
+        potential = {
+            tag = SCA
+            has_country_flag = nordism_embraced
+			NOT = { has_country_flag = recover_swedish_pomerania }
+        }
+
+        allow = { 369 = { owned_by = THIS } }
+
+        effect = {
+            badboy = 15
+            set_country_flag = recover_swedish_pomerania
+			any_country = {
+				any_owned = {
+					limit = { 
+						OR = {
+							region = PRU_546
+							region = PRU_544 
+						}
+					}
+					add_core = SCA
+				}
+			}
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	sweden_is_not_overpowered = {
+    picture = form_scandinavia
+        potential = {
+            tag = SCA
+            has_country_flag = recover_swedish_pomerania
+			NOT = { has_country_flag = sweden_is_not_overpowered }
+        }
+
+        allow = { 
+			NOT = {
+				any_owned = { 
+					OR = { 
+						region = PRU_546
+						region = PRU_544
+					}
+					owned_by = { NOT = { THIS } }
+				}
+			}
+		}
+        effect = {
+            badboy = 15
+            set_country_flag = sweden_is_not_overpowered
+			any_country = {
+				any_owned = {
+					limit = { 
+						OR = {
+							region = PRU_690
+							region = PRU_695 
+						}
+					}
+					add_core = SCA
+				}
+			}
+        }
+
+        ai_will_do = {
+            factor = 1
         }
     }
 }
