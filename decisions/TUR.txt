@@ -106,6 +106,7 @@ political_decisions = {
 			add_accepted_culture = maghrebi
 			add_accepted_culture = bedouin
 			add_accepted_culture = sephardic
+			add_accepted_culture = kurdish
             add_country_modifier = {
                 name = ottomanism_reform
                 duration = -1
