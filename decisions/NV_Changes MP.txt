@@ -89,7 +89,7 @@ political_decisions = {
             }
 			add_country_modifier = {
                 name = nv_change_cooldown
-                duration = 18250
+                duration = 7300
             }
             any_pop = {
                 scaled_militancy = {
@@ -132,7 +132,7 @@ political_decisions = {
             }
 			add_country_modifier = {
                 name = nv_change_cooldown
-                duration = 18250
+                duration = 7300
             }
             any_pop = {
                 scaled_militancy = {
@@ -175,7 +175,7 @@ political_decisions = {
             }
 			add_country_modifier = {
                 name = nv_change_cooldown
-                duration = 18250
+                duration = 7300
             }
             any_pop = {
                 scaled_militancy = {
@@ -218,7 +218,7 @@ political_decisions = {
             }
 			add_country_modifier = {
                 name = nv_change_cooldown
-                duration = 18250
+                duration = 7300
             }
             any_pop = {
                 scaled_militancy = {
@@ -261,7 +261,7 @@ political_decisions = {
             }
 			add_country_modifier = {
                 name = nv_change_cooldown
-                duration = 18250
+                duration = 7300
             }
             any_pop = {
                 scaled_militancy = {
