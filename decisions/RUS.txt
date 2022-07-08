@@ -1867,4 +1867,25 @@ political_decisions = {
 
         ai_will_do = { factor = 1 }
     }
+
+    accepting_the_ports = {
+        potential = {
+            tag = RUS
+			not = { accepted_culture = finnish }
+        }
+
+        allow = {
+			and = {
+				mass_politics = 1
+				psychoanalysis = 1
+				social_alienation = 1
+			}
+		}
+		
+        effect = {
+			add_accepted_culture = finnish
+			add_accepted_culture = estonian
+			add_accepted_culture = latvian
+        }
+    }
 }
