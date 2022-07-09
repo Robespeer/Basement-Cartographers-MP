@@ -170,7 +170,7 @@ political_decisions = {
                         OR = {
                             owned_by = THIS
                             owner = { vassal_of = THIS }
-							is_core = { FIN }
+							is_core = FIN
                         }
                     }
 				}
@@ -769,42 +769,6 @@ political_decisions = {
         }
     }
 	
-	take_the_baltics = {
-    picture = form_scandinavia
-        potential = {
-            tag = SCA
-            has_country_flag = nordism_embraced
-			NOT = { has_country_flag = take_the_baltics }
-        }
-
-        allow = {
-            FIN = {
-                all_core = {
-                    owned_by = THIS
-                }
-            }
-        }
-
-        effect = {
-            badboy = 20
-            EST = { all_core = { add_core = SCA } }
-			LAT = { all_core = { add_core = SCA } }
-			add_accepted_culture = estonian
-			add_accepted_culture = latvian
-            set_country_flag = take_the_baltics
-			any_country = {
-				any_owned = {
-					limit = { region = RUS_994 }
-					add_core = SCA
-				}
-			}
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
 	recover_swedish_pomerania = {
     picture = form_scandinavia
         potential = {
@@ -824,46 +788,6 @@ political_decisions = {
 						OR = {
 							region = PRU_546
 							region = PRU_544 
-						}
-					}
-					add_core = SCA
-				}
-			}
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-	sweden_is_not_overpowered = {
-    picture = form_scandinavia
-        potential = {
-            tag = SCA
-            has_country_flag = recover_swedish_pomerania
-			NOT = { has_country_flag = sweden_is_not_overpowered }
-        }
-
-        allow = { 
-			NOT = {
-				any_owned = { 
-					OR = { 
-						region = PRU_546
-						region = PRU_544
-					}
-					owned_by = { NOT = { THIS } }
-				}
-			}
-		}
-        effect = {
-            badboy = 15
-            set_country_flag = sweden_is_not_overpowered
-			any_country = {
-				any_owned = {
-					limit = { 
-						OR = {
-							region = PRU_690
-							region = PRU_695 
 						}
 					}
 					add_core = SCA
