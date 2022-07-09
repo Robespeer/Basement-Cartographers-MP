@@ -5,6 +5,7 @@ political_decisions = {
         picture = national_value
         potential = {
             ai = no
+			civilized = yes
 			NOT = { has_country_flag = mp_nv_change }
 			NOT = { has_country_modifier = nv_change_cooldown }
         }
