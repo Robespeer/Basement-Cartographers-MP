@@ -461,42 +461,6 @@ political_decisions = {
         }
     }
 
-    encourage_arab_nationalism = {
-        picture = form_the_ikhwan
-        potential = {
-            is_greater_power = yes
-            NOT = { has_global_flag = arab_nationalism_encouraged }
-            NOT = { tag = TUR }
-            TUR = {
-                NOT = { has_country_flag = arab_revolt }
-                any_owned_province = {
-                    any_core = {
-                        OR = {
-                            primary_culture = mashriqi
-                            primary_culture = bedouin
-                            primary_culture = misri
-                            primary_culture = maghrebi
-                        }
-                        exists = no
-                    }
-                }
-            }
-            year = 1900
-        }
-
-        allow = {
-            revolution_n_counterrevolution = 1
-            TUR = { NOT = { rank = 1 } }
-            war_with = TUR
-        }
-
-        effect = {
-            set_global_flag = arab_nationalism_encouraged
-            set_country_flag = friend_of_the_arabs
-            TUR = { country_event = 96100 }
-        }
-    }
-
     ibn_saud = {
         potential = {
             has_global_flag = arab_revolt_has_begun

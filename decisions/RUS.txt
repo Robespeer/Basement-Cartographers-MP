@@ -1869,9 +1869,13 @@ political_decisions = {
     }
 
     accepting_the_ports = {
+		picture = russify_baltic_states
         potential = {
             tag = RUS
 			not = { accepted_culture = finnish }
+			not = { accepted_culture = estonian }
+			not = { accepted_culture = latvian }
+			has_country_flag = russification_of_the_baltic_states
         }
 
         allow = {

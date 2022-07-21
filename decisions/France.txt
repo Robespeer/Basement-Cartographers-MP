@@ -230,11 +230,20 @@ political_decisions = {
     the_rhine_crisis = {
         potential = {
             tag = FRA
-            exists = PRU
-            PRU = {
-                owns = 572
-                owns = 575
-            }
+			OR = {
+				PRU = {
+					owns = 572
+					owns = 575
+				}
+				NGF = {
+					owns = 572
+					owns = 575
+				}
+				GER = {
+					owns = 572
+					owns = 575
+				}
+			}
             NOT = {
                 has_country_flag = crisis_on_the_rhine
             }
@@ -258,6 +267,12 @@ political_decisions = {
                     value = -100
                 }
             }
+			396 = {
+				add_core = THIS
+			}
+			397 = {
+				add_core = THIS
+			}
 			573 = {
 				add_core = THIS
 			}
@@ -265,9 +280,6 @@ political_decisions = {
 				add_core = THIS
 			}
 			572 = {
-				add_core = THIS
-			}
-			396 = {
 				add_core = THIS
 			}
 			576 = {
