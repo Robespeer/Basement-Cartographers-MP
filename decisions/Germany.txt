@@ -183,6 +183,9 @@ political_decisions = {
     the_german_baltic_duchy = {
         potential = {
 			tag = GER
+            NOT = {
+                has_country_flag = ger_baltic_cores
+            }
         }
 
         allow = {
@@ -196,6 +199,7 @@ political_decisions = {
             badboy = 15
             LAT = { all_core = { add_core = GER } }
             EST = { all_core = { add_core = GER } }
+            set_country_flag = ger_baltic_cores
         }
     }
 
