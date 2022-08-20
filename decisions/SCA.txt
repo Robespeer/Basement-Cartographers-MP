@@ -122,7 +122,13 @@ political_decisions = {
 
         effect = {
             capital = 329
-            prestige = 5
+            979 = {
+                life_rating = 5
+                add_province_modifier = {
+                    name = recently_built_city
+                    duration = 7300
+                }
+			}
         }
 
         ai_will_do = {
@@ -314,6 +320,8 @@ political_decisions = {
 				369 = { add_core = SCA }
 				529 = { add_core = SCA }
 				530 = { add_core = SCA }
+				371 = { add_core = SCA }
+				370 = { add_core = SCA }
                 country_event = 11101
             }
         }
