@@ -253,7 +253,7 @@
         size = 600
     }
 
-    farmers = {
+    labourers = {
         culture = spanish
         religion = catholic
         size = 50675
@@ -266,7 +266,7 @@
         militancy = 8
     }
 
-    farmers = {
+    labourers = {
         culture = basque
         religion = catholic
         size = 975
@@ -2039,7 +2039,7 @@
         size = 3000
     }
 
-    farmers = {
+    labourers = {
         culture = spanish
         religion = catholic
         size = 72850

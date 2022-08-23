@@ -348,7 +348,7 @@
         size = 7500
     }
 
-    farmers = {
+    labourers = {
         culture = north_german
         religion = protestant
         size = 155780
@@ -372,7 +372,7 @@
         size = 1000
     }
 
-    farmers = {
+    labourers = {
         culture = south_german
         religion = catholic
         size = 15925
@@ -408,7 +408,7 @@
         size = 100
     }
 
-    farmers = {
+    labourers = {
         culture = ashkenazi
         religion = jewish
         size = 450
@@ -432,7 +432,7 @@
         size = 1000
     }
 
-    farmers = {
+    labourers = {
         culture = polish
         religion = catholic
         size = 31900
@@ -2244,7 +2244,7 @@
         size = 1450
     }
 
-    farmers = {
+    labourers = {
         culture = polish
         religion = catholic
         size = 60000
@@ -2280,7 +2280,7 @@
         size = 100
     }
 
-    farmers = {
+    labourers = {
         culture = ashkenazi
         religion = jewish
         size = 4250
@@ -2304,7 +2304,7 @@
         size = 100
     }
 
-    farmers = {
+    labourers = {
         culture = south_german
         religion = catholic
         size = 920

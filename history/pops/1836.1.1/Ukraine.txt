@@ -1390,7 +1390,7 @@
         size = 5400
     }
 
-    farmers = {
+    labourers = {
         culture = ukrainian
         religion = orthodox
         size = 34900
@@ -1426,7 +1426,7 @@
         size = 100
     }
 
-    farmers = {
+    labourers = {
         culture = polish
         religion = catholic
         size = 150
@@ -1462,7 +1462,7 @@
         size = 175
     }
 
-    farmers = {
+    labourers = {
         culture = ashkenazi
         religion = jewish
         size = 12375
@@ -1492,7 +1492,7 @@
         size = 100
     }
 
-    farmers = {
+    labourers = {
         culture = russian
         religion = orthodox
         size = 250

@@ -393,6 +393,7 @@ political_decisions = {
                             war = no
                             is_mobilised = no
                         }
+						province_id = 517
                     }
                 }
             }
@@ -534,9 +535,16 @@ political_decisions = {
                     OR = {
                         owned_by = THIS
                         owner = {
+                            in_sphere = THIS
+                            war = no
+                            is_mobilised = no
+                        }
+                        owner = {
                             vassal_of = THIS
                             war = no
+                            is_mobilised = no
                         }
+						province_id = 517
                     }
                 }
             }
@@ -545,8 +553,14 @@ political_decisions = {
                     OR = {
                         owned_by = THIS
                         owner = {
+                            in_sphere = THIS
+                            war = no
+                            is_mobilised = no
+                        }
+                        owner = {
                             vassal_of = THIS
                             war = no
+                            is_mobilised = no
                         }
                     }
                 }

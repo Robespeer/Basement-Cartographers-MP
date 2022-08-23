@@ -244,7 +244,7 @@
         size = 2000
     }
 
-    farmers = {
+    labourers = {
         culture = maghrebi
         religion = sunni
         size = 80500
@@ -268,7 +268,7 @@
         size = 1600
     }
 
-    farmers = {
+    labourers = {
         culture = berber
         religion = sunni
         size = 12000
@@ -819,7 +819,7 @@
         size = 2200
     }
 
-    farmers = {
+    labourers = {
         culture = maghrebi
         religion = sunni
         size = 25312
@@ -855,7 +855,7 @@
         size = 2200
     }
 
-    farmers = {
+    labourers = {
         culture = berber
         religion = sunni
         size = 25550

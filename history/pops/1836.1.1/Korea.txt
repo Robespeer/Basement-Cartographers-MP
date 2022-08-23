@@ -94,7 +94,7 @@
         size = 10000
     }
 
-    farmers = {
+    labourers = {
         culture = korean
         religion = mahayana
         size = 223625
@@ -386,7 +386,7 @@
         size = 6000
     }
 
-    farmers = {
+    labourers = {
         culture = korean
         religion = mahayana
         size = 144625
@@ -442,7 +442,7 @@
         size = 5100
     }
 
-    farmers = {
+    labourers = {
         culture = korean
         religion = mahayana
         size = 147625

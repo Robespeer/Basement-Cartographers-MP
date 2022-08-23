@@ -2327,7 +2327,7 @@
         size = 700
     }
 
-    farmers = {
+    labourers = {
         culture = japanese
         religion = shinto
         size = 63800
@@ -2357,7 +2357,7 @@
         size = 300
     }
 
-    farmers = {
+    labourers = {
         culture = japanese
         religion = shinto
         size = 26400

@@ -1692,13 +1692,13 @@
         size = 186250
     }
 
-    farmers = {
+    labourers = {
         culture = british
         religion = catholic
         size = 1100
     }
 
-    farmers = {
+    labourers = {
         culture = irish
         religion = catholic
         size = 1100

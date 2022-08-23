@@ -5481,7 +5481,7 @@
         size = 1300
     }
 
-    farmers = {
+    labourers = {
         culture = nanfaren
         religion = mahayana
         size = 455700
@@ -5517,7 +5517,7 @@
         size = 10
     }
 
-    farmers = {
+    labourers = {
         culture = nanfaren
         religion = sunni
         size = 900
@@ -6101,7 +6101,7 @@
         size = 2450
     }
 
-    farmers = {
+    labourers = {
         culture = nanfaren
         religion = mahayana
         size = 222050
@@ -6131,7 +6131,7 @@
         size = 550
     }
 
-    farmers = {
+    labourers = {
         culture = miao
         religion = animist
         size = 49150
@@ -6319,7 +6319,7 @@
         size = 1050
     }
 
-    farmers = {
+    labourers = {
         culture = mongol
         religion = gelugpa
         size = 85250
@@ -6343,7 +6343,7 @@
         size = 200
     }
 
-    farmers = {
+    labourers = {
         culture = beifaren
         religion = gelugpa
         size = 3625
@@ -12832,7 +12832,7 @@
         size = 9550
     }
 
-    farmers = {
+    labourers = {
         culture = beifaren
         religion = mahayana
         size = 1400800
@@ -12862,7 +12862,7 @@
         size = 150
     }
 
-    farmers = {
+    labourers = {
         culture = beifaren
         religion = sunni
         size = 12750
@@ -12934,7 +12934,7 @@
         size = 900
     }
 
-    farmers = {
+    labourers = {
         culture = manchu
         religion = mahayana
         size = 47000
