@@ -710,7 +710,7 @@ bayonet_charge = {
 muzzle_loaded_rifle_armament = {
     limit = { muzzle_loaded_rifles = 1 invention = flintlock_rifle_armament }
     chance = {
-        base = 5
+        base = 100
         modifier = {
             factor = 2
             war = yes
@@ -745,7 +745,7 @@ muzzle_loaded_rifle_armament = {
 breech_loaded_rifle_armament = {
     limit = { breech_loaded_rifles = 1 invention = muzzle_loaded_rifle_armament }
     chance = {
-        base = 5
+        base = 100
         modifier = {
             factor = 2
             war = yes
@@ -788,7 +788,7 @@ breech_loaded_rifle_armament = {
 machine_gun_armament = {
     limit = { machine_guns = 1 invention = breech_loaded_rifle_armament }
     chance = {
-        base = 5
+        base = 100
         modifier = {
             factor = 2
             war = yes
