@@ -4,6 +4,14 @@ BRU = { value = 100 }
 USA = { value = 0 }
 
 leader = {
+    name = "BasuWu Chan"
+    date = 1836.1.1
+    type = land
+    personality = implacable
+    background = uncommonly_young
+    prestige = 0.4
+}
+leader = {
     name = "Sakuma Shozan"
     date = 1836.1.1
     type = land
