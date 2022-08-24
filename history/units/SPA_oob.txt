@@ -160,7 +160,7 @@ army = {
 
     regiment = {
         name= "5. Brigada Real de Infantería"
-        type = infantry
+        type = artillery
         home = 513
     }
 
@@ -184,49 +184,14 @@ army = {
 
     regiment = {
         name= "1. Escuadrón de Escolta Real"
-        type = cuirassier
+        type = artillery
         home = 489
     }
 
     regiment = {
         name= "2. Escuadrón de Escolta Real"
-        type = cuirassier
+        type = hussar
         home = 488
-    }
-}
-
-army = {
-    name = "Ejército del Norte"
-    location = 498
-
-    regiment = {
-        name= "1. Brigada de Infantería"
-        type = infantry
-        home = 498
-    }
-
-    regiment = {
-        name= "4. Brigada de Artillería"
-        type = artillery
-        home = 476
-    }
-
-    regiment = {
-        name= "5. Brigada de Infantería"
-        type = infantry
-        home = 482
-    }
-
-    regiment = {
-        name= "2. Brigada de Infantería"
-        type = infantry
-        home = 483
-    }
-
-    regiment = {
-        name= "3. Brigada de Infantería"
-        type = infantry
-        home = 497
     }
 }
 
@@ -236,25 +201,25 @@ army = {
 
     regiment = {
         name= "4. Brigada de Infantería"
-        type = infantry
+        type = artillery
         home = 512
     }
 
     regiment = {
         name= "5. Brigada de Infantería"
-        type = infantry
+        type = artillery
         home = 514
     }
 
     regiment = {
         name= "6. Brigada de Infantería"
-        type = infantry
+        type = artillery
         home = 510
     }
 
     regiment = {
         name= "7. Brigada de Infantería"
-        type = infantry
+        type = artillery
         home = 516
     }
 
@@ -263,39 +228,40 @@ army = {
         type = artillery
         home = 515
     }
+	
+	regiment = {
+        name= "1. Brigada de Infantería"
+        type = hussar
+        home = 498
+    }
 }
 
 army = {
     name = "Ejército de Cuba"
-    location = 2209
+    location = 510
 
     regiment = {
         name = "1. Brigada Colonial"
-        type = infantry
+        type = artillery
         home = 474
     }
 
     regiment = {
         name = "2. Brigada Colonial"
-        type = infantry
+        type = artillery
         home = 2209
     }
-}
-
-army = {
-    name = "Ejército de Puerto Rico"
-    location = 2222
-
-    regiment = {
+	
+	regiment = {
         name = "3. Brigada Colonial"
-        type = infantry
+        type = artillery
         home = 475
     }
 }
 
 army = {
     name = "Ejército de Filipinas"
-    location = 1455
+    location = 1457
 
     regiment = {
         name = "4. Brigada Colonial"
@@ -326,10 +292,35 @@ army = {
         type = artillery
         home = 1456
     }
+	
     regiment = {
         name = "2. Brigada de Artillería Colonial"
         type = artillery
         home = 1456
+    }
+	
+	regiment = {
+        name= "4. Brigada de Artillería"
+        type = artillery
+        home = 476
+    }
+
+    regiment = {
+        name= "5. Brigada de Infantería"
+        type = artillery
+        home = 482
+    }
+
+    regiment = {
+        name= "2. Brigada de Infantería"
+        type = artillery
+        home = 483
+    }
+
+    regiment = {
+        name= "3. Brigada de Infantería"
+        type = hussar
+        home = 497
     }
 }
 
@@ -525,6 +516,15 @@ leader = {
     personality = merciless
     background = adventurer
     prestige = 0.1
+}
+
+leader = {
+    name = "Gigachado Basado"
+    date = 1836.1.1
+    type = land
+    personality = implacable
+    background = uncommonly_young
+    prestige = 0.4
 }
 
 leader = {
