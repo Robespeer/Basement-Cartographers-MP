@@ -493,25 +493,25 @@ army = {
 
     regiment = {
         name= "Royal Dragoons"
-        type = dragoon
+        type = artillery
         home = 294
     }
 
     regiment = {
         name= "Heavy Brigade"
-        type = cuirassier
+        type = artillery
         home = 291
     }
 
     regiment = {
         name= "1.1st Division"
-        type = infantry
+        type = artillery
         home = 300
     }
 
     regiment = {
         name= "2.1st Division"
-        type = infantry
+        type = artillery
         home = 293
     }
 
@@ -528,66 +528,38 @@ army = {
     location = 288
     regiment = {
         name= "1.2nd Division"
-        type = infantry
+        type = hussar
         home = 288
     }
 
     regiment = {
         name= "2.2nd Division"
-        type = infantry
+        type = artillery
         home = 287
     }
 
     regiment = {
         name= "3.2nd Division"
-        type = infantry
+        type = artillery
         home = 256
     }
-
-}
-
-army = {
-    name = "3rd Division"
-    location = 273
-    regiment = {
+	
+	regiment = {
         name= "1.3rd Division"
-        type = infantry
+        type = artillery
         home = 273
     }
 
     regiment = {
         name= "2.3rd Division"
-        type = infantry
+        type = artillery
         home = 266
     }
 
     regiment = {
         name= "3.3rd Division"
-        type = infantry
+        type = artillery
         home = 270
-    }
-
-}
-
-army = {
-    name = "4th Division"
-    location = 263
-    regiment = {
-        name= "1.4th Division"
-        type = infantry
-        home = 263
-    }
-
-    regiment = {
-        name= "2.4th Division"
-        type = infantry
-        home = 255
-    }
-
-    regiment = {
-        name= "3.4th Division"
-        type = infantry
-        home = 281
     }
 
 }
@@ -595,21 +567,39 @@ army = {
 army = {
     name = "5th Division"
     location = 269
+	regiment = {
+        name= "1st Cavalry Division"
+        type = cuirassier
+        home = 300
+    }
+
+    regiment = {
+        name= "2nd Infantry Division"
+        type = artillery
+        home = 300
+    }
+
+    regiment = {
+        name= "3rd Infantry Division"
+        type = artillery
+        home = 300
+    }
+	
     regiment = {
         name= "1.5th Division"
-        type = infantry
+        type = artillery
         home = 269
     }
 
     regiment = {
         name= "2.5th Division"
-        type = infantry
+        type = artillery
         home = 271
     }
 
     regiment = {
         name= "3.5th Division"
-        type = infantry
+        type = artillery
         home = 267
     }
 
@@ -622,6 +612,12 @@ army = {
     regiment = {
         name= "1st Cavalry Division"
         type = cuirassier
+        home = 300
+    }
+	
+    regiment = {
+        name= "1st Infantry Division"
+        type = infantry
         home = 300
     }
 
@@ -645,19 +641,19 @@ army = {
 
     regiment = {
         name= "4th Infantry Division"
-        type = infantry
+        type = artillery
         home = 300
     }
 
     regiment = {
         name= "5th Infantry Division"
-        type = infantry
+        type = artillery
         home = 300
     }
 
     regiment = {
         name= "6th Infantry Division"
-        type = infantry
+        type = artillery
         home = 300
     }
 
@@ -678,47 +674,22 @@ army = {
 
 army = {
     name = "The Montreal Garrison"
-    location = 58
-
-    regiment = {
-        name= "1st Cavalry Division"
-        type = cuirassier
-        home = 300
-    }
-
-    regiment = {
-        name= "1st Infantry Division"
-        type = infantry
-        home = 300
-    }
-
-    regiment = {
-        name= "2nd Infantry Division"
-        type = infantry
-        home = 300
-    }
-
-    regiment = {
-        name= "3rd Infantry Division"
-        type = infantry
-        home = 300
-    }
-
+    location = 263
     regiment = {
         name= "4th Infantry Division"
-        type = infantry
+        type = artillery
         home = 300
     }
 
     regiment = {
         name= "5th Infantry Division"
-        type = infantry
+        type = artillery
         home = 300
     }
 
     regiment = {
         name= "6th Infantry Division"
-        type = infantry
+        type = artillery
         home = 300
     }
 
@@ -754,43 +725,50 @@ army = {
 
     regiment = {
         name= "2nd Cavalry Division"
-        type = hussar
+        type = artillery
         home = 278
     }
 
     regiment = {
         name= "1st Infantry Division"
-        type = infantry
+        type = artillery
         home = 274
     }
 
     regiment = {
         name= "2nd Infantry Division"
-        type = infantry
+        type = artillery
         home = 2087
     }
-
-}
-
-army = {
-    name = "The Australia Garrison"
-    location = 2468
-    regiment = {
+	
+	regiment = {
         name= "1.8th Division"
-        type = infantry
+        type = artillery
         home = 299
-    }
-
-    regiment = {
-        name= "2.8th Division"
-        type = infantry
-        home = 283
     }
 
     regiment = {
         name= "3.8th Division"
         type = infantry
         home = 2468
+    }
+	
+	regiment = {
+        name= "2.4th Division"
+        type = infantry
+        home = 255
+    }
+
+    regiment = {
+        name= "3.4th Division"
+        type = infantry
+        home = 281
+    }
+	
+	regiment = {
+        name= "1.4th Division"
+        type = infantry
+        home = 263
     }
 
 }
@@ -800,38 +778,44 @@ army = {
     location = 1297
     regiment = {
         name= "1.9th Division"
-        type = infantry
+        type = hussar
         home = 271
     }
 
     regiment = {
         name= "2.9th Division"
-        type = infantry
+        type = artillery
         home = 280
     }
 
     regiment = {
         name= "3.9th Division"
-        type = infantry
+        type = artillery
         home = 289
     }
 
     regiment = {
         name= "1.1st Indian Division"
-        type = infantry
+        type = artillery
         home = 1297
     }
 
     regiment = {
         name= "2.1st Indian Division"
-        type = infantry
+        type = artillery
         home = 1291
     }
 
     regiment = {
         name= "3.1st Indian Division"
-        type = infantry
+        type = artillery
         home = 1299
+    }
+	
+    regiment = {
+        name= "2.8th Division"
+        type = infantry
+        home = 283
     }
 
     regiment = {
@@ -862,34 +846,40 @@ army = {
         type = infantry
         home = 300
     }
+	
+    regiment = {
+        name= "2.2nd Cavalry Division"
+        type = hussar
+        home = 297
+    }
 
     regiment = {
         name= "2.10th Division"
-        type = infantry
+        type = artillery
         home = 282
     }
 
     regiment = {
         name= "3.10th Division"
-        type = infantry
+        type = artillery
         home = 265
     }
 
     regiment = {
         name= "1.3rd Indian Division"
-        type = infantry
+        type = artillery
         home = 1251
     }
 
     regiment = {
         name= "2.3rd Indian Division"
-        type = infantry
+        type = artillery
         home = 1247
     }
 
     regiment = {
         name= "3.3rd Indian Division"
-        type = infantry
+        type = artillery
         home = 1254
     }
 
@@ -918,14 +908,8 @@ army = {
     location = 1239
     regiment = {
         name= "1.2nd Cavalry Division"
-        type = cuirassier
+        type = infantry
         home = 278
-    }
-
-    regiment = {
-        name= "2.2nd Cavalry Division"
-        type = cuirassier
-        home = 297
     }
 
     regiment = {
@@ -936,31 +920,31 @@ army = {
 
     regiment = {
         name= "1.11th Division"
-        type = infantry
+        type = artillery
         home = 296
     }
 
     regiment = {
         name= "2.11th Division"
-        type = infantry
+        type = artillery
         home = 268
     }
 
     regiment = {
         name= "3.11th Division"
-        type = infantry
+        type = artillery
         home = 261
     }
 
     regiment = {
         name= "1.12th Division"
-        type = infantry
+        type = artillery
         home = 284
     }
 
     regiment = {
         name= "2.12th Division"
-        type = infantry
+        type = artillery
         home = 254
     }
 
