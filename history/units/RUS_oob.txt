@@ -773,6 +773,35 @@ army = {
     }
 }
 
+army = {
+    name = "1-i Tambov Korpus" #Tambov Army
+    location = 1025
+
+    regiment = {
+        name= "1.2-ya Artilleriiskii Diviziya"
+        type = artillery
+        home = 2698
+    }
+
+    regiment = {
+        name= "1.3-ya Artilleriiskii Diviziya"
+        type = artillery
+        home = 1063
+    }
+
+    regiment = {
+        name= "1.4-ya Artilleriiskii Diviziya"
+        type = artillery
+        home = 1058
+    }
+
+    regiment = {
+        name= "1.5-ya Artilleriiskii Diviziya"
+        type = artillery
+        home = 1060
+    }
+}
+
 
 navy = {
     name = "Imperial Black Sea Fleet"
