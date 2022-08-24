@@ -30,41 +30,51 @@ army = {
     }
 
     regiment = {
-        name= "5. Brigada de Infantaria"
-        type = infantry
-        home = 2457
-    }
-
-    regiment = {
-        name= "6. Brigada de Infantaria"
-        type = infantry
-        home = 2441
-    }
-
-    regiment = {
-        name= "7. Brigada de Infantaria"
-        type = infantry
-        home = 2441
-    }
-
-    regiment = {
         name= "1. Brigada de Cavalaria"
-        type = cuirassier
+        type = hussar
         home = 2429
     }
 
     regiment = {
-        name= "2. Brigada de Cavalaria"
-        type = cuirassier
+        name= "1. Brigada de Artilharia"
+        type = artillery
+        home = 2457
+    }
+
+    regiment = {
+        name= "2. Brigada de Artilharia"
+        type = artillery
+        home = 2441
+    }
+
+    regiment = {
+        name= "3. Brigada de Artilharia"
+        type = artillery
+        home = 2441
+    }
+
+    regiment = {
+        name= "4. Brigada de Artilharia"
+        type = artillery
         home = 2434
     }
 
     regiment = {
-        name= "3. Brigada de Cavalaria"
-        type = cuirassier
+        name= "5. Brigada de Artilharia"
+        type = artillery
         home = 2426
     }
 
+}
+
+
+leader = {
+    name = "Gigachado Basado"
+    date = 1836.1.1
+    type = land
+    personality = implacable
+    background = uncommonly_young
+    prestige = 0.4
 }
 
 leader = {
