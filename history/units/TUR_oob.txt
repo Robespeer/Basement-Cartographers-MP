@@ -145,39 +145,39 @@ army = {
     }
 
     regiment = {
-        name= "5. Tümeni Firkasi"
-        type = infantry
-        home = 803
-    }
-
-    regiment = {
-        name= "6. Tümeni Firkasi"
-        type = infantry
-        home = 860
-    }
-
-    regiment = {
         name= "1. Süvari Firkasi"
-        type = cuirassier
+        type = hussar
         home = 798
-    }
-
-    regiment = {
-        name= "2. Süvari Firkasi"
-        type = cuirassier
-        home = 799
-    }
-
-    regiment = {
-        name= "3. Süvari Firkasi"
-        type = cuirassier
-        home = 853
     }
 
     regiment = {
         name= "1. Topçu Firkas"
         type = artillery
         home = 861
+    }
+
+    regiment = {
+        name= "2. Topçu Firkas"
+        type = artillery
+        home = 799
+    }
+
+    regiment = {
+        name= "3. Topçu Firkas"
+        type = artillery
+        home = 853
+    }
+
+    regiment = {
+        name= "4. Topçu Firkas"
+        type = artillery
+        home = 803
+    }
+
+    regiment = {
+        name= "5. Topçu Firkas"
+        type = artillery
+        home = 860
     }
 
 }
@@ -187,63 +187,39 @@ army = {
     location = 810
 
     regiment = {
-        name= "7. Tümeni Firkasi"
-        type = infantry
+        name= "1.1 Süvari Firkasi"
+        type = hussar
         home = 807
     }
 
     regiment = {
-        name= "8. Tümeni Firkasi"
-        type = infantry
+        name= "1.1 Topçu Firkas"
+        type = artillery
         home = 807
     }
 
     regiment = {
-        name= "9. Tümeni Firkasi"
-        type = infantry
+        name= "2.1 Topçu Firkas"
+        type = artillery
         home = 849
     }
 
     regiment = {
-        name= "10. Tümeni Firkasi"
-        type = infantry
+        name= "3.1 Topçu Firkas"
+        type = artillery
         home = 850
     }
 
     regiment = {
-        name= "11. Tümeni Firkasi"
-        type = infantry
+        name= "4.1 Topçu Firkas"
+        type = artillery
         home = 851
     }
 
     regiment = {
-        name= "12. Tümeni Firkasi"
-        type = infantry
-        home = 882
-    }
-
-    regiment = {
-        name= "4. Süvari Firkasi"
-        type = cuirassier
-        home = 783
-    }
-
-    regiment = {
-        name= "5. Süvari Firkasi"
-        type = cuirassier
-        home = 806
-    }
-
-    regiment = {
-        name= "6. Süvari Firkasi"
-        type = cuirassier
-        home = 884
-    }
-
-    regiment = {
-        name = "2. Topçu Firkas"
+        name= "5.1 Topçu Firkas"
         type = artillery
-        home = 804
+        home = 882
     }
 }
 
@@ -252,57 +228,39 @@ army = {
     location = 878
 
     regiment = {
-        name= "13. Tümeni Firkasi"
-        type = infantry
+        name= "2.1 Süvari Firkasi"
+        type = hussar
         home = 879
     }
 
     regiment = {
-        name= "14. Tümeni Firkasi"
-        type = infantry
+        name= "2.1 Topçu Firkas"
+        type = artillery
         home = 1780
     }
 
     regiment = {
-        name= "15. Tümeni Firkasi"
-        type = infantry
+        name= "2.2 Topçu Firkas"
+        type = artillery
         home = 813
     }
 
     regiment = {
-        name= "1. Timariot"
-        type = irregular
-        home = 887
-    }
-
-    regiment = {
-        name= "2. Timariot"
-        type = irregular
-        home = 887
-    }
-
-    regiment = {
-        name= "3. Timariot"
-        type = irregular
-        home = 675
-    }
-
-    regiment = {
-        name= "7. Süvari Firkasi"
-        type = cuirassier
-        home = 806
-    }
-
-    regiment = {
-        name= "8. Süvari Firkasi"
-        type = cuirassier
-        home = 811
-    }
-
-    regiment = {
-        name= "3. Topçu Firkas"
+        name= "2.3 Topçu Firkas"
         type = artillery
-        home = 888
+        home = 887
+    }
+
+    regiment = {
+        name= "2.4 Topçu Firkas"
+        type = artillery
+        home = 887
+    }
+
+    regiment = {
+        name= "2.5 Topçu Firkas"
+        type = artillery
+        home = 675
     }
 
 }
@@ -313,33 +271,39 @@ army = {
 
 
     regiment = {
-        name= "16. Tümeni Firkasi"
-        type = infantry
+        name= "3.1 Süvari Firkasi"
+        type = hussar
         home = 818
     }
 
     regiment = {
-        name= "4. Timariot"
-        type = irregular
+        name= "3.1 Topçu Firkas"
+        type = artillery
         home = 809
     }
 
     regiment = {
-        name= "5. Timariot"
-        type = irregular
+        name= "3.2 Topçu Firkas"
+        type = artillery
         home = 814
     }
 
     regiment = {
-        name= "9. Süvari Firkasi"
-        type = cuirassier
+        name= "3.3 Topçu Firkas"
+        type = artillery
         home = 812
     }
 
     regiment = {
-        name= "1. Sipahis"
-        type = cavalry
+        name= "3.4 Topçu Firkas"
+        type = artillery
         home = 876
+    }
+
+    regiment = {
+        name= "3.5 Topçu Firkas"
+        type = artillery
+        home = 806
     }
 
 }
@@ -349,33 +313,39 @@ army = {
     location = 923
 
     regiment = {
-        name= "17. Tümeni Firkasi"
-        type = infantry
+        name= "4.1 Süvari Firkasi"
+        type = hussar
         home = 860
     }
 
     regiment = {
-        name= "6. Timariot"
-        type = irregular
+        name= "4.1 Topçu Firkas"
+        type = artillery
         home = 863
     }
 
     regiment = {
-        name= "7. Timariot"
-        type = irregular
+        name= "4.2 Topçu Firkas"
+        type = artillery
         home = 923
     }
 
     regiment = {
-        name= "2. Sipahis"
-        type = cavalry
+        name= "4.3 Topçu Firkas"
+        type = artillery
         home = 883
     }
 
     regiment = {
-        name= "3. Sipahis"
-        type = cavalry
+        name= "4.4 Topçu Firkas"
+        type = artillery
         home = 873
+    }
+
+    regiment = {
+        name= "4.5 Topçu Firkas"
+        type = artillery
+        home = 923
     }
 
 }
@@ -385,42 +355,72 @@ army = {
     location = 1096
 
     regiment = {
-        name= "18. Tümeni Firkasi"
-        type = infantry
-        home = 923
-    }
-
-    regiment = {
-        name= "2. Timariot"
-        type = irregular
+        name= "5.1 Süvari Firkasi"
+        type = hussar
         home = 824
     }
 
     regiment = {
-        name= "4. Sipahis"
-        type = cavalry
+        name= "5.1 Topçu Firkas"
+        type = artillery
         home = 824
     }
 
     regiment = {
-        name= "5. Sipahis"
-        type = cavalry
+        name= "5.2 Topçu Firkas"
+        type = artillery
         home = 926
+    }
+
+    regiment = {
+        name= "5.3 Topçu Firkas"
+        type = artillery
+        home = 811
+    }
+
+    regiment = {
+        name= "5.4 Topçu Firkas"
+        type = artillery
+        home = 888
+    }
+
+    regiment = {
+        name= "5.5 Topçu Firkas"
+        type = artillery
+        home = 783
     }
 }
 
 army = {
-    name = "Pashalik of Tripoli Army"
-    location = 1736
+    name = "6th Army"
+    location = 875
     regiment = {
-        name= "1. Askäris"
-        type = irregular
+        name= "6.1 Topçu Firkas"
+        type = artillery
         home = 1735
     }
     regiment = {
-        name= "6. Sipahis"
-        type = cavalry
+        name= "6.2 Topçu Firkas"
+        type = artillery
         home = 805
+    }
+
+    regiment = {
+        name= "6.3 Topçu Firkas"
+        type = artillery
+        home = 806
+    }
+
+    regiment = {
+        name= "6.4 Topçu Firkas"
+        type = artillery
+        home = 884
+    }
+
+    regiment = {
+        name = "6.5 Topçu Firkas"
+        type = artillery
+        home = 804
     }
 }
 
@@ -552,6 +552,16 @@ navy = {
         type = clipper_transport
     }
 
+}
+
+
+leader = {
+    name = "Bassad Pashachad"
+    date = 1836.1.1
+    type = land
+    personality = implacable
+    background = uncommonly_young
+    prestige = 0.4
 }
 
 leader = {
