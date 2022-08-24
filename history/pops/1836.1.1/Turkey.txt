@@ -1490,7 +1490,7 @@
         size = 3650
     }
 
-    farmers = {
+    labourers = {
         culture = turkish
         religion = sunni
         size = 67750
@@ -1514,7 +1514,7 @@
         size = 200
     }
 
-    farmers = {
+    labourers = {
         culture = greek
         religion = orthodox
         size = 3725
@@ -1726,7 +1726,7 @@
         size = 500
     }
 
-    farmers = {
+    labourers = {
         culture = turkish
         religion = sunni
         size = 43025
@@ -1750,7 +1750,7 @@
         size = 100
     }
 
-    farmers = {
+    labourers = {
         culture = greek
         religion = orthodox
         size = 1875
@@ -1774,7 +1774,7 @@
         size = 150
     }
 
-    farmers = {
+    labourers = {
         culture = armenian
         religion = coptic
         size = 930
