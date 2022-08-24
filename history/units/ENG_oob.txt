@@ -334,6 +334,16 @@ MUG = {
     influence_value = 0
 }
 
+
+leader = {
+    name = "Based Gigachad"
+    date = 1836.1.1
+    type = land
+    personality = implacable
+    background = uncommonly_young
+    prestige = 0.4
+}
+
 leader = {
     name = "Thomas Cochrane"
     picture = eng_adm_cochrane
