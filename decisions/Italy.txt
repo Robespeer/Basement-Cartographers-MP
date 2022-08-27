@@ -1169,7 +1169,7 @@ political_decisions = {
     }
 
     reclaim_italian_lands = {
-    picture = reclaim_italian_lands
+		picture = reclaim_italian_lands
         potential = {
             tag = ITA
             NOT = { has_country_flag = reclaim_italian_lands }
@@ -1195,7 +1195,7 @@ political_decisions = {
     }
 	
 	push_into_france = {
-    picture = reclaim_italian_lands
+		picture = reclaim_italian_lands
         potential = {
             tag = ITA
             NOT = { has_country_flag = push_into_france }
@@ -1222,7 +1222,7 @@ political_decisions = {
     }
 	
 	accept_the_occitan = {
-    picture = reclaim_italian_lands
+		picture = reclaim_italian_lands
         potential = {
             tag = ITA
             NOT = { accepted_culture = occitan }
@@ -1245,7 +1245,7 @@ political_decisions = {
     }
 	
 	claim_greece_n_albania = {
-    picture = reclaim_italian_lands
+		picture = reclaim_italian_lands
         potential = {
             tag = ITA
             NOT = { is_core = 849 }

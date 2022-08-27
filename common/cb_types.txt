@@ -117,7 +117,7 @@ take_capital
 demand_concession_BC_casus_belli
 demand_concession_NI_casus_belli
 demand_concession_casus_belli
-demand_concession_capital
+demand_capital_concession
 rude_boy
 conquest
 conquest_any
@@ -11074,108 +11074,160 @@ take_capital = {
 	}
 }
 
-demand_concession_capital = {
-	sprite_index = 7
-	is_triggered_only = yes
-	months = 12
-	construction_speed = 1
+demand_capital_concession = {
+    sprite_index = 7
+    is_triggered_only = yes
+    months = 12
+    construction_speed = 1
 
-	badboy_factor = 2.3
-	prestige_factor = 2
-	peace_cost_factor = 1
-	penalty_factor = 1
+    badboy_factor = 2.3
+    prestige_factor = 2
+    peace_cost_factor = 1
+    penalty_factor = 1
 
-	break_truce_prestige_factor = 1
-	break_truce_infamy_factor = 2
-	break_truce_militancy_factor = 2
-	truce_months = 60
+    break_truce_prestige_factor = 1
+    break_truce_infamy_factor = 2
+    break_truce_militancy_factor = 2
+    truce_months = 60
 
-	good_relation_prestige_factor = 1
-	good_relation_infamy_factor = 1
-	good_relation_militancy_factor = 1
+    good_relation_prestige_factor = 1
+    good_relation_infamy_factor = 1
+    good_relation_militancy_factor = 1
 
-	can_use = {
-		NOT = { is_our_vassal = THIS }
-		number_of_states = 2 # annex if you want their last state
-		any_owned_province = {
-			not = { is_core = THIS }
-			is_colonial = no
-		}
-			AND = {
-				civilized = no
-				THIS = {
-					civilized = yes
-				}
-		   }
-	}
-
-	allowed_states = {
-		is_colonial = no
-		any_owned_province = {
-			not = {	is_core = THIS }
-			is_colonial = no
-		}
-		any_owned_province = { is_capital = yes }
-		###Can only grab neighboring states, coastal if it's a coastal GP
+    can_use = {
+        NOT = { is_our_vassal = THIS }
+        number_of_states = 2 # annex if you want their last state
+        any_owned_province = {
+            not = { is_core = THIS }
+            is_colonial = no
+        }
         OR = {
-            #AI and Player can take a neighboring state
-            any_owned_province = { any_neighbor_province = { owned_by = THIS } }
+            war_with = THIS
+            THIS = {
+                NOT = { has_country_modifier = no_more_war }
+            }
+        }
+        civilized = no
+        THIS = {
+            civilized = yes
+            ai = no
+        } 
+    }
 
-            #Player can take a neighboring state neighboring a neighboring state
+    allowed_states = {
+        any_owned_province = { is_colonial = no }
+
+        any_owned_province = { is_capital = yes }
+        OR = {
+            any_owned_province = {
+                any_neighbor_province = { owned_by = THIS }
+            }
             AND = {
                 THIS = { ai = no }
-                any_owned_province = {
-                    any_neighbor_province = {
-                        state_scope = { any_owned_province = { any_neighbor_province = { owned_by = THIS } } }
-                    }
-                }
+                owner = { war_with = THIS }
             }
-
-            #AI/Player can take a coastal state
             AND = {
                 any_owned_province = { port = yes }
                 THIS = {
                     any_owned_province = { port = yes }
-                    OR = {
-                        is_greater_power = yes
-                        is_secondary_power = yes
-                        ai = no
+                }
+            }
+        }
+        OR = {
+            any_owned_province = {
+                NOT = {
+                    any_core = {
+                        exists = yes
+                        alliance_with = THIS
                     }
                 }
             }
+            THIS = { ai = no }
+        }
 
-            #Player can take any state neighboring a coastal state
+        #Restrictions to non-African State conquering
+        OR = {
+            continent = africa
+
+            NOT = { total_pops = 500000 }
+
             AND = {
-                any_owned_province = {
-                    any_neighbor_province = {
-                        state_scope = { any_owned_province = { port = yes } }
+                NOT = { total_pops = 1000000 }
+                OR = {
+                    any_owned_province = { is_overseas = no }
+                    THIS = {
+                        ai = no
+                        naval_logistics = 1
+                    }
+                    THIS = {
+                        ai = yes
+                        raider_group_doctrine = 1
+                        iron_steamers = 1
                     }
                 }
-                THIS = {
-                    ai = no
-                    any_owned_province = { port = yes }
+            }
+
+            AND = {
+                NOT = { total_pops = 2000000 }
+                THIS = { machine_guns = 1 }
+                OR = {
+                    any_owned_province = { is_overseas = no }
+                    THIS = {
+                        ai = no
+                        naval_directionism = 1
+                    }
+                    THIS = {
+                        ai = yes
+                        steam_turbine_ships = 1
+                    }
                 }
             }
-		}
-	}
+            AND = {
+                NOT = { total_pops = 3000000 }
+                THIS = {
+                    bolt_action_rifles = 1
+                    army_risk_management = 1
+                }
+                OR = {
+                    any_owned_province = { is_overseas = no }
+                    THIS = {
+                        ai = no
+                        naval_integration = 1
+                    }
+                    THIS = {
+                        ai = yes
+                        oil_driven_ships = 1
+                    }
+                }
+            }
+            AND = {
+                total_pops = 3000000
+                THIS = {
+                    modern_divisional_structure = 1
+                    army_nco_training = 1
+                }
+            }
+        } ###End of Non-African Restrictions
+    }
 
-	allowed_states_in_crisis = {
-		any_owned_province = {
-			any_neighbor_province = {
-				owner = { tag = THIS }
-			}
-		}
-	}
 
-	po_demand_state = yes
+    allowed_states_in_crisis = {
+        any_owned_province = {
+            any_neighbor_province = {
+                owner = { tag = THIS }
+            }
+        }
+    }
 
-	war_name = WAR_CONCESSION_NAME
+    po_demand_state = yes
 
-	on_add = {
-		move_issue_percentage = {
-			from = jingoism
-			to = pro_military
-			value = 0.25
-		}
-	}
+    war_name = WAR_CONCESSION_NAME
+
+    on_add = {
+        move_issue_percentage = {
+            from = jingoism
+            to = pro_military
+            value = 0.25
+        }
+    }
 }
