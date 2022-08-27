@@ -617,43 +617,12 @@ political_decisions = {
         }
 
         effect = {
+			badboy = 10
             set_country_flag = italia_ulterior
             AUS_733 = { add_core = ITA } #Friuli
             AUS_729 = { add_core = ITA } #Venetia
-            #AUS_734 = { add_core = ITA } #South Tirol
-            #AUS_736 = { add_core = ITA } #Istria
-            #781 = { add_core = ITA } #Zadar
-        }
-    }
-
-    italians_in_balkans = {
-        picture = italia_irredenta
-        potential = {
-            tag = ITA
-            NOT = { has_country_flag = italian_balkans }
-        }
-
-        allow = {
-            OR = {
-                AND = {
-                    is_greater_power = yes
-                    revolution_n_counterrevolution = 1
-                }
-                mass_politics = 1
-            }
-            war_policy = jingoism
-            OR = {
-                government = absolute_monarchy
-                government = fascist_dictatorship
-            }
-        }
-
-        effect = {
-            set_country_flag = italian_balkans
             AUS_734 = { add_core = ITA } #South Tirol
             AUS_736 = { add_core = ITA } #Istria
-            AUS_733 = { add_core = ITA } #Friuli
-            781 = { add_core = ITA } #Zadar
         }
     }
 
@@ -665,12 +634,10 @@ political_decisions = {
         }
 
         allow = {
-            mass_politics = 1
-            war_policy = jingoism
-            OR = {
-                government = absolute_monarchy
-                government = fascist_dictatorship
-            }
+            owns = 729
+			owns = 737
+			owns = 734
+			owns = 769
         }
 
         effect = {
@@ -678,7 +645,6 @@ political_decisions = {
             set_country_flag = conquest_adriatic_happened
             AUS_780 = { add_core = ITA }
             2582 = { add_core = ITA }
-            #774 = { add_core = ITA }
         }
 
         ai_will_do = {
@@ -1208,22 +1174,130 @@ political_decisions = {
             tag = ITA
             NOT = { has_country_flag = reclaim_italian_lands }
             has_country_flag = conquest_adriatic_happened
-            government = fascist_dictatorship
         }
 
         allow = {
-            is_greater_power = yes
+            owns = 780
+			owns = 2582
         }
 
         effect = {
-            badboy = 10
+            badboy = 7.5
             set_country_flag = reclaim_italian_lands
             SAR_466 = { add_core = ITA }
-            826    = { add_core = ITA }
-            852 = { add_core = ITA }
-            853 = { add_core = ITA }
             854 = { add_core = ITA }
             473 = { add_core = ITA }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	push_into_france = {
+    picture = reclaim_italian_lands
+        potential = {
+            tag = ITA
+            NOT = { has_country_flag = push_into_france }
+            has_country_flag = reclaim_italian_lands
+        }
+
+        allow = {
+			year = 1860
+            owns = 465
+			owns = 854
+			owns = 473
+        }
+
+        effect = {
+            badboy = 15
+            set_country_flag = push_into_france
+            FRA_451 = { add_core = ITA }
+            FRA_467 = { add_core = ITA }
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	accept_the_occitan = {
+    picture = reclaim_italian_lands
+        potential = {
+            tag = ITA
+            NOT = { accepted_culture = occitan }
+            has_country_flag = push_into_france
+        }
+
+        allow = {
+            owns = 467
+			owns = 454
+			year = 1885
+        }
+
+        effect = {
+            add_accepted_culture = occitan
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	claim_greece_n_albania = {
+    picture = reclaim_italian_lands
+        potential = {
+            tag = ITA
+            NOT = { is_core = 849 }
+            has_country_flag = conquest_adriatic_happened
+        }
+
+        allow = {
+			year = 1860
+            owns = 780
+			owns = 2582
+        }
+
+        effect = {
+            badboy = 18
+            TUR_853 = { add_core = ITA } #Albania
+			TUR_805 = { add_core = ITA } #Southern Macedonia
+			TUR_832 = { add_core = ITA } #Thessaly
+			GRE_837 = { add_core = ITA } #Central Greece
+			GRE_826 = { add_core = ITA } #Peloponnese
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	accept_the_greeks_n_albanians = {
+    picture = reclaim_italian_lands
+        potential = {
+            tag = ITA
+            NOT = { accepted_culture = greek }
+            OR = { 
+				is_core = 849
+				is_core = 824
+				is_core = 837
+				is_core = 805
+				is_core = 834
+			}
+        }
+
+        allow = {
+			year = 1885
+            owns = 849
+			owns = 824
+			owns = 837
+			owns = 805
+			owns = 834
+        }
+
+        effect = {
+            add_accepted_culture = greek
+			add_accepted_culture = albanian
         }
 
         ai_will_do = {
@@ -1457,7 +1531,6 @@ political_decisions = {
 
         allow = {
             war = no
-            is_greater_power = yes
             social_science = 1
             citizenship_policy = full_citizenship
             citizens_rights = all_voting_pops

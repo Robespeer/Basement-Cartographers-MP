@@ -214,7 +214,7 @@ political_decisions = {
         }
 
         effect = {
-            badboy = 2
+            badboy = 1
             set_country_flag = montenegro_claims
             relation = {
                 who = MON
