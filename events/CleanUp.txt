@@ -4576,10 +4576,10 @@ country_event = {
     picture = "danishgovernment"
 
 	trigger = {
-		is_ai = yes
+		ai = yes
 		any_neighbor_country = { 
 			military_access = THIS
-			is_ai = yes
+			ai = yes
 		}	
 	}
 
@@ -4590,7 +4590,7 @@ country_event = {
     option = {
         name = "EVT6016823OPTA"
 		any_country = {
-			limit = { is_ai = yes }
+			limit = { ai = yes }
 			end_military_access = THIS
 		}
 	}
