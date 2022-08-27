@@ -837,4 +837,84 @@ political_decisions = {
 
         ai_will_do = { factor = 1 }
     }
+	
+	claim_the_aragonese_crown_lands = {
+		picture = create_iberia
+        potential = {
+            tag = IBR
+			NOT = { is_core = 765 }
+			NOT = { is_core = 762 }
+        }
+
+        allow = {
+            NOT = { is_core = 765 }
+			NOT = { is_core = 762 }
+        }
+
+        effect = {
+            badboy = 7.5
+            SIC_763 = { add_core = IBR } #Sicily
+			765 = { add_core = IBR } #Cagliari
+			766 = { add_core = IBR } #Sassari
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	claim_the_kingdom_of_naples = {
+		picture = create_iberia
+        potential = {
+            tag = IBR
+			is_core = 765
+			is_core = 762
+			NOT = { is_core = 754 }
+			NOT = { is_core = 756 }
+        }
+
+        allow = {
+            owns = 765
+			owns = 762
+			year = 1860
+        }
+
+        effect = {
+            badboy = 10
+            SIC_753 = { add_core = IBR } #Puglia
+			SIC_754 = { add_core = IBR } #Campania
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+	
+	accept_the_south_italians = {
+		picture = reclaim_italian_lands
+        potential = {
+            tag = IBR
+            is_core = 765
+			is_core = 762
+			is_core = 754
+			is_core = 756
+			NOT = { accepted_culture = south_italian }
+        }
+
+        allow = {
+            owns = 754
+			owns = 756
+			owns = 765
+			owns = 762
+			year = 1885
+        }
+
+        effect = {
+            add_accepted_culture = south_italian
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
 }
