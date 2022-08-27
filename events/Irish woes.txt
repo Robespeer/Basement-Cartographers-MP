@@ -1460,8 +1460,8 @@ country_event = {
                 province_id = 265
             }
             NOT = { has_province_modifier = enclosures }
-            NOT = { has_country_flag = invest_in_irish }
         }
+        NOT = { has_country_flag = invest_in_irish }
     }
 
     mean_time_to_happen = { days = 1 }

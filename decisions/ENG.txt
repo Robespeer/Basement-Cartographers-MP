@@ -1277,40 +1277,4 @@ political_decisions = {
 
         ai_will_do = { factor = 1 }
     }
-	
-	integrating_the_irish = {
-		potential = {
-			tag = ENG
-			Or = {
-				government = hms_government
-				government = democracy
-			}
-			citizens_rights = all_voting_pops
-			NOT = { accepted_culture = irish }
-		}
-		
-		allow = {
-			mass_politics = 1
-			OR = {
-                liberal = 50
-                socialist = 50
-                AND = {
-                    liberal = 30
-                    socialist = 30
-                }
-				AND = {
-                    liberal = 40
-                    socialist = 20
-                }
-				AND = {
-                    liberal = 20
-                    socialist = 40
-                }
-            }
-		}
-		
-		effect = {
-			add_accepted_culture = irish
-		}
-	}
 }
