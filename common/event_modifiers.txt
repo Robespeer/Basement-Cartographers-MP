@@ -46,9 +46,6 @@ war_propaganda = {
 }
 
 government_propaganda = {
-    literacy_con_impact = -0.20
-    issue_change_speed = -0.20
-    ruling_party_support = 0.2
     icon = 5
 }
 

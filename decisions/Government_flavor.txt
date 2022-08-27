@@ -54,21 +54,10 @@ political_decisions = {
                 has_country_flag = government_decisions_on
                 ai = yes
             }
-            OR = {
-                government = fascist_dictatorship
-                government = proletarian_dictatorship
-                government = bourgeois_dictatorship
-                invention = mass_advertising
-                associationism = 1
-            }
-            NOT = { has_country_flag = propaganda_program }
         }
 
         allow = {
-            plurality = 8
-            literacy = 0.3
             NOT = { has_country_modifier = government_propaganda }
-            NOT = { has_country_modifier = war_propaganda }
             OR = {
                 vote_franschise = none_voting
                 war = yes
@@ -110,7 +99,6 @@ political_decisions = {
         }
 
         effect = {
-            plurality = -8
             random_owned = {
                 limit = {
                     owner = {
@@ -168,10 +156,23 @@ political_decisions = {
                 limit = {
                     owner = { total_pops = 10000000 }
                 }
-                owner = { treasury = 500000 }
+                owner = { treasury = -500000 }
             }
-            country_event = 11002
-            set_country_flag = propaganda_program
+            any_pop = {
+				dominant_issue = {
+					factor = 0.05
+					value = jingoism
+				}
+				scaled_militancy = {
+					issue = pacifism
+					factor = 0.2
+				}
+				scaled_militancy = {
+					issue = anti_military
+					factor = 0.1
+				}
+            }
+            add_country_modifier = { name = government_propaganda duration = 1825 }
         }
 
         ai_will_do = {
