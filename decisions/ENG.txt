@@ -592,14 +592,13 @@ political_decisions = {
 
         effect = {
             set_country_flag = invest_in_irish
-            random_owned = {
-                limit = { owner = { NOT = { has_country_flag = irish_republican_brotherhood } } }
-                owner = { add_accepted_culture = irish }
-            }
+			add_accepted_culture = irish
             prestige = -50
             treasury = -100000
             any_owned = {
                 remove_province_modifier = irish_oppression
+                remove_province_modifier = enclosures
+                remove_province_modifier = irish_republicans
             }
             any_pop = {
                 limit = {
@@ -608,6 +607,7 @@ political_decisions = {
                 }
                 militancy = -5
             }
+            IRE = { all_core = { add_core = ENG } }
         }
 
         ai_will_do = {
