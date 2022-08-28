@@ -299,6 +299,9 @@ political_decisions = {
 			}
             prestige = 10
             set_country_flag = crisis_on_the_rhine
+			PRU = { set_country_flag = french_claimed_the_rhine }
+			NGF = { set_country_flag = french_claimed_the_rhine }
+			GER = { set_country_flag = french_claimed_the_rhine }
         }
         ai_will_do = {
             factor = 1

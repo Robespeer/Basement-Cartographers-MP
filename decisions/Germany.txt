@@ -136,16 +136,48 @@ political_decisions = {
             }
             NOT = { has_global_flag = watching_the_rhine }
             has_country_flag = french_claimed_the_rhine
+			OR = { 
+				396 = { is_core = FRA }
+				397 = { is_core = FRA }
+				570 = { is_core = FRA }
+				571 = { is_core = FRA }
+				572 = { is_core = FRA }
+				573 = { is_core = FRA }
+				574 = { is_core = FRA }
+				575 = { is_core = FRA }
+				576 = { is_core = FRA }
+				577 = { is_core = FRA }
+			}
         }
 
         allow = {
+			war = no
+			owns = 409
+			OR = { 
+				owns = 397
+				NOT = { FRA = { owns = 397 } }
+			}
+			OR = { 
+				owns = 570
+				NOT = { FRA = { owns = 397 } }
+			}
+			OR = { 
+				owns = 571
+				NOT = { FRA = { owns = 397 } }
+			}
+			owns = 396
+			owns = 572
+			owns = 573
+			owns = 574
+			owns = 575
+			owns = 576
+			owns = 577
             romanticism = 1
             state_n_government = 1
         }
 
         effect = {
-            prestige = 5
-            badboy = -1
+            prestige = 20
             set_global_flag = watching_the_rhine
             any_pop = {
                 limit = { is_culture_group = germanic }
@@ -154,31 +186,34 @@ political_decisions = {
                     value = jingoism
                 }
             }
+			396 = {
+				remove_core = FRA
+			}
+			397 = {
+				remove_core = FRA
+			}
+			570 = {
+				remove_core = FRA
+			}
+			571 = {
+				remove_core = FRA
+			}
+			572 = {
+				remove_core = FRA
+			}
 			573 = {
 				remove_core = FRA
 			}
 			574 = {
 				remove_core = FRA
 			}
-			572 = {
-				remove_core = FRA
-			}
-			396 = {
+			575 = {
 				remove_core = FRA
 			}
 			576 = {
 				remove_core = FRA
 			}
-			575 = {
-				remove_core = FRA
-			}
 			577 = {
-				remove_core = FRA
-			}
-			571 = {
-				remove_core = FRA
-			}
-			570 = {
 				remove_core = FRA
 			}
         }
@@ -210,7 +245,6 @@ political_decisions = {
     niederwald_denkmal = {
         potential = {
             tag = GER
-            has_global_flag = watching_the_rhine
             NOT = {
                 has_country_flag = niederwald_denkmal
             }

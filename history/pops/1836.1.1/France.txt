@@ -3422,7 +3422,7 @@
     }
 
     farmers = {
-        culture = french
+        culture = occitan
         religion = catholic
         size = 27800
     }
@@ -3460,7 +3460,7 @@
     }
 
     farmers = {
-        culture = french
+        culture = occitan
         religion = catholic
         size = 26175
     }
