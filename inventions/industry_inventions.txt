@@ -171,6 +171,7 @@ jacquard_power_loom = {
 		#factory_goods_output = {
 		#	fabric = 0.05 
 		#}
+		activate_building = luxury_clothes_factory
 	}
 }
 northrop_power_loom = {
