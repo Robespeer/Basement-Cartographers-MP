@@ -119,6 +119,10 @@ political_decisions = {
         effect = {
             tech_school = prussian_tech_school
             prestige = 5
+            add_country_modifier = {
+                name = academic_confusion
+                duration = 3650
+            }
         }
     }
 

@@ -28,8 +28,6 @@ political_decisions = {
                 jingoism = 3
                 pro_military = 3
             }
-            military_score = 100
-            prestige = 45
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
@@ -56,12 +54,9 @@ political_decisions = {
             NOT = { has_country_modifier = academic_confusion }
             any_owned_province = { is_colonial = yes }
             OR = {
-                AND = {
+                OR = {
                     war_policy = pro_military
-                    NOT = {
-                        economic_policy = state_capitalism
-                        economic_policy = planned_economy
-                    }
+					war_policy = jingoism
                 }
                 AND = {
                     economic_policy = laissez_faire
@@ -72,8 +67,6 @@ political_decisions = {
                 pro_military = 3
                 laissez_faire = 3
             }
-            prestige = 45
-            military_score = 100
             total_amount_of_ships = 30
         }
         effect = {
@@ -110,9 +103,6 @@ political_decisions = {
                 pacifism = 3
                 secularized = 3
             }
-            prestige = 100
-            literacy = 0.7
-            average_consciousness = 7
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
@@ -162,8 +152,6 @@ political_decisions = {
                 laissez_faire = 3
                 free_trade = 3
             }
-            prestige = 45
-            industrial_score = 100
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
@@ -213,8 +201,6 @@ political_decisions = {
                 interventionism = 3
                 protectionism = 3
             }
-            prestige = 45
-            industrial_score = 100
         }
         effect = {
             clr_country_flag = picking_up_a_tech_school
@@ -258,7 +244,6 @@ political_decisions = {
                         tech_school = developing_tech_school
                         has_country_modifier = academic_confusion
                     }
-                    prestige = 45
                 }
                 AND = {
                     tech_school = developing_tech_school
@@ -279,10 +264,6 @@ political_decisions = {
 
         effect = {
             random_owned = { limit = { owner = { NOT = { tech_school = developing_tech_school } } } owner = { prestige = -15 } }
-            add_country_modifier = {
-                name = academic_confusion
-                duration = 3650
-            }
             tech_school = traditional_academic
         }
         ai_will_do = {
@@ -295,14 +276,16 @@ political_decisions = {
         potential = {
             NOT = { tech_school = czech_tech_school }
             NOT = { has_country_modifier = interment_camps }
-            is_culture_group = czecho_slovak_culture_group
+            OR = {
+				is_culture_group = czecho_slovak_culture_group
+				tag = KUK
+			}
         }
 
         allow = {
-            advanced_metallurgy = 1
+            regenerative_furnaces = 1
             iron_breech_loaded_artillery = 1
             state_n_government = 1
-            industrial_score = 150
             owns = 629
             629 = { state_scope = { has_building = steel_factory } }
         }
@@ -310,6 +293,10 @@ political_decisions = {
         effect = {
             tech_school = czech_tech_school
             prestige = 5
+            add_country_modifier = {
+                name = academic_confusion
+                duration = 3650
+            }
         }
     }
 
@@ -339,6 +326,10 @@ political_decisions = {
         effect = {
             tech_school = japanese_tech_school
             prestige = 5
+            add_country_modifier = {
+                name = academic_confusion
+                duration = 3650
+            }
         }
     }
 }
