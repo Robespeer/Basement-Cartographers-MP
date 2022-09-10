@@ -779,10 +779,7 @@ political_decisions = {
 
         allow = {
             BUK = {
-                OR = {
-                    in_sphere = RUS
-                    vassal_of = RUS
-                }
+                vassal_of = RUS
             }
             year = 1865
         }
@@ -806,10 +803,7 @@ political_decisions = {
 
         allow = {
             KOK = {
-                OR = {
-                    in_sphere = RUS
-                    vassal_of = RUS
-                }
+                vassal_of = RUS
             }
             year = 1865
         }
@@ -833,10 +827,7 @@ political_decisions = {
 
         allow = {
             KHI = {
-                OR = {
-                    in_sphere = RUS
-                    vassal_of = RUS
-                }
+                vassal_of = RUS
             }
             year = 1865
         }
