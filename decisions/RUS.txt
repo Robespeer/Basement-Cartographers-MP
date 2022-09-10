@@ -768,15 +768,8 @@ political_decisions = {
     the_great_game_bukhara = {
         picture = gtfo
         potential = {
-            OR = {
-                government = absolute_monarchy
-                government = prussian_constitutionalism
-                government = hms_government
-            }
             is_greater_power = yes
             tag = RUS
-            has_global_flag = crimea_has_happened
-            year = 1865
             exists = BUK
             BUK = {
                 civilized = no
@@ -791,6 +784,7 @@ political_decisions = {
                     vassal_of = RUS
                 }
             }
+            year = 1865
         }
 
         effect = {
@@ -801,15 +795,8 @@ political_decisions = {
     the_great_game_kokand = {
         picture = gtfo
         potential = {
-            OR = {
-                government = absolute_monarchy
-                government = prussian_constitutionalism
-                government = hms_government
-            }
             is_greater_power = yes
             tag = RUS
-            has_global_flag = crimea_has_happened
-            year = 1865
             exists = KOK
             KOK = {
                 civilized = no
@@ -824,6 +811,7 @@ political_decisions = {
                     vassal_of = RUS
                 }
             }
+            year = 1865
         }
 
         effect = {
@@ -834,15 +822,8 @@ political_decisions = {
     the_great_game_khiva = {
         picture = gtfo
         potential = {
-            OR = {
-                government = absolute_monarchy
-                government = prussian_constitutionalism
-                government = hms_government
-            }
             is_greater_power = yes
             tag = RUS
-            has_global_flag = crimea_has_happened
-            year = 1865
             exists = KHI
             KHI = {
                 civilized = no
@@ -857,6 +838,7 @@ political_decisions = {
                     vassal_of = RUS
                 }
             }
+            year = 1865
         }
 
         effect = {
