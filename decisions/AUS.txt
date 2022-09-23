@@ -792,7 +792,7 @@ political_decisions = {
         allow = {
             year = 1885
             revolution_n_counterrevolution = 1
-            psychoanalysis = 1
+            experimental_psychology = 1
         }
         effect = {
             set_country_flag = embraced_czechs

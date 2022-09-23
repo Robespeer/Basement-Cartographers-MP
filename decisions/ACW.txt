@@ -1148,14 +1148,6 @@ political_decisions = {
         allow = {
             revolution_n_counterrevolution = 1
             is_sphere_leader_of = HAW
-            OR = {
-                AND = {
-                    year = 1898
-                    HAW = { militancy = 1 }
-                }
-                HAW = { militancy = 8 }
-                mass_politics = 1
-            }
             HAW = {
                 war = no
                 is_mobilised = no

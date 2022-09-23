@@ -315,12 +315,10 @@ political_decisions = {
 
         allow = {
             phenomenalism = 1
-            prestige = 100
             has_country_modifier = freedom_of_religion
             upper_house_composition = population_equal_weight
             public_meetings = yes_meeting
             press_rights = free_press
-            plurality = 50
             NOT = {
                 citizens_rights = primary_culture_only
                 citizenship_policy = residency
@@ -334,6 +332,38 @@ political_decisions = {
         effect = {
             prestige_factor = -0.1
             add_accepted_culture = flemish
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+
+    accept_the_walloons = {
+        picture = become_belgium
+        potential = {
+            tag = NET
+            NOT = { accepted_culture = wallonian }
+            any_owned_province = { any_pop = { has_pop_culture = wallonian } }
+        }
+
+        allow = {
+            revolution_n_counterrevolution = 1
+            has_country_modifier = freedom_of_religion
+            upper_house_composition = population_equal_weight
+            public_meetings = yes_meeting
+            press_rights = free_press
+            NOT = {
+                citizens_rights = primary_culture_only
+                citizenship_policy = residency
+            }
+            OR = {
+                government = democracy
+                government = hms_government
+            }
+        }
+
+        effect = {
+            prestige_factor = -0.1
+            add_accepted_culture = wallonian
         }
 
         ai_will_do = { factor = 1 }
