@@ -873,10 +873,18 @@ political_decisions = {
         }
 
         effect = {
-            any_owned = {
-                limit = { region = JAP_1086 }
-                add_core = THIS
-            }
+            1086 = {
+                add_core = RUS
+			}
+            1087 = {
+                add_core = RUS
+			}
+            1088 = {
+                add_core = RUS
+			}
+            1089 = {
+                add_core = RUS
+			}
             prestige = 2
         }
         ai_will_do = {
