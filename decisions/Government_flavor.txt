@@ -58,10 +58,7 @@ political_decisions = {
 
         allow = {
             NOT = { has_country_modifier = government_propaganda }
-            OR = {
-                vote_franschise = none_voting
-                war = yes
-            }
+            war = yes
             OR = {
                 AND = {
                     not = { total_pops = 1000000 }
