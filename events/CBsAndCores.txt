@@ -1080,7 +1080,7 @@ province_event = {
     }
 
     mean_time_to_happen = {
-        months = 120
+        months = 12
         modifier = {
             factor = 0.75
             owner = { nationalism_n_imperialism = 1 }
@@ -1275,7 +1275,7 @@ province_event = {
     }
 
     mean_time_to_happen = {
-        months = 180
+        months = 20
         modifier = {
             factor = 0.75
             owner = { nationalism_n_imperialism = 1 }
@@ -1305,7 +1305,6 @@ province_event = {
 
     option = {
         name = "EVT2605OPTA"
-        owner = { prestige = 2 }
         remove_province_modifier = core_integration
         add_core = THIS
     }
