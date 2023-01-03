@@ -3,73 +3,73 @@
 #Kiel (256000/64000 POPS)
 369 = {
     aristocrats = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 600
     }
 
     bureaucrats = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 175
     }
 
     officers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 100
     }
 
     clergymen = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 575
     }
 
     artisans = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 2400
     }
 
     soldiers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 3000
     }
 
     soldiers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 1000
     }
 
     farmers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 48650
     }
 
     clergymen = {
-        culture = north_german
+        culture = Pomeranian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_german
+        culture = Pomeranian
         religion = catholic
         size = 100
     }
 
     soldiers = {
-        culture = north_german
+        culture = Pomeranian
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = north_german
+        culture = Pomeranian
         religion = catholic
         size = 1700
     }
@@ -139,31 +139,31 @@
 #Lauenburg (148000/37000 POPS)
 529 = {
     aristocrats = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 350
     }
 
     clergymen = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 375
     }
 
     artisans = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 1825
     }
 
     soldiers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 1000
     }
 
     farmers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 33500
     }
@@ -345,7 +345,7 @@
 #Heligoland (1600/400 POPS)
 533 = {
     farmers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 400
     }
@@ -356,49 +356,49 @@
 #Lubeck (46503/11626 POPS)
 530 = {
     aristocrats = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 200
     }
 
     bureaucrats = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 116
     }
 
     officers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 22
     }
 
     clergymen = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 230
     }
 
     artisans = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 6976
     }
 
     soldiers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 406
     }
 
     farmers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 3476
     }
 
     farmers = {
-        culture = north_german
+        culture = Pomeranian
         religion = catholic
         size = 100
     }
@@ -445,43 +445,43 @@
 #Schwerin (484000/121000 POPS)
 544 = {
     aristocrats = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 1225
     }
 
     bureaucrats = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 275
     }
 
     officers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 150
     }
 
     clergymen = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 1200
     }
 
     artisans = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 6000
     }
 
     soldiers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 1250
     }
 
     farmers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 109800
     }
@@ -527,31 +527,31 @@
 #Neustrelitz (90000/22500 POPS)
 545 = {
     aristocrats = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 200
     }
 
     clergymen = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 225
     }
 
     artisans = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 1125
     }
 
     soldiers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 1000
     }
 
     farmers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 19950
     }
@@ -1228,31 +1228,31 @@
 #Swinemunde (132000/33000 POPS)
 547 = {
     aristocrats = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 300
     }
 
     clergymen = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 325
     }
 
     artisans = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 1650
     }
 
     soldiers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 1000
     }
 
     farmers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 29725
     }
@@ -1260,55 +1260,55 @@
 #Stralsund (157000/39250 POPS)
 548 = {
     aristocrats = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 200
     }
 
     clergymen = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 200
     }
 
     artisans = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 2350
     }
 
     soldiers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 1000
     }
 
     farmers = {
-        culture = north_german
+        culture = Pomeranian
         religion = protestant
         size = 20250
     }
 
     clergymen = {
-        culture = north_german
+        culture = Pomeranian
         religion = catholic
         size = 150
     }
 
     artisans = {
-        culture = north_german
+        culture = Pomeranian
         religion = catholic
         size = 1400
     }
 
     soldiers = {
-        culture = north_german
+        culture = Pomeranian
         religion = catholic
         size = 1000
     }
 
     farmers = {
-        culture = north_german
+        culture = Pomeranian
         religion = catholic
         size = 12450
     }

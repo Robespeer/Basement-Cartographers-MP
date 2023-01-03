@@ -1119,7 +1119,6 @@ province_event = {
 
     option = {
         name = "EVT2600OPTA"
-        owner = { badboy = 2 }
         state_scope = {
             any_owned = {
                 limit = {
@@ -1402,7 +1401,6 @@ province_event = {
 
     option = {
         name = "EVT2610OPTA"
-        owner = { badboy = 2 }
         state_scope = {
             any_owned = {
                 limit = {

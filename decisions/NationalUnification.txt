@@ -353,6 +353,7 @@ political_decisions = {
                 add_core = NGF
             }
             change_tag = NGF
+            add_accepted_culture = Pomeranian
             any_pop = {
                 limit = { is_primary_culture = yes }
                 militancy = -1
@@ -518,6 +519,7 @@ political_decisions = {
             }
             change_tag = GER
             add_accepted_culture = north_german
+            add_accepted_culture = Pomeranian
             add_accepted_culture = south_german
             random_owned = { limit = { owner = { accepted_culture = french } } owner = { remove_accepted_culture = french } }
             random_owned = { limit = { owner = { accepted_culture = polish } } owner = { remove_accepted_culture = polish } }
@@ -698,6 +700,7 @@ political_decisions = {
             }
             change_tag = GER
             add_accepted_culture = north_german
+            add_accepted_culture = Pomeranian
             set_global_flag = 3hurrahs
             any_country = {
                 limit = {
@@ -1134,6 +1137,7 @@ political_decisions = {
                 add_core = NGF
             }
             change_tag = NGF
+            add_accepted_culture = Pomeranian
             set_country_flag = secondary_union_formation
             any_country = {
                 limit = {
