@@ -240,6 +240,9 @@ political_decisions = {
                 remove_core = THIS
             }
             change_tag = SCA
+			add_accepted_culture = swedish
+			add_accepted_culture = danish
+			add_accepted_culture = norwegian
             add_country_modifier = {
                 name = customs_union
                 duration = -1
@@ -269,30 +272,33 @@ political_decisions = {
                 }
             }
 
-            any_country = {
+            random_country = {
                 limit = {
+                    tag = DEN
                     exists = yes
-                    is_greater_power = no
-                    OR = {
-                        is_vassal = no
-                        vassal_of = THIS
-                        AND = {
-                            is_vassal = yes
-                            NOT = {
-                                primary_culture = finnish
-                                primary_culture = icelandic
-                            }
-                            OR = {
-                                is_culture_group = scandinavian
-                                tag = SCH
-                                tag = SWH
-                            }
-                            overlord = { is_culture_group = scandinavian }
-                        }
-                    }
+                    ai = yes
                 }
-                country_event = 11101
+                THIS = { inherit = DEN }
             }
+
+            random_country = {
+                limit = {
+                    tag = SWE
+                    exists = yes
+                    ai = yes
+                }
+                THIS = { inherit = SWE }
+            }
+
+            random_country = {
+                limit = {
+                    tag = NOR
+                    exists = yes
+                    ai = yes
+                }
+                THIS = { inherit = NOR }
+            }
+			
 			371 = { add_core = SCA }
 			370 = { add_core = SCA }
 			369 = { add_core = SCA }
