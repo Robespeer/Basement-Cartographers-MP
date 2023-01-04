@@ -143,6 +143,11 @@ political_decisions = {
         news_desc_medium = "form_scandinavia_NEWS_MEDIUM"
         news_desc_short = "form_scandinavia_NEWS_SHORT"
         potential = {
+            OR = {
+                tag = DEN
+                tag = SWE
+                tag = NOR
+			}				
             NOT = { exists = SCA }
             NOT = { has_country_flag = post_colonial_country }
             capital_scope = { continent = europe }

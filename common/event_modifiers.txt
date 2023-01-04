@@ -219,6 +219,11 @@ no_trade_policy_set = {
     icon = 9
 }
 
+recently_demoted = {
+icon = 8
+
+}
+
 russian_protectionism = {
     min_tariff = 0.75
     tariff_efficiency_modifier = 0.05
