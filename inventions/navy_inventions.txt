@@ -2,7 +2,7 @@
 torpedo_attacks = {
     limit = { main_armament = 1 }
     chance = {
-        base = 2
+        base = 100
         modifier = {
             factor = 2
             invention = protected_cruisers
@@ -482,7 +482,7 @@ ironclads = {
         has_country_flag = existing_country
     }
     chance = {
-        base = 5
+        base = 100
         modifier = {
             factor = 2
             invention = monitors
@@ -611,7 +611,7 @@ protected_cruisers = {
         has_country_flag = existing_country
     }
     chance = {
-        base = 3
+        base = 100
         modifier = {
             factor = 2
             invention = ironclads
