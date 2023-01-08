@@ -1180,12 +1180,10 @@ country_event = {
     trigger = {
         tag = PRU
         is_vassal = no
-        ai = yes
         NOT = { exists = NGF }
         NOT = { exists = GER }
         NOT = { year = 1890 }
         has_country_flag = french_claimed_the_rhine
-        has_global_flag = watching_the_rhine
         NOT = { has_global_flag = 3hurrahs }
             OR = {
                     575 = { owner = { NOT = { is_culture_group = germanic } } }

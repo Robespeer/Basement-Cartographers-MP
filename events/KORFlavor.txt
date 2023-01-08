@@ -269,11 +269,13 @@ country_event = {
                 tag = JAP
                 NOT = { exists = TKG }
                 JAP = { is_vassal = no }
+				is_greater_power = yes
             }
             AND = {
                 tag = TKG
                 TKG = { is_vassal = no }
                 NOT = { exists = JAP }
+				is_greater_power = yes
             }
         }
         owns = 1657
@@ -386,7 +388,7 @@ country_event = {
         name = "EVT85011OPTB"
         FROM = { country_event = 85014 }
         ai_chance = {
-            factor = 10
+            factor = 0
             modifier = {
                 factor = 5
                 part_of_sphere = yes

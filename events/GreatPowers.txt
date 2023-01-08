@@ -359,6 +359,7 @@ country_event = {
     picture = ""
 
     trigger = {
+		ai = yes
         war = no
         great_wars_enabled = no
         part_of_sphere = yes

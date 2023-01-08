@@ -240,9 +240,8 @@ political_decisions = {
 
         effect = {
             prestige = 20
-            all_core = {
-                add_core = SCA
-                remove_core = THIS
+			all_core = {
+				add_core = SCA
             }
             change_tag = SCA
 			add_accepted_culture = swedish
@@ -283,6 +282,7 @@ political_decisions = {
                     exists = yes
                     ai = yes
                 }
+				all_core = { add_core = SCA }
                 THIS = { inherit = DEN }
             }
 
@@ -292,6 +292,7 @@ political_decisions = {
                     exists = yes
                     ai = yes
                 }
+				all_core = { add_core = SCA }
                 THIS = { inherit = SWE }
             }
 
@@ -301,6 +302,7 @@ political_decisions = {
                     exists = yes
                     ai = yes
                 }
+				all_core = { add_core = SCA }
                 THIS = { inherit = NOR }
             }
 			
