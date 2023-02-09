@@ -73,7 +73,7 @@ imaginative;Imaginative;;;;;;;;;;;;;
 indecisive;Indecisive;;;;;;;;;;;;;
 inspiring;Inspiring;Stimulant;Inspirierend;;;;;;;;;;;
 impetuous; §RDefence -2;Impétueux;Ungestüm;;;;;;;;;;;
-implacable; §Attack +3 Defence +3;Implacable;Unerbittlich;;;;;;;;;;;
+implacable; §GAttack +3 Defence +3;Implacable;Unerbittlich;;;;;;;;;;;
 imperious; §GAttack +1 §RDefence -2;Autoritaire;Herrisch;;;;;;;;;;;
 irate; §GAttack +1;Furieux;Aufbrausend;;;;;;;;;;;
 intuitive;Intuitive;Intuitif;Intuitiv;;;;;;;;;;;
