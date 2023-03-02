@@ -1064,12 +1064,10 @@ province_event = {
         controlled_by = THIS
         owned_by = THIS
         is_colonial = no
-        is_overseas = no
         OR = {
             is_primary_culture = yes
             is_accepted_culture = yes
         }
-        any_neighbor_province = { is_core = THIS }
         owner = {
             NOT = { has_country_modifier = interment_camps }
             is_substate = no
@@ -1259,13 +1257,11 @@ province_event = {
             has_province_modifier = nationalist_agitation
         }
         controlled_by = THIS
-        owned_by = THIS
         is_colonial = no
         OR = {
             is_primary_culture = yes
             is_accepted_culture = yes
         }
-        any_neighbor_province = { is_core = THIS }
         owner = {
             NOT = { has_country_modifier = interment_camps }
             civilized = yes
