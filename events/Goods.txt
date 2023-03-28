@@ -595,6 +595,7 @@ province_event = {
                     province_id = 43        # Dallas 1886
                     province_id = 705        # Przemysl 1886
                     province_id = 1260        # Dibrugarh 1889
+                    province_id = 1680        # Fez 1893
                 }
             }
             AND = {
@@ -602,7 +603,6 @@ province_event = {
                 OR = {
                     province_id = 1086        # Pogobi
                     province_id = 131        # Oklahoma City 1893
-                    province_id = 1680        # Fez 1893
                     province_id = 2173        # Queretaro 1894
                     province_id = 87        # Monterey 1896
                     province_id = 2162        # Veracruz 1896
