@@ -1,6 +1,6 @@
-owner = KML
-controller = KML
-add_core = KML
+owner = XIN
+controller = XIN
+add_core = XIN
 add_core = CHI
 trade_goods = grain
 life_rating = 32

@@ -189,14 +189,6 @@ substate = {
     end_date = 1881.1.1
 }
 
-#Russia - Abkhazia
-vassal = {
-    first = RUS
-    second = ABK
-    start_date = 1836.1.1
-    end_date = 1865.1.1
-}
-
 #Ottoman Empire-Wallachia
 vassal = {
     first = TUR
@@ -438,14 +430,6 @@ substate = {
 substate = {
     first = QNG
     second = XIN
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
-#China - Kashgaria
-vassal = {
-    first = QNG
-    second = KML
     start_date = 1836.1.1
     end_date = 1936.1.1
 }

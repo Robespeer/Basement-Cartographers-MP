@@ -1164,13 +1164,8 @@ political_decisions = {
         }
 
         allow = {
-            OR = {
-                revolution_n_counterrevolution = 1
-                is_greater_power = no
-                great_wars_enabled = yes
-                GER = { exists = yes }
-                NOT = { neighbour = TUR }
-            }
+			nationalism_n_imperialism = 1
+			year = 1860
             TCA = {
                 war = no
                 NOT = { is_mobilised = yes }
@@ -1196,115 +1191,6 @@ political_decisions = {
             RUS_1098 = { add_core = RUS }
             RUS_1102 = { add_core = RUS }
         }
-        ai_will_do = { factor = 1 }
-    }
-
-
-    integrate_abkhazia = {
-        picture = integrate_abkhazia
-        potential = {
-            tag = RUS
-            NOT = { has_country_flag = integrated_abkhazia }
-            owns = 1051
-            owns = 1049
-            owns = 1056
-            OR = {
-                ABK = {
-                    exists = yes
-                    OR = {
-                        vassal_of = THIS
-                        substate_of = THIS
-                    }
-                }
-                owns = 1095
-            }
-        }
-
-        allow = {
-            war = no
-            ABK = {
-                war = no
-                is_mobilised = no
-            }
-            OR = {
-                revolution_n_counterrevolution = 1
-                great_wars_enabled = yes
-                has_global_flag = 2nd_caucasian_war
-            }
-        }
-
-        effect = {
-            set_country_flag = integrated_abkhazia
-            ABK = {
-                remove_accepted_culture = circassian
-                add_accepted_culture = russian
-            }
-            random_country = {
-                limit = {
-                    tag = ABK
-                    exists = yes
-                    TCA = { exists = yes vassal_of = RUS }
-                }
-                all_core = { add_core = TCA }
-                annex_to = TCA
-            }
-            random_country = {
-                limit = {
-                    tag = ABK
-                    exists = yes
-                    TCA = { exists = no }
-                }
-                all_core = { add_core = RUS }
-                annex_to = RUS
-            }
-        }
-        ai_will_do = { factor = 1 }
-    }
-
-    drain_the_pinsk_marshes = {
-        picture = drain_the_pinsk_marshes
-        potential = {
-            NOT = { has_country_flag = marshes_ready }
-            OR = {
-            941 = {
-                owned_by = THIS
-                NOT = { life_rating = 35 }
-                }
-            942 = {
-                owned_by = THIS
-                NOT = { life_rating = 35 }
-                }
-            959 = {
-                owned_by = THIS
-                NOT = { life_rating = 35 }
-                }
-            }
-        }
-
-        allow = {
-            steam_turbine = 1
-            money = 5500
-        }
-
-        effect = {
-            treasury = -5000
-            set_country_flag = marshes_ready
-            any_owned = {
-                limit = {
-                NOT = { life_rating = 16 }
-                    OR = {
-                        province_id = 941
-                        province_id = 942
-                        province_id = 959
-                        }
-                    }
-                life_rating = 20
-                add_province_modifier = {
-                    name = drained_marsh
-                    duration = -1
-                    }
-                }
-            }
         ai_will_do = { factor = 1 }
     }
 
@@ -1415,18 +1301,8 @@ political_decisions = {
         picture = alexander_emancipating
         potential = {
             tag = RUS
-            OR = {
-                has_country_flag = crimean_war
-                year = 1870
-                AND = {
-                    is_greater_power = no
-                    year = 1855
-                    ai = yes
-                }
-            }
             NOT = {
                 has_country_flag = alexander_reforms
-                literacy = 0.6
             }
             OR = {
                 government = absolute_monarchy
@@ -1488,7 +1364,7 @@ political_decisions = {
                 consciousness = -4
             }
 
-            add_country_modifier = { name = total_reform duration = 2920 }
+            add_country_modifier = { name = total_reform duration = 1825 }
         }
 
         ai_will_do = { factor = 1 }
@@ -1575,15 +1451,14 @@ political_decisions = {
                 tag = RUS
                 tag = SCA
             }
-            is_our_vassal = FIN
-            revolution_n_counterrevolution = 1
             NOT = { has_country_flag = finland_russification }
             NOT = { has_country_flag = finland_is_recognized }
         }
 
         allow = {
             war = no
-            mass_politics = 1
+            revolution_n_counterrevolution = 1
+            year = 1885
             is_our_vassal = FIN
             NOT = { government = democracy }
         }

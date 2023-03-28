@@ -3,10 +3,5 @@ controller = PAP
 add_core = PAP
 add_core = RMG
 add_core = ITA
-trade_goods = wool
+trade_goods = coal
 life_rating = 35
-1861.1.1 = {
-    controller = ITA
-    owner = ITA
-    add_core = ITA
-}

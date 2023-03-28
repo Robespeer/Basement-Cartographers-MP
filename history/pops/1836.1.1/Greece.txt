@@ -868,31 +868,31 @@
 
     ######North Italians #750 pops
     aristocrats = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 150
     }
 
     soldiers = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 150
     }
 
     clergymen = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 150
     }
 
     farmers = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 200
     }
@@ -949,31 +949,31 @@
 
     ######North Italians #500 pops
     aristocrats = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 100
     }
 
     soldiers = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 100
     }
 
     farmers = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 100
     }
@@ -1744,31 +1744,31 @@
 
     ### Catholics circa 2000
     aristocrats = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 100
     }
 
     clergymen = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 100
     }
 
     artisans = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 600
     }
 
     soldiers = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 200
     }
 
     farmers = {
-        culture = north_italian
+        culture = Venetian
         religion = catholic
         size = 1000
     }

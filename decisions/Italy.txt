@@ -548,7 +548,6 @@ political_decisions = {
                         is_core = LUC
                         is_core = PAR
                         is_core = PAP
-                        is_core = VEN
                         is_core = LOM
                         is_core = RMG
                         is_core = SYC
@@ -564,7 +563,6 @@ political_decisions = {
                 remove_core = LUC
                 remove_core = PAR
                 remove_core = PAP
-                remove_core = VEN
                 remove_core = LOM
                 remove_core = RMG
                 remove_core = SYC
@@ -1182,122 +1180,11 @@ political_decisions = {
         }
 
         effect = {
-            badboy = 7.5
+            badboy = 5
             set_country_flag = reclaim_italian_lands
             SAR_466 = { add_core = ITA }
             854 = { add_core = ITA }
             473 = { add_core = ITA }
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-	push_into_france = {
-		picture = reclaim_italian_lands
-        potential = {
-            tag = ITA
-            NOT = { has_country_flag = push_into_france }
-            has_country_flag = reclaim_italian_lands
-        }
-
-        allow = {
-			year = 1860
-            owns = 465
-			owns = 854
-			owns = 473
-        }
-
-        effect = {
-            badboy = 15
-            set_country_flag = push_into_france
-            FRA_451 = { add_core = ITA }
-            FRA_467 = { add_core = ITA }
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-	accept_the_occitan = {
-		picture = reclaim_italian_lands
-        potential = {
-            tag = ITA
-            NOT = { accepted_culture = occitan }
-            has_country_flag = push_into_france
-        }
-
-        allow = {
-            owns = 467
-			owns = 454
-			year = 1885
-        }
-
-        effect = {
-            add_accepted_culture = occitan
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-	claim_greece_n_albania = {
-		picture = reclaim_italian_lands
-        potential = {
-            tag = ITA
-            NOT = { is_core = 849 }
-            has_country_flag = conquest_adriatic_happened
-        }
-
-        allow = {
-			year = 1860
-            owns = 780
-			owns = 2582
-        }
-
-        effect = {
-            badboy = 18
-            TUR_853 = { add_core = ITA } #Albania
-			TUR_805 = { add_core = ITA } #Southern Macedonia
-			TUR_832 = { add_core = ITA } #Thessaly
-			GRE_837 = { add_core = ITA } #Central Greece
-			GRE_826 = { add_core = ITA } #Peloponnese
-        }
-
-        ai_will_do = {
-            factor = 1
-        }
-    }
-	
-	accept_the_greeks_n_albanians = {
-    picture = reclaim_italian_lands
-        potential = {
-            tag = ITA
-            NOT = { accepted_culture = greek }
-            OR = { 
-				is_core = 849
-				is_core = 824
-				is_core = 837
-				is_core = 805
-				is_core = 834
-			}
-        }
-
-        allow = {
-			year = 1885
-            owns = 849
-			owns = 824
-			owns = 837
-			owns = 805
-			owns = 834
-        }
-
-        effect = {
-            add_accepted_culture = greek
-			add_accepted_culture = albanian
         }
 
         ai_will_do = {
@@ -1367,6 +1254,7 @@ political_decisions = {
         potential = {
             tag = ITA
             has_country_flag = law_of_guarantees
+			owns = 729
             any_owned_province = {
                 OR = {
                     is_core = SAR
@@ -1378,12 +1266,12 @@ political_decisions = {
                     is_core = LUC
                     is_core = PAR
                     is_core = PAP
-                    is_core = VEN
                     is_core = LOM
                     is_core = RMG
                     is_core = SYC
                     is_core = FIU
                     is_core = TRE
+                    is_core = VEN
                     AND = {
                             region = AUS_733
                             OR = {
@@ -1407,7 +1295,7 @@ political_decisions = {
         }
 
         effect = {
-            badboy = 1
+		set_global_flag = abolish_italian_minors_flag
             any_owned = {
                 limit = {
                     OR = {
@@ -1420,11 +1308,11 @@ political_decisions = {
                         is_core = LUC
                         is_core = PAR
                         is_core = PAP
-                        is_core = VEN
                         is_core = LOM
                         is_core = RMG
                         is_core = SYC
                         is_core = TRE
+                        is_core = VEN
                     }
                 }
                 add_core = ITA
@@ -1437,11 +1325,11 @@ political_decisions = {
                 remove_core = LUC
                 remove_core = PAR
                 remove_core = PAP
-                remove_core = VEN
                 remove_core = LOM
                 remove_core = RMG
                 remove_core = SYC
                 remove_core = TRE
+                remove_core = VEN
             }
             any_owned = {
                 limit = {
@@ -1521,30 +1409,12 @@ political_decisions = {
         picture = map_malta
         potential = {
             tag = ITA
-            owns = 854
             NOT = { accepted_culture = maltese }
-            OR = {
-                government = hms_government
-                government = democracy
-            }
         }
 
         allow = {
+            owns = 854
             war = no
-            social_science = 1
-            citizenship_policy = full_citizenship
-            citizens_rights = all_voting_pops
-            854 = {
-                literacy = 0.5
-                NOT = {
-                    average_consciousness = 4
-                    average_militancy = 3
-                }
-            }
-            OR = {
-                school_reforms = acceptable_schools
-                school_reforms = good_schools
-            }
         }
 
         effect = {
@@ -1552,5 +1422,4 @@ political_decisions = {
             854 = { add_core = ITA }
         }
     }
-
 }
