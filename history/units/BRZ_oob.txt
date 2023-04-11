@@ -72,8 +72,8 @@ leader = {
     name = "Gigachado Basado"
     date = 1836.1.1
     type = land
-    personality = implacable
-    background = uncommonly_young
+    personality = no_personality
+    background = back1906
     prestige = 0.4
 }
 
@@ -81,8 +81,8 @@ leader = {
     name = "Manuel Marques de Sousa"
     date = 1830.1.1
     type = land
-    personality = brash
-    background = butcher
+    personality = no_personality
+    background = back2389
     prestige = 0.1
 }
 
@@ -91,8 +91,8 @@ leader = {
     picture = southamerican_general_6
     date = 1836.1.1
     type = land
-    personality = gutsy
-    background = war_college
+    personality = no_personality
+    background = back3481
     prestige = 0.1
 }
 
@@ -101,8 +101,8 @@ leader = {
     picture = european_admiral_0
     date = 1830.1.1
     type = sea
-    personality = tactful
-    background = nationalist
+    personality = no_personality
+    background = back986
 }
 
 navy = {

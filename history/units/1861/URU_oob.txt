@@ -2,8 +2,8 @@ leader = {
     name = "Venancio Flores"
     date = 1854.1.1
     type = land
-    personality = brash
-    background = hated
+    personality = no_personality
+    background = back2408
     prestige = 0.2
 }
 

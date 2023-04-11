@@ -6,16 +6,16 @@ leader = {
     name = "Saigo Takamori"
     type = land
     date = 1836.1.1
-    personality = inspiring
-    background = gifted_administrator
+    personality = no_personality
+    background = back489
 }
 
 leader = {
     name = "Kuroda Kiyotaka"
     type = land
     date = 1836.1.1
-    personality = merciless
-    background = rising_star
+    personality = no_personality
+    background = back1816
 }
 
 army = {

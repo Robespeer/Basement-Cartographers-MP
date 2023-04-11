@@ -2,8 +2,8 @@ leader = {
     name = "Francesco IV"
     date = 1815.1.1
     type = land
-    personality = arrogant
-    background = hated
+    personality = no_personality
+    background = back610
     prestige = 0.5
 }
 

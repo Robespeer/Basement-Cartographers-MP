@@ -9,40 +9,40 @@ leader = {
     name = "D. Francisco López "
     type = sea
     date="1820.1.1"
-    personality = bastard
-    background = no_background
+    personality = no_personality
+    background = back5215
 }
 
 leader = {
     name = "Nicolas Bravo"
     type = land
     date="1836.1.1"
-    personality = heroic
-    background = politician
+    personality = no_personality
+    background = back2803
 }
 
 leader = {
     name = "Mariano Arista"
     type = land
     date="1836.1.1"
-    personality = skilled
-    background = war_college
+    personality = no_personality
+    background = back4235
 }
 
 leader = {
     name = "Juan Álvarez"
     type = land
     date="1836.1.1"
-    personality = skilled
-    background = elderly
+    personality = no_personality
+    background = back4290
 }
 
 leader = {
     name = "José de Herrera"
     type = land
     date="1836.1.1"
-    personality = soldierly
-    background = exranker
+    personality = no_personality
+    background = back2506
 }
 
 army = {

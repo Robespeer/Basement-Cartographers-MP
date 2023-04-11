@@ -2,8 +2,8 @@ leader = {
     name = "Tomas de Mosquera"
     date = 1840.1.1
     type = land
-    personality = resourceful
-    background = politician
+    personality = no_personality
+    background = back2281
     prestige = 0.2
 }
 

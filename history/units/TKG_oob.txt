@@ -8,16 +8,16 @@ leader = {
     name = "Basadou Gigachadoru"
     date = 1836.1.1
     type = land
-    personality = implacable
-    background = uncommonly_young
+    personality = no_personality
+    background = back1906
     prestige = 0.4
 }
 leader = {
     name = "Tokugawa Nariaki"
     date = 1836.1.1
     type = land
-    personality = disciplined
-    background = old_school
+    personality = no_personality
+    background = back2575
     prestige = 0.1
  }
 

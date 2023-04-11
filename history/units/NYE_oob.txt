@@ -30,8 +30,8 @@ leader = {
     name = "Hamididdin"
     type = land
     date = 1836.1.1
-    personality = stout
-    background = natural_born_leader
+    personality = no_personality
+    background = back2870
 }
 
 army = {

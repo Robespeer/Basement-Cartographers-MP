@@ -2,16 +2,16 @@ leader = {
     name = "Ion Florescu"
     date = 1861.1.1
     type = land
-    personality = indifferent
-    background = politician
+    personality = no_personality
+    background = back4427
 }
 
 leader = {
     name = "Gheorghe Adrian"
     date = 1861.1.1
     type = land
-    personality = soldierly
-    background = war_college
+    personality = no_personality
+    background = back2495
 }
 
 army = {

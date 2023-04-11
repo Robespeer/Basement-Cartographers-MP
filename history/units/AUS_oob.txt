@@ -413,8 +413,8 @@ leader = {
     name = "Basedhelm von Chadberg"
     date = 1836.1.1
     type = land
-    personality = implacable
-    background = uncommonly_young
+    personality = no_personality
+    background = back1906
     prestige = 0.4
 }
 
@@ -422,8 +422,8 @@ leader = {
     name = "Josef Radetzky"
     date = 1805.1.1
     type = land
-    personality = au_fait
-    background = elderly
+    personality = no_personality
+    background = back4406
     prestige = 0.3
 }
 
@@ -431,8 +431,8 @@ leader = {
     name = "Julius von Haynau"
     date = 1835.1.1
     type = land
-    personality = wrathful
-    background = natural_born_leader
+    personality = no_personality
+    background = back1594
     prestige = 0.1
 }
 
@@ -440,8 +440,8 @@ leader = {
     name = "von Mittrowitz-Nettolitzky"
     date = 1835.1.1
     type = land
-    personality = active_p
-    background = aristocrat
+    personality = no_personality
+    background = back125
     prestige = 0.1
 }
 
@@ -449,8 +449,8 @@ leader = {
     name = "Hermann von Hess"
     date = 1834.1.1
     type = land
-    personality = aggressive
-    background = generals_aide
+    personality = no_personality
+    background = back6
     prestige = 0.1
 }
 
@@ -458,8 +458,8 @@ leader = {
     name = "d’Aspre und Hoobreuck"
     date = 1832.1.1
     type = land
-    personality = bold
-    background = drillmaster
+    personality = no_personality
+    background = back2678
     prestige = 0.1
 }
 
@@ -467,8 +467,8 @@ leader = {
     name = "Alfred von Windischgraetz"
     date = 1826.1.1
     type = land
-    personality = arrogant
-    background = butcher
+    personality = no_personality
+    background = back591
     prestige = 0.3
 }
 
@@ -476,15 +476,15 @@ leader = {
     name = "Erzherzog Albrecht"
     date = 1836.1.1
     type = land
-    personality = active_p
-    background = aristocrat
+    personality = no_personality
+    background = back125
 }
 
 leader = {
     name = "Paolucci delle Roncole"
     date = 1824.1.1
     type = sea
-    personality = competent
-    background = aristocrat
+    personality = no_personality
+    background = back3779
     prestige = 0.1
 }

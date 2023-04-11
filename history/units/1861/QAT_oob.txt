@@ -16,6 +16,6 @@ leader = {
     name = "Mohammed bin Thani"
     type = land
     date = 1836.1.1
-        background = aristocrat
-        personality = spirited
+        background = back3547
+        personality = no_personality
     }

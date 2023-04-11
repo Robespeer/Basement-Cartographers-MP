@@ -19,8 +19,8 @@ leader = {
     picture = european_general_1
     type = land
     date="1830.1.1"
-    personality = soldierly
-    background = nationalist
+    personality = no_personality
+    background = back2494
 }
 
 leader = {
@@ -28,8 +28,8 @@ leader = {
     picture = "european_admiral_2"
     type = sea
     date="1820.1.1"
-    personality = audacious
-    background = nationalist
+    personality = no_personality
+    background = back2726
 }
 
 army = {

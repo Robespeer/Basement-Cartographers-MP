@@ -11,16 +11,16 @@ leader = {
     picture = european_general_24
     type = land
     date="1830.1.1"
-    personality = soldierly
-    background = nationalist
+    personality = no_personality
+    background = back2494
 }
 
 leader = {
     name = "Rafael Tono Llopis"
     type = sea
     date="1820.1.1"
-    personality = polite
-    background = nationalist
+    personality = no_personality
+    background = back928
 }
 
 army = {

@@ -6,8 +6,8 @@ leader = {
     name = "Muhammad Rahim Quli"
     type = land
     date = 1825.1.1
-    personality = resourceful
-    background = aristocrat
+    personality = no_personality
+    background = back2271
 }
 
 army = {

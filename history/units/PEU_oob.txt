@@ -6,8 +6,8 @@ leader = {
     name = "Andres de Santa Cruz"
     type = land
     date = 1836.1.1
-    personality = arrogant
-    background = old_school
+    personality = no_personality
+    background = back603
 }
 
 navy = {

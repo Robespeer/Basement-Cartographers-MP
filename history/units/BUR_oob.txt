@@ -12,8 +12,8 @@ leader = {
     name = "Tharrawaddy Min"
     type = land
     date = 1836.1.1
-    personality = balanced_p
-    background = armchair_general
+    personality = no_personality
+    background = back294
 }
 
 army = {

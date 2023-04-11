@@ -2,8 +2,8 @@ leader = {
     name = "Nicholas Geffrard"
     date = 1855.1.1
     type = land
-    personality = unsound
-    background = elderly
+    personality = no_personality
+    background = back6030
     prestige = 0.1
 }
 
@@ -11,8 +11,8 @@ leader = {
     name = "Rivière-Hérard"
     date = 1848.1.1
     type = land
-    personality = mediocre
-    background = generals_aide
+    personality = no_personality
+    background = back4472
     prestige = 0.2
 }
 

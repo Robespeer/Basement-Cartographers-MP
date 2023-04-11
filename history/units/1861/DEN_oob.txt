@@ -9,8 +9,8 @@ leader = {
     name = "Christian de Meza"
     date = 1850.1.1
     type = land
-    personality = ballsy
-    background = war_college
+    personality = no_personality
+    background = back3133
     prestige = 0.2
 }
 
@@ -18,8 +18,8 @@ leader = {
     name = "Niels Christian Lunding"
     date = 1852.1.1
     type = land
-    personality = resourceful
-    background = engineer
+    personality = no_personality
+    background = back2265
     prestige = 0.2
 }
 
@@ -27,8 +27,8 @@ leader = {
     name = "Edouard Suenson"
     date = 1852.1.1
     type = sea
-    personality = competent
-    background = war_college
+    personality = no_personality
+    background = back3771
     prestige = 0.2
 }
 
@@ -36,8 +36,8 @@ leader = {
     name = "Georg Gerlach"
     date = 1858.1.1
     type = land
-    personality = able
-    background = generals_aide
+    personality = no_personality
+    background = back3718
     prestige = 0.2
 }
 

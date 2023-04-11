@@ -106,14 +106,14 @@ leader = {
    name = "Angel Pacheco"
    type = land
    date = 1836.1.1
-   background = aristocrat
-   personality = implacable
+   background = back1865
+   personality = no_personality
 }
 
 leader = {
     name = "Guillermo Brown"
     type = sea
     date="1830.1.1"
-    personality = clever
-    background = nationalist
+    personality = no_personality
+    background = back4176
 }

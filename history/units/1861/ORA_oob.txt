@@ -2,8 +2,8 @@ leader = {
     name = "Jacobus Wepener"
     date = 1852.1.1
     type = land
-    personality = ballsy
-    background = unfit
+    personality = no_personality
+    background = back3185
     prestige = 0.2
 }
 

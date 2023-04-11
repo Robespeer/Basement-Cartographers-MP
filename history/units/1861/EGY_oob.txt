@@ -2,8 +2,8 @@ leader = {
     name = "Zubayr Pasha"
     date = 1855.1.1
     type = land
-    personality = charismatic
-    background = immoral
+    personality = no_personality
+    background = back2123
     prestige = 0.1
 }
 

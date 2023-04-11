@@ -477,8 +477,8 @@ leader = {
     name = "Francisco Serrano"
     date = 1833.1.1
     type = land
-    personality = expert
-    background = war_college
+    personality = no_personality
+    background = back3829
     prestige = 0.0
 }
 
@@ -486,8 +486,8 @@ leader = {
     name = "Leopoldo O'Donnell"
     date = 1836.1.1
     type = land
-    personality = efficient
-    background = rising_star
+    personality = no_personality
+    background = back4310
     prestige = 0.0
 }
 
@@ -495,8 +495,8 @@ leader = {
     name = "Narváez"
     date = 1836.1.1
     type = land
-    personality = efficient
-    background = powerful_friends
+    personality = no_personality
+    background = back4326
     prestige = 0.0
 }
 
@@ -504,8 +504,8 @@ leader = {
     name = "Gerónimo Valdés"
     date = 1836.1.1
     type = land
-    personality = competent
-    background = generals_aide
+    personality = no_personality
+    background = back3776
     prestige = 0.0
 }
 
@@ -513,8 +513,8 @@ leader = {
     name = "Van Halen"
     date = 1823.1.1
     type = land
-    personality = merciless
-    background = adventurer
+    personality = no_personality
+    background = back1811
     prestige = 0.1
 }
 
@@ -522,8 +522,8 @@ leader = {
     name = "Gigachado Basado"
     date = 1836.1.1
     type = land
-    personality = implacable
-    background = uncommonly_young
+    personality = no_personality
+    background = back1906
     prestige = 0.4
 }
 
@@ -531,7 +531,7 @@ leader = {
     name = "José Ramón Rodil"
     date = 1824.1.1
     type = land
-    personality = merciless
-    background = adventurer
+    personality = no_personality
+    background = back1811
     prestige = 0.1
 }

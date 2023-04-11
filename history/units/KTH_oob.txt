@@ -31,8 +31,8 @@ leader = {
     name = "Ghalib ibn Muhsin al-Kathir"
     type = land
     date = 1836.1.1
-    personality = stalwart
-    background = aristocrat
+    personality = no_personality
+    background = back2909
 }
 
 army = {

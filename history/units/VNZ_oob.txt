@@ -7,16 +7,16 @@ leader = {
     picture = european_general_1
     type = land
     date="1830.1.1"
-    personality = soldierly
-    background = nationalist
+    personality = no_personality
+    background = back2494
 }
 
 leader = {
     name = "Renato Beluche"
     type = sea
     date="1820.1.1"
-    personality = resolute
-    background = nationalist
+    personality = no_personality
+    background = back3596
 }
 
 army = {

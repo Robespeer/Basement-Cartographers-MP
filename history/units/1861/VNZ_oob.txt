@@ -2,8 +2,8 @@ leader = {
     name = "Leon Cordero"
     date = 1850.1.1
     type = land
-    personality = resourceful
-    background = professor
+    personality = no_personality
+    background = back2284
     prestige = 0.2
 }
 
@@ -11,8 +11,8 @@ leader = {
     name = "Juan Falcón"
     date = 1857.1.1
     type = land
-    personality = balanced_p
-    background = corrupt
+    personality = no_personality
+    background = back328
     prestige = 0.1
 }
 

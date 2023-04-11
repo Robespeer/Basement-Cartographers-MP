@@ -11,8 +11,8 @@ leader = {
     name = "Fredrich Wilhelm"
     date = 1819.1.1
     type = land
-    personality = impetuous
-    background = cavalry_school
+    personality = no_personality
+    background = back872
     prestige = 0.2
 }
 
@@ -20,8 +20,8 @@ leader = {
     name = "Ferdinand Gottleb"
     date = 1820.1.1
     type = land
-    personality = indifferent
-    background = powerful_friends
+    personality = no_personality
+    background = back4442
     prestige = 0.2
 }
 
@@ -29,8 +29,8 @@ leader = {
     name = "Wilhelm I"
     date = 1812.1.1
     type = land
-    personality = able
-    background = aristocrat
+    personality = no_personality
+    background = back3721
     prestige = 0.5
 }
 
@@ -38,8 +38,8 @@ leader = {
     name = "Prince Friedrich"
     date = 1829.1.1
     type = land
-    personality = mediocre
-    background = politician
+    personality = no_personality
+    background = back4485
     prestige = 0.1
 }
 

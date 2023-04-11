@@ -10,24 +10,24 @@ leader = {
     name = "Muhammad Shah"
     date = 1834.1.1
     type = land
-    personality = charismatic
-    background = pawn
+    personality = no_personality
+    background = back2143
 }
 
 leader = {
     name = "Aziz Khan Mukri"
     date = 1836.1.1
     type = land
-    personality = romantic
-    background = incompetent
+    personality = no_personality
+    background = back2377
 }
 
 leader = {
     name = "Hajj Mirza Aqasi"
     date = 1835.6.1
     type = land
-    personality = deeply_religious
-    background = politician
+    personality = no_personality
+    background = back1295
 }
 
 army = {

@@ -17,7 +17,7 @@ leader = {
     name = "Sultan Tun Ali Bendahara"
     date = 1828.1.1
     type = land
-    personality = inept
-    background = aristocrat
+    personality = no_personality
+    background = back5519
     prestige = 0.0
 }

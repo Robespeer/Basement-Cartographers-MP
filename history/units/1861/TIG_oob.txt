@@ -22,8 +22,8 @@ leader = {
    name = "Ras Wube Haile Mariam"
    type = land
    date = 1836.1.1
-   background = ballsy
-   personality = aggressive
+   background = back4
+   personality = no_personality
 }
 
 army = {

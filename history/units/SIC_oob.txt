@@ -2,8 +2,8 @@ leader = {
     name = "Carlo Filangieri"
     date = 1831.1.1
     type = land
-    personality = harsh
-    background = generals_aide
+    personality = no_personality
+    background = back1746
     prestige = 0.2
 }
 
@@ -11,16 +11,16 @@ leader = {
     name = "Rafaella de Cosa"
     date = 1836.1.1
     type = sea
-    personality = gallant
-    background = war_college
+    personality = no_personality
+    background = back523
 }
 
 leader = {
     name = "Francesco Mendoza"
     date = 1830.1.1
     type = land
-    personality = arrogant
-    background = aristocrat
+    personality = no_personality
+    background = back589
     prestige = 0.2
 }
 
@@ -28,8 +28,8 @@ leader = {
     name = "Ferdinando II"
     date = 1820.1.1
     type = land
-    personality = bigoted
-    background = gifted_administrator
+    personality = no_personality
+    background = back837
     prestige = 0.5
 }
 

@@ -18,8 +18,8 @@ leader = {
    name = "Maqoma"
    type = land
    date = 1836.1.1
-   background = expert_raider
-   personality = merciless
+   background = back1825
+   personality = no_personality
 }
 
 army = {

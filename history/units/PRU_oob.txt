@@ -540,8 +540,8 @@ leader = {
     name = "Chado von Basedmarck"
     date = 1836.1.1
     type = land
-    personality = implacable
-    background = uncommonly_young
+    personality = no_personality
+    background = back1906
     prestige = 0.4
 }
 
@@ -550,8 +550,8 @@ leader = {
     picture = european_admiral_2
     type = sea
     date = 1836.1.1
-    background = gifted_administrator
-    personality = soldierly
+    background = back2519
+    personality = no_personality
     prestige = 0.1
 }
 
@@ -560,8 +560,8 @@ leader = {
     picture = european_general_36
     type = land
     date = 1836.1.1
-    background = school_of_firepower
-    personality = implacable
+    background = back1904
+    personality = no_personality
     prestige = 0.75
 }
 
@@ -570,8 +570,8 @@ leader = {
     picture = european_general_41
     type = land
     date = 1836.1.1
-    background = school_of_the_bayonet
-    personality = au_fait
+    background = back4397
+    personality = no_personality
     prestige = 0.75
 }
 
@@ -580,8 +580,8 @@ leader = {
     picture = pru_gen_wrangel
     type = land
     date = 1810.1.1
-    background = school_of_the_bayonet
-    personality = unflinching
+    background = back2657
+    personality = no_personality
     prestige = 0.5
 }
 
@@ -590,8 +590,8 @@ leader = {
     picture = european_general_27
     type = land
     date = 1826.1.1
-    background = cartographer
-    personality = audacious
+    background = back2747
+    personality = no_personality
     prestige = 0.3
 }
 
@@ -600,8 +600,8 @@ leader = {
     picture = pru_gen_boyen
     date = 1813.1.1
     type = land
-    personality = openminded
-    background = gifted_administrator
+    personality = no_personality
+    background = back2055
     prestige = 0.5
 }
 
@@ -610,8 +610,8 @@ leader = {
     picture = pru_gen_prinzaugust
     date = 1814.1.1
     type = land
-    personality = resourceful
-    background = womanizer
+    personality = no_personality
+    background = back2298
     prestige = 0.8
 }
 
@@ -620,8 +620,8 @@ leader = {
     picture = pru_gen_prinzkarl
     date = 1824.1.1
     type = land
-    personality = indifferent
-    background = armchair_general
+    personality = no_personality
+    background = back4412
     prestige = 0.8
 }
 
@@ -630,7 +630,7 @@ leader = {
     picture = pru_gen_prinzwilhelm
     date = 1836.1.1
     type = land
-    personality = soldierly
-    background = aristocrat
+    personality = no_personality
+    background = back2503
     prestige = 0.9
 }

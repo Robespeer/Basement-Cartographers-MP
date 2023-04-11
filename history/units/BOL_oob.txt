@@ -4,8 +4,8 @@ leader = {
     name = "Jose Ballivián"
     type = land
     date = 1836.1.1
-    background = generals_aide
-    personality = bold
+    background = back2674
+    personality = no_personality
 }
 
 army = {

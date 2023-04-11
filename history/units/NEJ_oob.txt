@@ -26,8 +26,8 @@ leader = {
     name = "Al Saud"
     type = land
     date = 1836.1.1
-    personality = deeply_religious
-    background = amateur
+    personality = no_personality
+    background = back1283
 }
 
 army = {

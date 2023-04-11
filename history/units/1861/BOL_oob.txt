@@ -2,8 +2,8 @@ leader = {
     name = "Valencia Melgarejo"
     date = 1860.1.1
     type = land
-    personality = bastard
-    background = corrupt
+    personality = no_personality
+    background = back5200
     prestige = 0.1
 }
 

@@ -30,8 +30,8 @@ leader = {
    name = "Sahle Selassie"
    type = land
    date = 1836.1.1
-   background = gifted_administrator
-   personality = bootlicker
+   background = back2287
+   personality = no_personality
 }
 
 army = {

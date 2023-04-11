@@ -2,8 +2,8 @@ leader = {
     name = "Prinz Karl von H-D"
     date = 1861.1.1 #1836
     type = land
-    personality = indifferent
-    background = aristocrat
+    personality = no_personality
+    background = back4417
     prestige = 0.2
 }
 
@@ -11,8 +11,8 @@ leader = {
     name = "Ludwig IV"
     date = 1861.1.1
     type = land
-    personality = openminded
-    background = aristocrat
+    personality = no_personality
+    background = back2039
     prestige = 0.5
 }
 

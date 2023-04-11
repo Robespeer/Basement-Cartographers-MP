@@ -128,6 +128,6 @@ leader = {
     name = "Nasr-Allah bin Haydar Tora"
     type = land
     date = 1820.8.20
-    background = aristocrat
-    personality = merciless
+    background = back1807
+    personality = no_personality
 }

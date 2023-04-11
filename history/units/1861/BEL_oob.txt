@@ -2,8 +2,8 @@ leader = {
     name = "Albert Prisse"
     date = 1834.1.1
     type = land
-    personality = smart_p
-    background = diplomat
+    personality = no_personality
+    background = back3919
     prestige = 0.3
 }
 
@@ -11,8 +11,8 @@ leader = {
     name = "Pierre Chazal"
     date = 1842.1.1
     type = land
-    personality = balanced_p
-    background = corrupt
+    personality = no_personality
+    background = back328
     prestige = 0.2
 }
 
@@ -20,8 +20,8 @@ leader = {
     name = "Léonard Greindl"
     date = 1845.1.1
     type = land
-    personality = imperious
-    background = artillerist
+    personality = no_personality
+    background = back1383
     prestige = 0.2
 }
 
@@ -29,8 +29,8 @@ leader = {
     name = "L.M. Brialmont"
     date = 1849.1.1
     type = land
-    personality = doughty
-    background = exranker
+    personality = no_personality
+    background = back3434
     prestige = 0.2
 }
 
@@ -38,8 +38,8 @@ leader = {
     name = "Bruno Renard"
     date = 1854.1.1
     type = land
-    personality = inspiring
-    background = professor
+    personality = no_personality
+    background = back486
     prestige = 0.2
 }
 
@@ -47,8 +47,8 @@ leader = {
     name = "Van der Linden"
     date = 1859.1.1
     type = land
-    personality = imperious
-    background = yesman
+    personality = no_personality
+    background = back1376
     prestige = 0.1
 }
 
@@ -56,8 +56,8 @@ leader = {
     name = "Auguste Goethals"
     date = 1859.1.1
     type = land
-    personality = diplomatic
-    background = exranker
+    personality = no_personality
+    background = back1056
     prestige = 0.1
 }
 
@@ -65,8 +65,8 @@ leader = {
     name = "Fleury-Duray"
     date = 1861.1.1
     type = land
-    personality = meticulous
-    background = war_college
+    personality = no_personality
+    background = back1973
 }
 
 army = {

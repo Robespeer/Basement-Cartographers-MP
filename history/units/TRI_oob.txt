@@ -38,6 +38,6 @@ leader = {
     name = "Ali II Karamanli"
     type = land
     date = 1836.1.1
-    background = cavalry_school
-    personality = resolute
+    background = back3598
+    personality = no_personality
 }

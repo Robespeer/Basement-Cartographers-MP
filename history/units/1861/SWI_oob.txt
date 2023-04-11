@@ -2,8 +2,8 @@ leader = {
     name = "Paul Ziegler"
     date = 1847.1.1
     type = land
-    personality = active_p
-    background = politician
+    personality = no_personality
+    background = back135
     prestige = 0.2
 }
 
@@ -11,8 +11,8 @@ leader = {
     name = "Augusto Fogliardi"
     date = 1855.1.1
     type = land
-    personality = active_p
-    background = debutante
+    personality = no_personality
+    background = back130
     prestige = 0.1
 }
 
@@ -20,8 +20,8 @@ leader = {
     name = "Hans Herzog"
     date = 1861.1.1
     type = land
-    personality = polite
-    background = armchair_general
+    personality = no_personality
+    background = back932
     prestige = 0.1
 }
 

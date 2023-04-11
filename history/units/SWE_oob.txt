@@ -2,16 +2,16 @@ leader = {
     name = "Bachad al Bassad"
     date = 1836.1.1
     type = land
-    personality = implacable
-    background = uncommonly_young
+    personality = no_personality
+    background = back1906
     prestige = 0.4
 }
 leader = {
     name = "Carl Nordenskjöld"
     date = 1834.1.1
     type = sea
-    personality = disciplined
-    background = adventurer
+    personality = no_personality
+    background = back2565
     prestige = 0.1
 }
 
@@ -19,8 +19,8 @@ leader = {
     name = "Carl XIV Johan"
     date = 1818.1.1
     type = land
-    personality = charismatic
-    background = elderly
+    personality = no_personality
+    background = back2144
     prestige = 0.5
 }
 
@@ -28,8 +28,8 @@ leader = {
     name = "Johan Tawast"
     date = 1807.1.1
     type = land
-    personality = soldierly
-    background = old_school
+    personality = no_personality
+    background = back2517
     prestige = 0.3
 }
 
@@ -37,8 +37,8 @@ leader = {
     name = "Axel Mörner"
     date = 1818.1.1
     type = land
-    personality = unruly
-    background = generals_aide
+    personality = no_personality
+    background = back5690
     prestige = 0.2
 }
 
@@ -46,8 +46,8 @@ leader = {
     name = "Baltzar von Platen"
     date = 1834.1.1
     type = sea
-    personality = able
-    background = adventurer
+    personality = no_personality
+    background = back3725
     prestige = 0.1
 }
 
@@ -55,8 +55,8 @@ leader = {
     name = "C. Cederström"
     date = 1824.1.1
     type = land
-    personality = strange
-    background = hated
+    personality = no_personality
+    background = back6062
     prestige = 0.1
 }
 
@@ -64,8 +64,8 @@ leader = {
     name = "af Billbergh"
     date = 1814.1.1
     type = land
-    personality = diplomatic
-    background = toady
+    personality = no_personality
+    background = back1085
     prestige = 0.2
 }
 
@@ -73,8 +73,8 @@ leader = {
     name = "Gustaf Peyron"
     date = 1827.1.1
     type = land
-    personality = imperious
-    background = exranker
+    personality = no_personality
+    background = back1346
     prestige = 0.1
 }
 

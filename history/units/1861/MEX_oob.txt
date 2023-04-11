@@ -2,8 +2,8 @@ leader = {
     name = "Juan Álvarez"
     type = land
     date="1836.1.1"
-    personality = skilled
-    background = elderly
+    personality = no_personality
+    background = back4290
     prestige = 0.3
 }
 
@@ -11,8 +11,8 @@ leader = {
     name = "Miguel Mirámon"
     type = land
     date="1858.1.1"
-    personality = fanatic
-    background = uncommonly_young
+    personality = no_personality
+    background = back1500
     prestige = 0.1
 }
 

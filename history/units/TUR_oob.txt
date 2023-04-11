@@ -559,8 +559,8 @@ leader = {
     name = "Bassad Pashachad"
     date = 1836.1.1
     type = land
-    personality = implacable
-    background = uncommonly_young
+    personality = no_personality
+    background = back1906
     prestige = 0.4
 }
 
@@ -568,8 +568,8 @@ leader = {
     name = "Omer Vrioni"
     type = land
     date = 1820.1.1
-    background = rising_star
-    personality = skilled
+    background = back4252
+    personality = no_personality
     prestige = 0.1
     }
 
@@ -577,8 +577,8 @@ leader = {
     name = "Husrev Pasha"
     type = sea
     date = 1820.1.1
-    background = politician
-    personality = smart_p
+    background = back3905
+    personality = no_personality
     prestige = 0.15
     }
 
@@ -586,8 +586,8 @@ leader = {
     name = "Resid Mehmed Pasha"
     date = 1809.1.1
     type = land
-    personality = inefficient
-    background = elderly
+    personality = no_personality
+    background = back5624
     prestige = 0.2
 }
 
@@ -595,8 +595,8 @@ leader = {
     name = "Wojciech Chrzanowski"
     date = 1836.1.1
     type = land
-    personality = romantic
-    background = cartographer
+    personality = no_personality
+    background = back2341
     prestige = 0.1
 }
 
@@ -604,8 +604,8 @@ leader = {
     name = "Abdi Pasha"
     date = 1836.1.1
     type = land
-    personality = merciless
-    background = old_school
+    personality = no_personality
+    background = back1821
     prestige = 0.0
 }
 
@@ -613,8 +613,8 @@ leader = {
     name = "Hafiz Osman Pasha"
     date = 1836.1.1
     type = land
-    personality = inept
-    background = yesman
+    personality = no_personality
+    background = back5552
     prestige = 0.0
 }
 
@@ -622,8 +622,8 @@ leader = {
     name = "Namik Pasha"
     date = 1836.1.1
     type = land
-    personality = expert
-    background = diplomat
+    personality = no_personality
+    background = back3861
     prestige = 0.0
 }
 
@@ -631,8 +631,8 @@ leader = {
     name = "Abdülkerim Pasha"
     date = 1836.1.1
     type = land
-    personality = active_p
-    background = war_college
+    personality = no_personality
+    background = back117
     prestige = 0.0
 }
 
@@ -640,7 +640,7 @@ leader = {
     name = "Yaver Pasha"
     date = 1836.1.1
     type = sea
-    personality = diplomatic
-    background = gifted_administrator
+    personality = no_personality
+    background = back1069
     prestige = 0.1
 }

@@ -51,8 +51,8 @@ leader = {
     name = "Bernard Pierre Magnan"
     date = 1835.1.1
     type = land
-    personality = disorderly
-    background = bootlicker
+    personality = no_personality
+    background = back5781
     prestige = 0.3
 }
 
@@ -60,8 +60,8 @@ leader = {
     name = "Baraguey d'Hilliers"
     date = 1836.1.1
     type = land
-    personality = active_p
-    background = drillmaster
+    personality = no_personality
+    background = back126
     prestige = 0.3
 }
 
@@ -69,8 +69,8 @@ leader = {
     name = "Auguste Regnaud"
     date = 1848.1.1
     type = land
-    personality = manful
-    background = aristocrat
+    personality = no_personality
+    background = back3373
     prestige = 0.2
 }
 
@@ -78,8 +78,8 @@ leader = {
     name = "Frédéric Forey"
     date = 1848.1.1
     type = land
-    personality = choleric
-    background = warmonger
+    personality = no_personality
+    background = back1429
     prestige = 0.2
 }
 
@@ -87,8 +87,8 @@ leader = {
     name = "Paul de Ladmirault"
     date = 1858.1.1 #1848
     type = land
-    personality = resolute
-    background = colonial_b
+    personality = no_personality
+    background = back3611
     prestige = 0.2
 }
 
@@ -96,8 +96,8 @@ leader = {
     name = "de Canrobert"
     date = 1861.1.1 #1850
     type = land
-    personality = dauntless
-    background = generals_aide
+    personality = no_personality
+    background = back3254
     prestige = 0.2
 }
 
@@ -105,8 +105,8 @@ leader = {
     name = "Comte de Palikao"
     date = 1851.1.1
     type = land
-    personality = impulsive
-    background = cavalry_school
+    personality = no_personality
+    background = back2148
     prestige = 0.2
 }
 
@@ -114,8 +114,8 @@ leader = {
     name = "Patrice de Mac-Mahon"
     date = 1852.1.1
     type = land
-    personality = skilled
-    background = war_college
+    personality = no_personality
+    background = back4235
     prestige = 0.2
 }
 
@@ -123,8 +123,8 @@ leader = {
     name = "Adolphe Niel"
     date = 1852.1.1
     type = land
-    personality = calm
-    background = engineer
+    personality = no_personality
+    background = back1627
     prestige = 0.2
 }
 
@@ -132,8 +132,8 @@ leader = {
     name = "Jurien de la Gravière"
     date = 1853.1.1
     type = sea
-    personality = competent
-    background = drillmaster
+    personality = no_personality
+    background = back3780
     prestige = 0.2
 }
 
@@ -141,8 +141,8 @@ leader = {
     name = "Bouet Willaumez"
     date = 1853.1.1
     type = sea
-    personality = ballsy
-    background = adventurer
+    personality = no_personality
+    background = back3145
     prestige = 0.2
 }
 
@@ -150,8 +150,8 @@ leader = {
     name = "Achille Bazaine"
     date = 1854.1.1
     type = land
-    personality = harsh
-    background = school_of_offense
+    personality = no_personality
+    background = back1786
     prestige = 0.2
 }
 
@@ -159,8 +159,8 @@ leader = {
     name = "Edmond Lebouef"
     date = 1854.1.1
     type = land
-    personality = vainglorious
-    background = artillerist
+    personality = no_personality
+    background = back687
     prestige = 0.2
 }
 
@@ -168,8 +168,8 @@ leader = {
     name = "Rigault de Genouilly"
     date = 1854.1.1
     type = sea
-    personality = brash
-    background = warmonger
+    personality = no_personality
+    background = back2415
     prestige = 0.2
 }
 
@@ -177,8 +177,8 @@ leader = {
     name = "Frossard"
     date = 1855.1.1
     type = land
-    personality = clever
-    background = school_of_defense
+    personality = no_personality
+    background = back4221
     prestige = 0.1
 }
 
@@ -186,8 +186,8 @@ leader = {
     name = "d’Aurelle de Paladines"
     date = 1855.1.1
     type = land
-    personality = indifferent
-    background = bureaucrat_speed
+    personality = no_personality
+    background = back4413
     prestige = 0.1
 }
 
@@ -195,8 +195,8 @@ leader = {
     name = "Charles Bourbaki"
     date = 1859.1.1
     type = land
-    personality = impetuous
-    background = adventurer
+    personality = no_personality
+    background = back883
     prestige = 0.1
 }
 

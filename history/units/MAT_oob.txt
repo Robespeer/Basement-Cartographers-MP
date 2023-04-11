@@ -22,8 +22,8 @@ leader = {
    name = "Mzilikazi"
    type = land
    date = 1836.1.1
-   background = cursed_luck
-   personality = merciless
+   background = back1829
+   personality = no_personality
    prestige = 0.2
 }
 

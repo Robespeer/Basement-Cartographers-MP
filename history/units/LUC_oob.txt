@@ -2,8 +2,8 @@ leader = {
     name = "Carlo di Borbone-Parma"
     date = 1815.1.1
     type = land
-    personality = polite
-    background = cursed_luck
+    personality = no_personality
+    background = back959
     prestige = 0.5
 }
 

@@ -2,8 +2,8 @@ leader = {
     name = "Friedrich I"
     date = 1861.1.1
     type = land
-    personality = openminded
-    background = aristocrat
+    personality = no_personality
+    background = back2039
     prestige = 0.5
 }
 

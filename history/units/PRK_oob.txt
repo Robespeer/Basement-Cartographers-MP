@@ -17,7 +17,7 @@ leader = {
     name = "Sultan Shahabuddin Riayat"
     date = 1822.1.1
     type = land
-    personality = stouthearted
-    background = aristocrat
+    personality = no_personality
+    background = back2967
     prestige = 0.0
 }

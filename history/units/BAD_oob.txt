@@ -11,8 +11,8 @@ leader = {
     name = "Leopold of Baden"
     date = 1830.1.1
     type = land
-    personality = mediocre
-    background = aristocrat
+    personality = no_personality
+    background = back4475
     prestige = 0.3
 }
 

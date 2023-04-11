@@ -27,6 +27,6 @@ leader = {
     name = "Mohammad Murad Beg"
     type = land
     date = 1825.8.20
-    background = aristocrat
-    personality = merciless
+    background = back1807
+    personality = no_personality
 }

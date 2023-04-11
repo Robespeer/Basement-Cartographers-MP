@@ -6,8 +6,8 @@ leader = {
     name = "Bento Gonçalves"
     type = land
     date = 1836.1.1
-    personality = charismatic
-    background = expert_raider
+    personality = no_personality
+    background = back2115
 }
 
 army = {

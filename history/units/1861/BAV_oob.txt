@@ -2,8 +2,8 @@ leader = {
     name = "Prinz Karl"
     date = 1825.1.1
     type = land
-    personality = mediocre
-    background = aristocrat
+    personality = no_personality
+    background = back4475
     prestige = 0.3
 }
 
@@ -11,8 +11,8 @@ leader = {
     name = "von Hohenausen"
     date = 1845.1.1
     type = land
-    personality = able
-    background = gifted_administrator
+    personality = no_personality
+    background = back3737
     prestige = 0.2
 }
 
@@ -20,8 +20,8 @@ leader = {
     name = "Jakob von Hartmann"
     date = 1849.1.1
     type = land
-    personality = skilled
-    background = war_college
+    personality = no_personality
+    background = back4235
     prestige = 0.2
 }
 
@@ -29,8 +29,8 @@ leader = {
     name = "Prinz Luitpold"
     date = 1851.1.1
     type = land
-    personality = soft
-    background = aristocrat
+    personality = no_personality
+    background = back4765
     prestige = 0.2
 }
 
@@ -38,8 +38,8 @@ leader = {
     name = "von der Tann"
     date = 1861.1.1 #1855
     type = land
-    personality = soldierly
-    background = natural_born_leader
+    personality = no_personality
+    background = back2522
     prestige = 0.2
 }
 

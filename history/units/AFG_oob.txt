@@ -11,16 +11,16 @@ leader = {
     name = "Dost Mohammed"
     type = land
     date = 1836.1.1
-    personality = stalwart
-    background = debutante
+    personality = no_personality
+    background = back2914
 }
 
 leader = {
     name = "Yar Mohammed"
     type = land
     date = 1836.1.1
-    personality = intuitive
-    background = aristocrat
+    personality = no_personality
+    background = back2213
 }
 
 army = {

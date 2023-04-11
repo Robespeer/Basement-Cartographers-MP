@@ -2,8 +2,8 @@ leader = {
     name = "Nikola I"
     date = 1861.1.1
     type = land
-    personality = spirited
-    background = gifted_administrator
+    personality = no_personality
+    background = back3563
     prestige = 0.5
 }
 

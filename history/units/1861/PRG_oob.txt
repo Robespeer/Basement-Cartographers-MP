@@ -2,8 +2,8 @@ leader = {
     name = "Pedro Meza"
     date = 1850.1.1
     type = land
-    personality = inspiring
-    background = yesman
+    personality = no_personality
+    background = back506
     prestige = 0.2
 }
 
@@ -11,8 +11,8 @@ leader = {
     name = "F.S. López"
     date = 1850.1.1
     type = land
-    personality = heroic
-    background = megalomaniac
+    personality = no_personality
+    background = back2813
     prestige = 0.5
 }
 
@@ -20,8 +20,8 @@ leader = {
     name = "José Diaz"
     date = 1860.1.1
     type = land
-    personality = bold
-    background = generals_aide
+    personality = no_personality
+    background = back2674
     prestige = 0.1
 }
 

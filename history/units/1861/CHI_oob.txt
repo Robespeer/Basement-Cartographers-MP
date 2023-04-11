@@ -2,8 +2,8 @@ leader = {
     name = "Prince Senggelinqin"
     date = 1840.1.1
     type = land
-    personality = defiant
-    background = cavalry_school
+    personality = no_personality
+    background = back3656
     prestige = 0.2
 }
 
@@ -11,8 +11,8 @@ leader = {
     name = "Zeng Guofan"
     date = 1852.1.1
     type = land
-    personality = audacious
-    background = rising_star
+    personality = no_personality
+    background = back2744
     prestige = 0.2
 }
 
@@ -20,8 +20,8 @@ leader = {
     name = "F.T. Ward"
     date = 1836.1.1 #1860
     type = land
-    personality = imperious
-    background = adventurer
+    personality = no_personality
+    background = back1347
     prestige = 0.1
 }
 
@@ -29,8 +29,8 @@ leader = {
     name = "Charles Gordon"
     date = 1836.1.1 #1860
     type = land
-    personality = persistant
-    background = engineer
+    personality = no_personality
+    background = back235
     prestige = 0.1
 }
 
@@ -38,8 +38,8 @@ leader = {
     name = "Zuo Zongtang"
     date = 1860.1.1
     type = land
-    personality = disciplined
-    background = butcher
+    personality = no_personality
+    background = back2563
     prestige = 0.1
 }
 
@@ -47,8 +47,8 @@ leader = {
     name = "Li Hongzhang"
     date = 1860.1.1
     type = land
-    personality = aggressive
-    background = immoral
+    personality = no_personality
+    background = back35
     prestige = 0.1
 }
 
@@ -56,16 +56,16 @@ leader = {
     name = "Rong Lu"
     date = 1861.1.1
     type = land
-    personality = intelligent
-    background = pawn
+    personality = no_personality
+    background = back3999
 }
 
 leader = {
     name = "Zhang Zhidong"
     date = 1861.1.1
     type = land
-    personality = efficient
-    background = amateur
+    personality = no_personality
+    background = back4299
 }
 
 army = {

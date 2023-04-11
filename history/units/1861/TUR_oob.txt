@@ -59,8 +59,8 @@ leader = {
     name = "Abdi Pasha"
     date = 1861.1.1 #1840
     type = land
-    personality = merciless
-    background = old_school
+    personality = no_personality
+    background = back1821
     prestige = 0.2
 }
 
@@ -68,8 +68,8 @@ leader = {
     name = "Abdülkerim Pasha"
     date = 1861.1.1 #1846
     type = land
-    personality = unruly
-    background = rising_star
+    personality = no_personality
+    background = back5702
     prestige = 0.2
 }
 
@@ -77,8 +77,8 @@ leader = {
     name = "Ismail Pasha"
     date = 1850.1.1
     type = land
-    personality = balanced_p
-    background = adventurer
+    personality = no_personality
+    background = back303
     prestige = 0.2
 }
 
@@ -86,8 +86,8 @@ leader = {
     name = "Omer Pasha"
     date = 1850.1.1
     type = land
-    personality = skilled
-    background = powerful_friends
+    personality = no_personality
+    background = back4268
     prestige = 0.2
 }
 
@@ -95,8 +95,8 @@ leader = {
     name = "Mehmet Sadik Pasha"
     date = 1850.1.1
     type = land
-    personality = gallant
-    background = adventurer
+    personality = no_personality
+    background = back535
     prestige = 0.2
 }
 
@@ -104,8 +104,8 @@ leader = {
     name = "Musavir Pasha"
     date = 1850.1.1
     type = sea
-    personality = romantic
-    background = cartographer
+    personality = no_personality
+    background = back2341
     prestige = 0.2
 }
 
@@ -113,8 +113,8 @@ leader = {
     name = "Hüseyin Avni Pasha"
     date = 1856.1.1
     type = land
-    personality = disorderly
-    background = politician
+    personality = no_personality
+    background = back5761
     prestige = 0.1
 }
 
@@ -122,8 +122,8 @@ leader = {
     name = "Mehmet Ali Pasha"
     date = 1861.1.1
     type = land
-    personality = able
-    background = cursed_luck
+    personality = no_personality
+    background = back3743
 }
 
 army = {

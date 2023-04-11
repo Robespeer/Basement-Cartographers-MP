@@ -18,8 +18,8 @@ leader = {
     name = "Vicente de Mesquita"
     date = 1840.1.1
     type = land
-    personality = dauntless
-    background = madman
+    personality = no_personality
+    background = back3256
     prestige = 0.3
 }
 

@@ -258,8 +258,8 @@ leader = {
     name = "Heinrich von Wrangel"
     date = 1823.1.1
     type = land
-    personality = efficient
-    background = elderly
+    personality = no_personality
+    background = back4348
     prestige = 0.3
 }
 
@@ -267,8 +267,8 @@ leader = {
     name = "Prinz Albrecht"
     date = 1844.1.1
     type = land
-    personality = disciplined
-    background = cavalry_school
+    personality = no_personality
+    background = back2554
     prestige = 0.2
 }
 
@@ -276,8 +276,8 @@ leader = {
     name = "von Hindersin"
     date = 1848.1.1
     type = land
-    personality = competent
-    background = artillerist
+    personality = no_personality
+    background = back3819
     prestige = 0.2
 }
 
@@ -285,8 +285,8 @@ leader = {
     name = "Prinz Adalbert"
     date = 1853.1.1
     type = sea
-    personality = competent
-    background = gifted_administrator
+    personality = no_personality
+    background = back3795
     prestige = 0.2
 }
 
@@ -294,8 +294,8 @@ leader = {
     name = "Eduard von Bonin"
     date = 1848.1.1
     type = land
-    personality = gallant
-    background = drillmaster
+    personality = no_personality
+    background = back532
     prestige = 0.2
 }
 
@@ -303,8 +303,8 @@ leader = {
     name = "von Bittenfeld"
     date = 1852.1.1
     type = land
-    personality = manful
-    background = drillmaster
+    personality = no_personality
+    background = back3374
     prestige = 0.2
 }
 
@@ -312,8 +312,8 @@ leader = {
     name = "M. von Prittwitz"
     date = 1853.1.1
     type = land
-    personality = competent
-    background = engineer
+    personality = no_personality
+    background = back3773
     prestige = 0.2
 }
 
@@ -321,8 +321,8 @@ leader = {
     name = "Prinz Friedrich Karl"
     date = 1861.1.1 #1854
     type = land
-    personality = reserved
-    background = diplomat
+    personality = no_personality
+    background = back1715
     prestige = 0.2
 }
 
@@ -330,8 +330,8 @@ leader = {
     name = "von Steinmetz"
     date = 1854.1.1
     type = land
-    personality = unruly
-    background = old_school
+    personality = no_personality
+    background = back5707
     prestige = 0.2
 }
 
@@ -339,8 +339,8 @@ leader = {
     name = "Adolf von Bonin"
     date = 1854.1.1
     type = land
-    personality = inept
-    background = powerful_friends
+    personality = no_personality
+    background = back5544
     prestige = 0.1
 }
 
@@ -348,8 +348,8 @@ leader = {
     name = "von Falckenstein"
     date = 1855.1.1
     type = land
-    personality = confident
-    background = war_college
+    personality = no_personality
+    background = back3307
     prestige = 0.1
 }
 
@@ -357,8 +357,8 @@ leader = {
     name = "Albrecht von Roon"
     date = 1856.1.1
     type = land
-    personality = active_p
-    background = innovative_tactician
+    personality = no_personality
+    background = back142
     prestige = 0.1
 }
 
@@ -366,8 +366,8 @@ leader = {
     name = "Helmuth von Moltke"
     date = 1861.1.1 #1857
     type = land
-    personality = brilliant
-    background = eccentric_genius
+    personality = no_personality
+    background = back4026
     prestige = 0.2
 }
 
@@ -375,8 +375,8 @@ leader = {
     name = "Edwin von Manteuffel"
     date = 1857.1.1
     type = land
-    personality = reserved
-    background = school_of_firepower
+    personality = no_personality
+    background = back1730
     prestige = 0.1
 }
 
@@ -384,8 +384,8 @@ leader = {
     name = "von Voigts-Rhetz"
     date = 1858.1.1
     type = land
-    personality = skilled
-    background = school_of_offense
+    personality = no_personality
+    background = back4280
     prestige = 0.1
 }
 
@@ -393,8 +393,8 @@ leader = {
     name = "Kronprinz Friedrich Wilhelm"
     date = 1861.1.1
     type = land
-    personality = openminded
-    background = diplomat
+    personality = no_personality
+    background = back2063
     prestige = 0.2
 }
 
