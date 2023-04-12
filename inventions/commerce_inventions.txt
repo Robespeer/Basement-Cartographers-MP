@@ -395,26 +395,6 @@ interest_inflation_weapon = {
         tax_eff = 1
     }
 }
-#market_determined_exchange_rates
-hyperinflation = {
-    limit = { market_determined_exchange_rates = 1 }
-    news = no
-    chance = {
-        base = 2
-        modifier = {
-            factor = 1
-            economic_policy = laissez_faire
-        }
-        modifier = {
-            factor = 2
-            war_exhaustion = 4
-        }
-    }
-    core_pop_consciousness_modifier = 0.01
-    effect = {
-        factory_cost = 0.1
-    }
-}
 #eary_classical_theory
 john_ramsay_mcculloch = {
     limit = { late_classical_theory = 1 }
