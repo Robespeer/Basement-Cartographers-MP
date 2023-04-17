@@ -1692,56 +1692,6 @@ political_decisions = {
         }
     }
 
-    offer_to_buy_cuba = {
-        picture = map_caribbean
-        potential = {
-            OR = {
-                tag = USA
-                tag = CSA
-                tag = TEX
-            }
-            2209 = {
-                NOT = { owner = { has_country_flag = new_world_nation } }
-            }
-            NOT = {
-                has_country_flag = ostend_manifesto_published
-                has_country_flag = maine_incident
-                has_country_flag = trying_to_buy_cuba
-                owns = 2209
-                exists = CUB
-            }
-            has_global_flag = american_civil_war_has_happened
-        }
-
-        allow = {
-            war = no
-            is_greater_power = yes
-            money = 1000000
-            2209 = {
-                owner = {
-                    war = no
-                    NOT = { truce_with = THIS }
-                    any_owned_province = {
-                        is_core = CUB
-                        OR = {
-                            controlled_by = REB
-                            has_province_modifier = nationalist_agitation
-                            average_militancy = 6
-                        }
-                    }
-                }
-            }
-            NOT = { has_country_flag = maine_incident }
-        }
-
-        effect = {
-            set_country_flag = trying_to_buy_cuba
-            2209 = {
-                owner = { country_event = 90131 }
-            }
-        }
-    }
-
     annexation_santo_domingo = {
     picture = annexation_santo_domingo
         potential = {
@@ -2238,6 +2188,25 @@ political_decisions = {
         }
 
         ai_will_do = { factor = 1 }
+    }
+
+
+    fourteenth_amendment = {
+        picture = golden_law
+        potential = {
+			tag = USA
+            NOT = { has_country_flag = fourteenth_amendment_passed }
+        }
+
+        allow = {
+            state_n_government = 1
+			slavery = no_slavery
+        }
+
+        effect = {
+            set_country_flag = fourteenth_amendment_passed
+            add_accepted_culture = afro_american
+        }
     }
 
 }
