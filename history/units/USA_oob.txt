@@ -167,24 +167,14 @@ PNB ={
     influence_value = 0
 }
 
-#African Uncivs
-
-
-leader = {
-    name = "Based Gigachad"
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back1906
-    prestige = 0.4
-}
+#Leaders
 
 leader = {
     name = "Winfield Scott"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back3064
+    personality = def11
+    background = att11
     prestige = 0.3
 }
 
@@ -192,8 +182,8 @@ leader = {
     name = "Zachary Taylor"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back2250
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -201,8 +191,8 @@ leader = {
     name = "Thomas Jesup"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back2013
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -210,8 +200,8 @@ leader = {
     name = "Edmund P. Gaines"
     date = 1828.1.1
     type = land
-    personality = no_personality
-    background = back2504
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -219,8 +209,8 @@ leader = {
     name = "Alexander Macomb"
     date = 1812.1.1
     type = land
-    personality = no_personality
-    background = back2787
+    personality = def032
+    background = att020
     prestige = 0.3
 }
 
@@ -228,8 +218,8 @@ leader = {
     name = "Isaac Hull"
     date = 1810.1.1
     type = sea
-    personality = no_personality
-    background = back4290
+    personality = def032
+    background = att020
     prestige = 0.2
 }
 
@@ -237,8 +227,8 @@ leader = {
     name = "William B. Shubrick"
     date = 1836.1.1
     type = sea
-    personality = no_personality
-    background = back4338
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -246,8 +236,8 @@ leader = {
     name = "James Biddle"
     date = 1830.1.1
     type = sea
-    personality = no_personality
-    background = back1019
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -255,8 +245,8 @@ leader = {
     name = "Matthew C. Perry"
     date = 1836.1.1
     type = sea
-    personality = no_personality
-    background = back2031
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 

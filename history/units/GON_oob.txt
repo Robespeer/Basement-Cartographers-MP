@@ -32,8 +32,8 @@ leader = {
    name = "Ras Ali II"
    type = land
    date = 1836.1.1
-   background = back3807
-   personality = no_personality
+    personality = def11
+    background = att11
 }
 
 army = {
@@ -41,7 +41,7 @@ army = {
     location = 1854
     regiment = {
         name= "Ras' Guards"
-        type = irregular
+        type = cavalry
         home = 1854
     }
 
@@ -52,32 +52,32 @@ army = {
     }
 
     regiment = {
-        name= "Begemder irregular"
-        type = irregular
+        name= "Begemder Horsemen"
+        type = cavalry
         home = 1854
     }
 
     regiment = {
-        name= "Imperial Guards"
-        type = irregular
+        name= "Imperial Horsemen"
+        type = cavalry
         home = 1852
     }
 
     regiment = {
-        name= "Gonder City Guard"
-        type = irregular
+        name= "Gonder City Horsemen"
+        type = cavalry
         home = 1852
     }
 
     regiment = {
-        name= "Negus' Guards"
-        type = irregular
+        name= "Negus' Horsemen"
+        type = cavalry
         home = 1855
     }
 
     regiment = {
-        name= "Gojjam irregular"
-        type = irregular
+        name= "Gojjam Horsemen"
+        type = cavalry
         home = 1855
     }
 

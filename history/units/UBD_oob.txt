@@ -31,6 +31,6 @@ leader = {
     picture = european_general_25
     date = 1814.1.1
     type = land
-    personality = no_personality
-    background = back2461
+    personality = def11
+    background = att11
 }

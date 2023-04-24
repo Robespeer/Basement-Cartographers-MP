@@ -1,36 +1,27 @@
 leader = {
     name = "von Heideck"
     type = land
-    date="1833.1.1"
-    personality = no_personality
-    background = back2340
+    date = "1833.1.1"
+    personality = def11
+    background = att11
     prestige = 0.1
-}
-
-leader = {
-    name = "Based Gigachad"
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back1906
-    prestige = 0.4
 }
 
 leader = {
     name = "Ioannis Kolokotronis"
     type = land
-    date="1833.1.1"
-    personality = no_personality
-    background = back3224
+    date = "1833.1.1"
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
 leader = {
     name = "Antonios Kriezis"
     type = sea
-    date="1836.1.1"
-    personality = no_personality
-    background = back2753
+    date = "1836.1.1"
+    personality = def11
+    background = att11
 }
 
 army = {

@@ -964,22 +964,12 @@ navy = {
 }
 
 leader = {
-    name = "Basadiyo Chadsovich"
-    picture = rus_gen_chicherin
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back1906
-    prestige = 0.4
-}
-
-leader = {
     name = "Prince Vasilchikov"
     picture = rus_gen_vasilchikov
     date = 1801.1.1
     type = land
-    personality = no_personality
-    background = back3804
+    personality = def11
+    background = att11
     prestige = 0.4
 }
 
@@ -988,8 +978,8 @@ leader = {
     picture = rus_gen_vorontsov
     date = 1814.1.1
     type = land
-    personality = no_personality
-    background = back2461
+    personality = def11
+    background = att11
     prestige = 0.3
 }
 
@@ -998,8 +988,8 @@ leader = {
     picture = rus_gen_chicherin
     date = 1835.1.1
     type = land
-    personality = no_personality
-    background = back176
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -1008,18 +998,8 @@ leader = {
     picture = rus_gen_chernyshev
     date = 1821.1.1
     type = land
-    personality = no_personality
-    background = back3977
-    prestige = 0.1
-}
-
-leader = {
-    name = "Prince Menshikov"
-    picture = rus_adm_menshikov
-    date = 1833.1.1
-    type = sea
-    personality = no_personality
-    background = back4556
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -1028,8 +1008,8 @@ leader = {
     picture = rus_gen_paskevich
     date = 1812.1.1
     type = land
-    personality = no_personality
-    background = back1844
+    personality = def11
+    background = att11
     prestige = 0.3
 }
 
@@ -1038,19 +1018,9 @@ leader = {
     picture = rus_gen_khrapovitsky
     date = 1835.1.1
     type = land
-    personality = no_personality
-    background = back3713
+    personality = def11
+    background = att11
     prestige = 0.1
-}
-
-leader = {
-    name = "Mikhail Lazarev"
-    picture = rus_adm_lazarev
-    date = 1827.1.1
-    type = sea
-    personality = no_personality
-    background = back4376
-    prestige = 0.2
 }
 
 leader = {
@@ -1058,8 +1028,8 @@ leader = {
     picture = rus_gen_muravievkarsky
     date = 1827.1.1
     type = land
-    personality = no_personality
-    background = back3682
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -1068,8 +1038,8 @@ leader = {
     picture = rus_gen_volkonsky
     date = 1812.1.1
     type = land
-    personality = no_personality
-    background = back4000
+    personality = def11
+    background = att11
     prestige = 0.3
 }
 
@@ -1077,8 +1047,8 @@ leader = {
     name = "Pavel Grabbe"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back4166
+    personality = def11
+    background = att11
     prestige = 0.0
 }
 
@@ -1087,8 +1057,8 @@ leader = {
     picture = rus_gen_bebutov
     date = 1825.1.1
     type = land
-    personality = no_personality
-    background = back2848
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -1097,19 +1067,9 @@ leader = {
     picture = rus_gen_berg
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back4081
+    personality = def032
+    background = att020
     prestige = 0.1
-}
-
-leader = {
-    name = "Ferdinand Wrangel"
-    picture = rus_adm_wrangel
-    date = 1836.1.1
-    type = sea
-    personality = no_personality
-    background = back137
-    prestige = 0.0
 }
 
 leader = {
@@ -1117,8 +1077,8 @@ leader = {
     picture = rus_gen_gorchakov
     date = 1830.1.1
     type = land
-    personality = no_personality
-    background = back4856
+    personality = def032
+    background = att020
 }
 
 leader = {
@@ -1126,8 +1086,8 @@ leader = {
     picture = rus_gen_gorchakovpyotr
     date = 1820.1.1
     type = land
-    personality = no_personality
-    background = back5345
+    personality = def032
+    background = att020
 }
 
 leader = {
@@ -1135,8 +1095,8 @@ leader = {
     picture = rus_gen_ostensacken
     date = 1824.1.1
     type = land
-    personality = no_personality
-    background = back3656
+    personality = def032
+    background = att020
 }
 
 leader = {
@@ -1144,8 +1104,8 @@ leader = {
     picture = rus_gen_sievers
     date = 1823.1.1
     type = land
-    personality = no_personality
-    background = back2670
+    personality = def032
+    background = att020
 }
 
 leader = {
@@ -1153,8 +1113,8 @@ leader = {
     picture = rus_gen_lueders
     date = 1829.1.1
     type = land
-    personality = no_personality
-    background = back1767
+    personality = def032
+    background = att020
 }
 
 leader = {
@@ -1162,8 +1122,8 @@ leader = {
     picture = rus_gen_read
     date = 1835.1.1
     type = land
-    personality = no_personality
-    background = back2670
+    personality = def032
+    background = att020
 }
 
 leader = {
@@ -1171,8 +1131,28 @@ leader = {
     picture = rus_gen_sukhozanet
     date = 1824.1.1
     type = land
-    personality = no_personality
-    background = back4515
+    personality = def032
+    background = att020
+}
+
+leader = {
+    name = "Mikhail Lazarev"
+    picture = rus_adm_lazarev
+    date = 1827.1.1
+    type = sea
+    personality = def11
+    background = att11
+    prestige = 0.2
+}
+
+leader = {
+    name = "Prince Menshikov"
+    picture = rus_adm_menshikov
+    date = 1833.1.1
+    type = sea
+    personality = def11
+    background = att11
+    prestige = 0.1
 }
 
 leader = {
@@ -1180,6 +1160,15 @@ leader = {
     picture = rus_adm_litke
     date = 1835.1.1
     type = sea
-    personality = no_personality
-    background = back4313
+    personality = def032
+    background = att020
+}
+
+leader = {
+    name = "Ferdinand Wrangel"
+    picture = rus_adm_wrangel
+    date = 1836.1.1
+    type = sea
+    personality = def032
+    background = att020
 }

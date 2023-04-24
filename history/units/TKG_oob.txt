@@ -5,19 +5,11 @@ USA = { value = 0 }
 RUS = { value = 75 }
 
 leader = {
-    name = "Basadou Gigachadoru"
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back1906
-    prestige = 0.4
-}
-leader = {
     name = "Tokugawa Nariaki"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back2575
+    personality = def11
+    background = att11
     prestige = 0.1
  }
 
@@ -41,22 +33,22 @@ army = {
     }
     regiment = {
         name= "1.Edo"
-        type = irregular
+        type = infantry
         home = 1651
     }
     regiment = {
         name= "2.Edo"
-        type = irregular
+        type = infantry
         home = 1652
     }
     regiment = {
         name= "3.Edo"
-        type = irregular
+        type = infantry
         home = 1674
     }
     regiment = {
         name= "4.Edo"
-        type = irregular
+        type = infantry
         home = 1653
     }
 }

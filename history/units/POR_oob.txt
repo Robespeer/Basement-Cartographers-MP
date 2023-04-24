@@ -73,75 +73,61 @@ NET = {
 army = {
     name = "Exército Português"
     location = 521
+
     regiment = {
-        name= "1. Brigada de Infantaria"
+        name = "1. Brigada de Infantaria"
         type = infantry
-        home = 521
+        home = 525
+    }
+	
+    regiment = {
+        name = "2. Brigada de Infantaria"
+        type = infantry
+        home = 2134
+    }
+	
+    regiment = {
+        name = "3. Brigada de Infantaria"
+        type = infantry
+        home = 1303
     }
 
     regiment = {
-        name= "2. Brigada de Infantaria"
-        type = infantry
-        home = 524
+        name= "1. Brigada de Cavalaria"
+        type = hussar
+        home = 519
     }
-
-    regiment = {
-        name= "3. Brigada de Infantaria"
-        type = infantry
-        home = 518
-    }
-
-    regiment = {
-        name= "4. Brigada de Infantaria"
-        type = infantry
-        home = 520
-    }
-
+	
     regiment = {
         name= "1. Brigada de Artilharia"
         type = artillery
         home = 522
     }
-
+	
     regiment = {
-        name= "1. Brigada de Cavalaria"
-        type = cuirassier
-        home = 519
+        name= "2. Brigada de Artilharia"
+        type = artillery
+        home = 521
     }
 
-}
-
-army = {
-    name = "Exército de Africa Ocidental"
-    location = 1999
+    regiment = {
+        name= "3. Brigada de Artilharia"
+        type = artillery
+        home = 524
+    }
 
     regiment = {
-        name = "1. Divisão Colonial"
-        type = infantry
-        home = 525
+        name= "4. Brigada de Artilharia"
+        type = artillery
+        home = 518
     }
-}
-
-army = {
-    name = "Exército de Africa Oriental"
-    location = 2059
 
     regiment = {
-        name = "2. Divisão Colonial"
-        type = infantry
-        home = 2134
+        name= "5. Brigada de Artilharia"
+        type = artillery
+        home = 520
     }
-}
 
-army = {
-    name = "Exército da Índia"
-    location = 1303
-
-    regiment = {
-        name = "3. Divisão Colonial"
-        type = infantry
-        home = 1303
-    }
 }
 
 navy = {
@@ -243,36 +229,26 @@ leader = {
     picture = european_general_55
     type = land
     date = 1825.8.20
-    background = back2503
-    personality = no_personality
+    personality = def11
+    background = att11
     prestige = 0.1
-    }
-
-leader = {
-    name = "José Joaquim da Rosa Coelho"
-    picture = european_admiral_5
-    type = sea
-    date = 1820.12.14
-    background = back2848
-    personality = no_personality
-    prestige = 0.05
-    }
-
-leader = {
-    name = "Nunes Vidigal"
-    date = 1808.1.1
-    type = land
-    personality = no_personality
-    background = back30
-    prestige = 0.2
 }
 
 leader = {
     name = "Luís Barreto"
     date = 1824.1.1
     type = land
-    personality = no_personality
-    background = back3621
+    personality = def11
+    background = att11
+    prestige = 0.2
+}
+
+leader = {
+    name = "Nunes Vidigal"
+    date = 1808.1.1
+    type = land
+    personality = def032
+    background = att020
     prestige = 0.2
 }
 
@@ -280,7 +256,17 @@ leader = {
     name = "Vicente de Mesquita"
     date = 1808.1.1
     type = land
-    personality = no_personality
-    background = back3256
+    personality = def032
+    background = att020
     prestige = 0.0
+}
+
+leader = {
+    name = "José Joaquim da Rosa Coelho"
+    picture = european_admiral_5
+    type = sea
+    date = 1820.12.14
+    personality = def11
+    background = att11
+    prestige = 0.05
 }

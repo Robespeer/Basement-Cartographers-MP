@@ -334,53 +334,13 @@ MUG = {
     influence_value = 0
 }
 
-
-leader = {
-    name = "Based Gigachad"
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back1906
-    prestige = 0.4
-}
-
-leader = {
-    name = "Thomas Cochrane"
-    picture = eng_adm_cochrane
-    date = 1832.1.1
-    type = sea
-    personality = no_personality
-    background = back2101
-    prestige = 0.4
-}
-
-leader = {
-    name = "Edward Codrington"
-    picture = eng_adm_codrington
-    date = 1836.1.1
-    type = sea
-    personality = no_personality
-    background = back2463
-    prestige = 0.3
-}
-
-leader = {
-    name = "Sir George Cockburn"
-    picture = eng_adm_cockburn
-    date = 1812.1.1
-    type = sea
-    personality = no_personality
-    background = back197
-    prestige = 0.3
-}
-
 leader = {
     name = "William Parker"
     picture = eng_adm_parker
     date = 1830.1.1
     type = land
-    personality = no_personality
-    background = back1636
+    personality = def11
+    background = att11
 }
 
 leader = {
@@ -388,8 +348,8 @@ leader = {
     picture = eng_gen_blakeney
     date = 1825.1.1
     type = land
-    personality = no_personality
-    background = back4433
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -398,8 +358,8 @@ leader = {
     picture = european_general_34
     date = 1810.1.1
     type = land
-    personality = no_personality
-    background = back2829
+    personality = def11
+    background = att11
     prestige = 0.8
 }
 
@@ -408,8 +368,8 @@ leader = {
     picture = eng_gen_goughhugh
     date = 1830.1.1
     type = land
-    personality = no_personality
-    background = back3295
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -418,8 +378,8 @@ leader = {
     picture = eng_gen_seaton
     date = 1825.1.1
     type = land
-    personality = no_personality
-    background = back3468
+    personality = def11
+    background = att11
     prestige = 0.2
 }
 
@@ -428,8 +388,8 @@ leader = {
     picture = eng_gen_smith
     date = 1814.1.1
     type = land
-    personality = no_personality
-    background = back4317
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -438,8 +398,8 @@ leader = {
     picture = eng_gen_hardinge
     date = 1830.1.1
     type = land
-    personality = no_personality
-    background = back1011
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -448,8 +408,8 @@ leader = {
     picture = eng_gen_raglan
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back4475
+    personality = def032
+    background = att020
     prestige = 0.0
 }
 
@@ -457,8 +417,8 @@ leader = {
     name = "Whitworth-Aylmer"
     date = 1825.1.1
     type = land
-    personality = no_personality
-    background = back1688
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -466,8 +426,8 @@ leader = {
     name = "John Fox Burgoyne"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back3715
+    personality = def032
+    background = att020
     prestige = 0.0
 }
 
@@ -477,18 +437,48 @@ leader = {
     name = "Sir George Brown"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back1742
+    personality = def032
+    background = att020
     prestige = 0.0
+}
+
+leader = {
+    name = "Sir George Cockburn"
+    picture = eng_adm_cockburn
+    date = 1812.1.1
+    type = sea
+    personality = def11
+    background = att11
+    prestige = 0.3
+}
+
+leader = {
+    name = "Thomas Cochrane"
+    picture = eng_adm_cochrane
+    date = 1832.1.1
+    type = sea
+    personality = def11
+    background = att11
+    prestige = 0.4
 }
 
 leader = {
     name = "James Dundas"
     date = 1836.1.1
     type = sea
-    personality = no_personality
-    background = back404
+    personality = def032
+    background = att020
     prestige = 0.0
+}
+
+leader = {
+    name = "Edward Codrington"
+    picture = eng_adm_codrington
+    date = 1836.1.1
+    type = sea
+    personality = def032
+    background = att020
+    prestige = 0.3
 }
 
 

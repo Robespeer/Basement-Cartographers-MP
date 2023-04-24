@@ -127,8 +127,8 @@ leader = {
     picture = bel_gen_leopold
     type = land
     date = 1831.1.1
-    background = back3779
-    personality = no_personality
+    personality = def11
+    background = att11
     prestige = 0.5
     }
 
@@ -136,8 +136,8 @@ leader = {
     name = "Lambert Nypels"
     date = 1830.1.1
     type = land
-    personality = no_personality
-    background = back2527
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -145,8 +145,8 @@ leader = {
     name = "Louis Evain"
     date = 1831.1.1
     type = land
-    personality = no_personality
-    background = back3761
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -154,8 +154,8 @@ leader = {
     name = "Goblet"
     date = 1831.1.1
     type = land
-    personality = no_personality
-    background = back1047
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -163,7 +163,7 @@ leader = {
     name = "Albert Prisse"
     date = 1834.1.1
     type = land
-    personality = no_personality
-    background = back3919
+    personality = def032
+    background = att020
     prestige = 0.1
 }

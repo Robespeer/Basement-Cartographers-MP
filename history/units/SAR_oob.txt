@@ -4,22 +4,12 @@ SWI = {
     value = 125
 }
 
-
-leader = {
-    name = "Gigachiado Bassado"
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back1906
-    prestige = 0.4
-}
-
 leader = {
     name = "Carlo Alberto"
     date = 1831.1.1
     type = land
-    personality = no_personality
-    background = back2039
+    personality = def11
+    background = att11
     prestige = 0.5
 }
 
@@ -27,8 +17,8 @@ leader = {
     name = "Emanuele Pes"
     date = 1820.1.1
     type = land
-    personality = no_personality
-    background = back1063
+    personality = def11
+    background = att11
     prestige = 0.2
 }
 
@@ -36,8 +26,8 @@ leader = {
     name = "Eusebio Bava"
     date = 1832.1.1
     type = land
-    personality = no_personality
-    background = back349
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -45,17 +35,8 @@ leader = {
     name = "Ettore Gerbaix"
     date = 1834.1.1
     type = land
-    personality = no_personality
-    background = back5287
-    prestige = 0.0
-}
-
-leader = {
-    name = "Giuseppe Albini"
-    date = 1836.1.1
-    type = sea
-    personality = no_personality
-    background = back4409
+    personality = def032
+    background = att020
     prestige = 0.0
 }
 
@@ -63,8 +44,8 @@ leader = {
     name = "La Marmora-Masserano"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back4468
+    personality = def032
+    background = att020
     prestige = 0.0
 }
 
@@ -72,8 +53,17 @@ leader = {
     name = "Agostino Chiodo"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back1917
+    personality = def032
+    background = att020
+    prestige = 0.0
+}
+
+leader = {
+    name = "Giuseppe Albini"
+    date = 1836.1.1
+    type = sea
+    personality = def11
+    background = att11
     prestige = 0.0
 }
 

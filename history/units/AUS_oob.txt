@@ -410,20 +410,11 @@ navy = {
 }
 
 leader = {
-    name = "Basedhelm von Chadberg"
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back1906
-    prestige = 0.4
-}
-
-leader = {
     name = "Josef Radetzky"
     date = 1805.1.1
     type = land
-    personality = no_personality
-    background = back4406
+    personality = def21
+    background = att21
     prestige = 0.3
 }
 
@@ -431,8 +422,8 @@ leader = {
     name = "Julius von Haynau"
     date = 1835.1.1
     type = land
-    personality = no_personality
-    background = back1594
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -440,26 +431,8 @@ leader = {
     name = "von Mittrowitz-Nettolitzky"
     date = 1835.1.1
     type = land
-    personality = no_personality
-    background = back125
-    prestige = 0.1
-}
-
-leader = {
-    name = "Hermann von Hess"
-    date = 1834.1.1
-    type = land
-    personality = no_personality
-    background = back6
-    prestige = 0.1
-}
-
-leader = {
-    name = "d’Aspre und Hoobreuck"
-    date = 1832.1.1
-    type = land
-    personality = no_personality
-    background = back2678
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -467,24 +440,42 @@ leader = {
     name = "Alfred von Windischgraetz"
     date = 1826.1.1
     type = land
-    personality = no_personality
-    background = back591
+    personality = def11
+    background = att11
     prestige = 0.3
+}
+
+leader = {
+    name = "Hermann von Hess"
+    date = 1834.1.1
+    type = land
+    personality = def032
+    background = att020
+    prestige = 0.1
+}
+
+leader = {
+    name = "d’Aspre und Hoobreuck"
+    date = 1832.1.1
+    type = land
+    personality = def032
+    background = att020
+    prestige = 0.1
 }
 
 leader = {
     name = "Erzherzog Albrecht"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back125
+    personality = def032
+    background = att020
 }
 
 leader = {
     name = "Paolucci delle Roncole"
     date = 1824.1.1
     type = sea
-    personality = no_personality
-    background = back3779
+    personality = def11
+    background = att11
     prestige = 0.1
 }

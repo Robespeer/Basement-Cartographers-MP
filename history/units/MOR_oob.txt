@@ -118,7 +118,7 @@ leader = {
     name = "Sultan Abd al-Rahman"
     type = land
     date = 1820.1.1
-    background = back1765
-    personality = no_personality
+    personality = def11
+    background = att11
     prestige = 0.1
-    }
+}

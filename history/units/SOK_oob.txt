@@ -54,10 +54,6 @@ CLA = {
     value = -15
 }
 
-USA = {
-    value = -200
-}
-
 GBU = { value = -200 }
 SEG = { value = -200 }
 MOS = { value = -200 }
@@ -74,13 +70,13 @@ army = {
 
     regiment = {
         name= "2.Fulbe"
-        type = irregular
+        type = cavalry
         home = 1945
     }
 
     regiment = {
         name= "3.Fulbe"
-        type = irregular
+        type = cavalry
         home = 1947
     }
 
@@ -97,14 +93,14 @@ army = {
 
     regiment = {
         name= "5. Fulbe"
-        type = irregular
+        type = cavalry
         home = 1942
     }
 }
 
 army = {
     name = "Army of the Emir of Ilorin"
-    location = 1927
+    location = 1938
     regiment = {
         name= "1. Yoruba"
         type = cavalry
@@ -113,14 +109,13 @@ army = {
 
     regiment = {
         name= "6. Fulbe"
-        type = irregular
+        type = cavalry
         home = 1939
     }
 
     regiment = {
         name= "7. Fulbe"
-        type = irregular
+        type = cavalry
         home = 1946
     }
-
 }

@@ -1,0 +1,62 @@
+
+country_event = {
+	id = 600000
+	allow_multiple_instances = yes
+	trigger = {
+		ai = no
+		NOT = {
+			OR = {
+				#add tags of countries with specific events here
+				has_leader = "Sam Hyde"
+				tag = SOK
+				tag = WAK
+			}
+		}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "ROBESPEER, I'M COMING TO KILL YOU! In Vicky2, right? NO, IN REAL LIFE."
+	immediate = {
+		define_general = {
+			name = "Sam Hyde"
+			personality = def31
+			background = att31
+			##+3 defence, +3 attack
+		}
+	}
+	option = {
+		name = "He can't keep getting away with it..."		
+	}
+}
+
+#Sokoto/Wakanda
+country_event = {
+	id = 600001
+	allow_multiple_instances = yes
+	trigger = {
+	ai = no
+	OR = {
+		tag = SOK
+		tag = WAK
+	}
+	NOT = {has_leader = "T'Challa"}
+	}
+	mean_time_to_happen = {
+		days = 1
+	}
+	title = "A New General Arrives"
+	desc = "Black Panther, the King and protector of Wakanda has arrived."
+	immediate = {
+		define_general = {
+			name = "T'Challa"
+			personality = def31
+			background = att31
+			##+3 defence, +3 attack
+		}
+	}
+	option = {
+		name = "Wakanda forevah!"
+	}
+}

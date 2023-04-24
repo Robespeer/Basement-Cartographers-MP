@@ -10,8 +10,8 @@ leader = {
     name = "Rye"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back2449
+    personality = def11
+    background = att11
 }
 
 army = {

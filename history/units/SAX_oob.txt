@@ -2,8 +2,8 @@ leader = {
     name = "von Leysser"
     date = 1829.1.1
     type = land
-    personality = no_personality
-    background = back1042
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -11,8 +11,8 @@ leader = {
     name = "von Zezschwitz"
     date = 1817.1.1
     type = land
-    personality = no_personality
-    background = back393
+    personality = def11
+    background = att11
     prestige = 0.2
 }
 

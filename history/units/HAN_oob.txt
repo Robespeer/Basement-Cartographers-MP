@@ -2,8 +2,8 @@ leader = {
     name = "von Alten"
     date = 1810.1.1
     type = land
-    personality = no_personality
-    background = back2867
+    personality = def11
+    background = att11
     prestige = 0.3
 }
 
@@ -11,8 +11,8 @@ leader = {
     name = "Victor von Prott"
     date = 1815.1.1
     type = land
-    personality = no_personality
-    background = back3947
+    personality = def11
+    background = att11
     prestige = 0.3
 }
 
@@ -20,8 +20,8 @@ leader = {
     name = "Julius von Hartmann"
     date = 1825.1.1
     type = land
-    personality = no_personality
-    background = back3587
+    personality = def032
+    background = att020
     prestige = 0.2
 }
 
@@ -29,8 +29,8 @@ leader = {
     name = "Hugh Halkett"
     date = 1834.1.1
     type = land
-    personality = no_personality
-    background = back2830
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 

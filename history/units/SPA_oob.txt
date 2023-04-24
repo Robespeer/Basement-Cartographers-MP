@@ -477,17 +477,8 @@ leader = {
     name = "Francisco Serrano"
     date = 1833.1.1
     type = land
-    personality = no_personality
-    background = back3829
-    prestige = 0.0
-}
-
-leader = {
-    name = "Leopoldo O'Donnell"
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back4310
+    personality = def032
+    background = att020
     prestige = 0.0
 }
 
@@ -495,8 +486,8 @@ leader = {
     name = "Narváez"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back4326
+    personality = def032
+    background = att020
     prestige = 0.0
 }
 
@@ -504,8 +495,17 @@ leader = {
     name = "Gerónimo Valdés"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back3776
+    personality = def032
+    background = att020
+    prestige = 0.0
+}
+
+leader = {
+    name = "Leopoldo O'Donnell"
+    date = 1836.1.1
+    type = land
+    personality = def11
+    background = att11
     prestige = 0.0
 }
 
@@ -513,25 +513,16 @@ leader = {
     name = "Van Halen"
     date = 1823.1.1
     type = land
-    personality = no_personality
-    background = back1811
+    personality = def11
+    background = att11
     prestige = 0.1
-}
-
-leader = {
-    name = "Gigachado Basado"
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back1906
-    prestige = 0.4
 }
 
 leader = {
     name = "José Ramón Rodil"
     date = 1824.1.1
     type = land
-    personality = no_personality
-    background = back1811
+    personality = def11
+    background = att11
     prestige = 0.1
 }

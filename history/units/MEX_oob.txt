@@ -9,85 +9,79 @@ leader = {
     name = "D. Francisco López "
     type = sea
     date="1820.1.1"
-    personality = no_personality
-    background = back5215
+    personality = def11
+    background = att11
 }
 
 leader = {
     name = "Nicolas Bravo"
     type = land
     date="1836.1.1"
-    personality = no_personality
-    background = back2803
+    personality = def11
+    background = att11
 }
 
 leader = {
     name = "Mariano Arista"
     type = land
     date="1836.1.1"
-    personality = no_personality
-    background = back4235
+    personality = def11
+    background = att11
 }
 
 leader = {
     name = "Juan Álvarez"
     type = land
     date="1836.1.1"
-    personality = no_personality
-    background = back4290
+    personality = def032
+    background = att01
 }
 
 leader = {
     name = "José de Herrera"
     type = land
     date="1836.1.1"
-    personality = no_personality
-    background = back2506
-}
-
-army = {
-    name = "Activo Oajaca"
-    location = 2177
-
-    regiment = {
-        name= "1.Oajaca y Tlaxcala"
-        type = irregular
-        home = 2177
-    }
-
-    regiment = {
-        name= "2.Oajaca y Tlaxcala"
-        type = irregular
-        home = 2173
-    }
-
-    regiment = {
-        name= "3.Oajaca y Tlaxcala"
-        type = irregular
-        home = 2167
-    }
-
+    personality = def032
+    background = att01
 }
 
 army = {
     name = "Ejército del Ciudad Mejico"
     location = 2172
     regiment = {
-        name= "1.Division Comonfort"
+        name= "1. División de Infantería"
         type = infantry
         home = 2176
     }
 
     regiment = {
-        name= "2.Division Comonfort"
-        type = irregular
+        name= "2. División de Infantería"
+        type = infantry
         home = 2159
     }
 
     regiment = {
-        name= "3.Division Comonfort"
-        type = irregular
+        name= "1. División de Caballería"
+        type = hussar
         home = 2174
+    }
+
+    regiment = {
+        name= "1. División de Artillería"
+        type = artillery
+        home = 2177
+    }
+
+    regiment = {
+        name= "2. División de Artillería"
+        type = artillery
+        home = 2173
+    }
+
+    regiment = {
+        name= "3. División de Artillería"
+        type = artillery
+        home = 2167
     }
 
 }

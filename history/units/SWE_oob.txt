@@ -1,26 +1,9 @@
 leader = {
-    name = "Bachad al Bassad"
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back1906
-    prestige = 0.4
-}
-leader = {
-    name = "Carl Nordenskjöld"
-    date = 1834.1.1
-    type = sea
-    personality = no_personality
-    background = back2565
-    prestige = 0.1
-}
-
-leader = {
     name = "Carl XIV Johan"
     date = 1818.1.1
     type = land
-    personality = no_personality
-    background = back2144
+    personality = def11
+    background = att11
     prestige = 0.5
 }
 
@@ -28,8 +11,8 @@ leader = {
     name = "Johan Tawast"
     date = 1807.1.1
     type = land
-    personality = no_personality
-    background = back2517
+    personality = def11
+    background = att11
     prestige = 0.3
 }
 
@@ -37,26 +20,17 @@ leader = {
     name = "Axel Mörner"
     date = 1818.1.1
     type = land
-    personality = no_personality
-    background = back5690
+    personality = def11
+    background = att11
     prestige = 0.2
-}
-
-leader = {
-    name = "Baltzar von Platen"
-    date = 1834.1.1
-    type = sea
-    personality = no_personality
-    background = back3725
-    prestige = 0.1
 }
 
 leader = {
     name = "C. Cederström"
     date = 1824.1.1
     type = land
-    personality = no_personality
-    background = back6062
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -64,8 +38,8 @@ leader = {
     name = "af Billbergh"
     date = 1814.1.1
     type = land
-    personality = no_personality
-    background = back1085
+    personality = def032
+    background = att020
     prestige = 0.2
 }
 
@@ -73,8 +47,26 @@ leader = {
     name = "Gustaf Peyron"
     date = 1827.1.1
     type = land
-    personality = no_personality
-    background = back1346
+    personality = def032
+    background = att020
+    prestige = 0.1
+}
+
+leader = {
+    name = "Carl Nordenskjöld"
+    date = 1834.1.1
+    type = sea
+    personality = def11
+    background = att11
+    prestige = 0.1
+}
+
+leader = {
+    name = "Baltzar von Platen"
+    date = 1834.1.1
+    type = sea
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 

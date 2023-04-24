@@ -6,8 +6,8 @@ leader = {
     name = "Emir Abdelkader"
     type = land
     date = 1836.1.1
-    personality = no_personality
-    background = back2946
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -15,8 +15,8 @@ leader = {
     name = "Ahmed Bey"
     type = land
     date = 1780.1.1
-    personality = no_personality
-    background = back2956
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 

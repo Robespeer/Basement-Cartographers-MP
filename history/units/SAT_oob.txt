@@ -6,8 +6,8 @@ leader = {
     name = "Saigo Takamori"
     type = land
     date = 1836.1.1
-    personality = no_personality
-    background = back489
+    personality = def11
+    background = att11
 }
 
 army = {

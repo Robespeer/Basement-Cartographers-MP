@@ -554,40 +554,21 @@ navy = {
 
 }
 
-
-leader = {
-    name = "Bassad Pashachad"
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back1906
-    prestige = 0.4
-}
-
 leader = {
     name = "Omer Vrioni"
     type = land
     date = 1820.1.1
-    background = back4252
-    personality = no_personality
+    personality = def11
+    background = att11
     prestige = 0.1
-    }
-
-leader = {
-    name = "Husrev Pasha"
-    type = sea
-    date = 1820.1.1
-    background = back3905
-    personality = no_personality
-    prestige = 0.15
-    }
+}
 
 leader = {
     name = "Resid Mehmed Pasha"
     date = 1809.1.1
     type = land
-    personality = no_personality
-    background = back5624
+    personality = def11
+    background = att11
     prestige = 0.2
 }
 
@@ -595,8 +576,8 @@ leader = {
     name = "Wojciech Chrzanowski"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back2341
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -604,8 +585,8 @@ leader = {
     name = "Abdi Pasha"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back1821
+    personality = def11
+    background = att11
     prestige = 0.0
 }
 
@@ -613,8 +594,8 @@ leader = {
     name = "Hafiz Osman Pasha"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back5552
+    personality = def032
+    background = att020
     prestige = 0.0
 }
 
@@ -622,8 +603,8 @@ leader = {
     name = "Namik Pasha"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back3861
+    personality = def032
+    background = att020
     prestige = 0.0
 }
 
@@ -631,16 +612,25 @@ leader = {
     name = "Abdülkerim Pasha"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back117
+    personality = def032
+    background = att020
     prestige = 0.0
+}
+
+leader = {
+    name = "Husrev Pasha"
+    type = sea
+    date = 1820.1.1
+    personality = def11
+    background = att11
+    prestige = 0.15
 }
 
 leader = {
     name = "Yaver Pasha"
     date = 1836.1.1
     type = sea
-    personality = no_personality
-    background = back1069
+    personality = def032
+    background = att020
     prestige = 0.1
 }

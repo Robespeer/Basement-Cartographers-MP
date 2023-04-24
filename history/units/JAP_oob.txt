@@ -4,19 +4,11 @@ BRU = { value = 100 }
 USA = { value = 0 }
 
 leader = {
-    name = "BasuWu Chan"
-    date = 1836.1.1
-    type = land
-    personality = no_personality
-    background = back1906
-    prestige = 0.4
-}
-leader = {
     name = "Sakuma Shozan"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back4195
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -24,8 +16,8 @@ leader = {
     name = "Takashima Shuhan"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back3680
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -33,8 +25,8 @@ leader = {
     name = "Watanabe Kazan"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back6041
+    personality = def11
+    background = att11
     prestige = 0.1
 }
 
@@ -42,8 +34,8 @@ leader = {
     name = "Takano Choei"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back2677
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -51,8 +43,8 @@ leader = {
     name = "Prince Fushimi Kuniie"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back4305
+    personality = def032
+    background = att020
     prestige = 0.1
 }
 
@@ -60,8 +52,8 @@ leader = {
     name = "Prince Fushimi Sadanori"
     date = 1836.1.1
     type = land
-    personality = no_personality
-    background = back3556
+    personality = def032
+    background = att020
 }
 
 army = {
