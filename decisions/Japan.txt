@@ -1209,21 +1209,25 @@ political_decisions = {
             prestige = 1
             2681 = {
                 add_core = TAI
+                add_core = JAP
                 remove_core = FJN
                 change_province_name = "Taihoku"
             }
             2562 = {
                 add_core = TAI
+                add_core = JAP
                 remove_core = FJN
                 change_province_name = "Karenko"
             }
             2406 = {
                 add_core = TAI
+                add_core = JAP
                 remove_core = FJN
                 change_province_name = "Hoko"
             }
             1485 = {
                 add_core = TAI
+                add_core = JAP
                 remove_core = FJN
                 change_province_name = "Tainan Cho"
                 state_scope = { change_region_name = "Takasago" }

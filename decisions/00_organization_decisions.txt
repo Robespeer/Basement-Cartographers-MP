@@ -197,7 +197,7 @@ political_decisions = {
 
     turn_on_organize_colony_decisions = {
         picture = map_africa
-        alert = no
+        alert = yes
         potential = {
             civilized = yes
             NOT = {
@@ -206,7 +206,6 @@ political_decisions = {
             }
             colonial_nation = yes
             #nationalism_n_imperialism = 1
-            NOT = { capital_scope = { continent = africa } }
             OR = {
                 #Nigeria
                 AND = {
@@ -841,7 +840,7 @@ political_decisions = {
 
     increase_conscription = {
         picture = marching_soldiers
-        alert = no
+        alert = yes
         potential = {
             # OR = {
                 # has_country_flag = government_decisions_on
@@ -980,7 +979,7 @@ political_decisions = {
 	
 	reintroduce_child_labor = {
         picture = marching_soldiers
-        alert = no
+        alert = yes
         potential = {
             civilized = yes
             war = no

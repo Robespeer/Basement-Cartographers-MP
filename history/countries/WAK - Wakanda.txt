@@ -3,6 +3,7 @@ primary_culture = fulbe
 culture = hausa
 culture = east_kwa
 culture = tiv
+culture = bedouin
 religion = sunni
 government = absolute_monarchy
 plurality = 0.0

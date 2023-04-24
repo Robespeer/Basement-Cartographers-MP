@@ -1,0 +1,117 @@
+political_decisions = {
+
+    wakanda_forever = {
+        picture = unite_la_plata
+        potential = {
+			tag = SOK
+        }
+
+        allow = {
+            war = no
+            is_mobilised = no
+            state_n_government = 1
+            SOK = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            KBO = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            DAM = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            DAH = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            OYO = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            BEN = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            ARO = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            CLA = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+            WRI = {
+                all_core = {
+                    owned_by = THIS
+                }
+            }
+        }
+
+        effect = {
+            SOK = { all_core = { add_core = WAK } }
+            KBO = { all_core = { add_core = WAK } }
+            DAM = { all_core = { add_core = WAK } }
+            DAH = { all_core = { add_core = WAK } }
+            OYO = { all_core = { add_core = WAK } }
+            BEN = { all_core = { add_core = WAK } }
+            ARO = { all_core = { add_core = WAK } }
+            CLA = { all_core = { add_core = WAK } }
+            WRI = { all_core = { add_core = WAK } }
+            change_tag = WAK
+			primary_culture = hausa
+			add_accepted_culture = fulbe
+			add_accepted_culture = kanuri
+			add_accepted_culture = east_kwa
+			add_accepted_culture = tiv
+			add_accepted_culture = fon
+			add_accepted_culture = yoruba
+			add_accepted_culture = gur
+			add_accepted_culture = edo
+			add_accepted_culture = ibo
+			add_accepted_culture = ibibio
+			add_accepted_culture = itsekari
+			add_country_modifier = { name = total_reform duration = 3650 }
+		}
+
+        ai_will_do = { factor = 1 }
+    }
+
+    found_birnin_zana = {
+        picture = declare_republic_of_neuchatel
+        potential = {
+            tag = WAK
+            owns = 1816 #Kufe
+            NOT = { capital = 1816 }
+        }
+
+        allow = {
+            iron_railroad = 1
+        }
+
+        effect = {
+            capital = 1816
+            1816 = {
+				change_province_name = "Birnin Zana"
+                life_rating = 8
+                add_province_modifier = {
+                    name = recently_built_city
+                    duration = 7300
+                }
+			}
+        }
+
+        ai_will_do = {
+            factor = 1
+        }
+    }
+}
