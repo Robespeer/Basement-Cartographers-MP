@@ -439,7 +439,7 @@ positivism = {
     year = 1836
     cost = 7200
     colonial_migration = 0.05
-    education_efficiency = 0.1
+    education_efficiency = 0.15
     ai_chance = {
         factor = 1.8
         modifier = {
@@ -490,7 +490,7 @@ functionalism = {
     cost = 10800
 
     colonial_migration = 0.05
-    education_efficiency = 0.1
+    education_efficiency = 0.15
     ai_chance = {
         factor = 1.5
         modifier = {
@@ -541,7 +541,7 @@ biologism = {
     cost = 14400
 
     colonial_migration = 0.05
-    education_efficiency = 0.1
+    education_efficiency = 0.15
     ai_chance = {
         factor = 2
         modifier = {
