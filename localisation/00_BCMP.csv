@@ -1,8 +1,16 @@
 #;;;;;;;;;;;;;;x;;;;
+tiny_conquest;Minor Conquest;;;;;;;;;;;;;
+tiny_conquest_desc;Annex a country of tiny size and population by conquest;;;;;;;;;;;;;
+tiny_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;;
+tiny_conquest_setup;Annex tiny nation of $RECIPIENT$;;;;;;;;;;;;;
 minor_conquest;Minor Conquest;;;;;;;;;;;;;
 minor_conquest_desc;Annex a country of small size and population by conquest;;;;;;;;;;;;;
 minor_conquest_short;Annex $RECIPIENT$;;;;;;;;;;;;;
 minor_conquest_setup;Annex minor nation of $RECIPIENT$;;;;;;;;;;;;;
+demand_capital_concession;Demand Capital Concession;;;;;;;;;;;;;
+demand_capital_concession_short;Demand $STATE$;;;;;;;;;;;;;
+demand_capital_concession_desc;Force an §Yuncivilized country§W to secede their capital to form a colonial concession.;;;;;;;;;;;;;
+demand_capital_concession_setup;Demand that $RECIPIENT$ secede their capital to form a colonial concession.;;;;;;;;;;;;;
 separate_truce;Separate Peace Truce;;;;;;;;;;;;;
 separate_truce_desc;Adds a normal truce on the target on separate peace;;;;;;;;;;;;;
 separate_truce_short;Separate Peace Truce;;;;;;;;;;;;;
