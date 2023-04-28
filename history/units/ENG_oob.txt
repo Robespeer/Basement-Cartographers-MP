@@ -328,12 +328,6 @@ MAH = {
     influence_value = 0
 }
 
-MUG = {
-    value = 125
-    level = 5
-    influence_value = 0
-}
-
 leader = {
     name = "William Parker"
     picture = eng_adm_parker

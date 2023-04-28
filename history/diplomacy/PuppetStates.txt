@@ -233,14 +233,6 @@ vassal = {
 #        INDIA        #
 #######################
 
-# United Kingdom-Mughal
-vassal = {
-    first = ENG
-    second = MUG
-    start_date = 1836.1.1
-    end_date = 1936.1.1
-}
-
 # United Kingdom-Bahawalpur
 vassal = {
     first = ENG

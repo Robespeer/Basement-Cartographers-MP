@@ -34,18 +34,12 @@ political_decisions = {
         news_desc_short = "empress_of_india_NEWS_SHORT"
         potential = {
             tag = ENG
-            OR = {
-                government = hms_government
-                government = prussian_constitutionalism
-                government = absolute_monarchy
-            }
             NOT = {
                 has_country_flag = empress_of_india
             }
         }
         allow = {
-            nationalism_n_imperialism = 1
-            prestige = 40
+            revolution_n_counterrevolution = 1
             owns = 1305
             owns = 1311
             owns = 1257
