@@ -4258,20 +4258,18 @@ demand_concession_casus_belli = {
 		OR = {
 			NOT = { owner = { is_culture_group = east_asian } }
 			NOT = { any_owned_province = { is_core = CHI } }
-			OR = {
-				any_owned_province = { region = CHI_1493 #East Canton }
-				any_owned_province = { region = CHI_1499 #West Canton }
-				any_owned_province = { region = CHI_1604 #North Zhejiang }
-				any_owned_province = { region = CHI_1610 #South Zhejiang }
-			}
+			any_owned_province = { region = CHI_1493 }
+			any_owned_province = { region = CHI_1499 }
+			any_owned_province = { region = CHI_1604 }
+			any_owned_province = { region = CHI_1610 }
 		}
 		
 		OR = {
 			any_owned_province = {
 				NOT = {
 					any_core = {
-					exists = yes
-					alliance_with = THIS
+						exists = yes
+						alliance_with = THIS
 					}
 				}
 			}
@@ -4386,12 +4384,11 @@ demand_concession_NI_casus_belli = {
 		OR = {
 			NOT = { owner = { is_culture_group = east_asian } }
 			NOT = { any_owned_province = { is_core = CHI } }
-			OR = {
-				any_owned_province = { region = CHI_1493 #East Canton }
-				any_owned_province = { region = CHI_1499 #West Canton }
-				any_owned_province = { region = CHI_1604 #North Zhejiang }
-				any_owned_province = { region = CHI_1610 #South Zhejiang }
-			}
+			any_owned_province = { region = CHI_1493 }
+			any_owned_province = { region = CHI_1499 }
+			any_owned_province = { region = CHI_1604 }
+			any_owned_province = { region = CHI_1610 }
+		}
 		}
 		OR = {
 			any_owned_province = {
@@ -4512,12 +4509,10 @@ demand_concession_BC_casus_belli = {
 		OR = {
 			NOT = { owner = { is_culture_group = east_asian } }
 			NOT = { any_owned_province = { is_core = CHI } }
-			OR = {
-				any_owned_province = { region = CHI_1493 #East Canton }
-				any_owned_province = { region = CHI_1499 #West Canton }
-				any_owned_province = { region = CHI_1604 #North Zhejiang }
-				any_owned_province = { region = CHI_1610 #South Zhejiang }
-			}
+			any_owned_province = { region = CHI_1493 }
+			any_owned_province = { region = CHI_1499 }
+			any_owned_province = { region = CHI_1604 }
+			any_owned_province = { region = CHI_1610 }
 		}
 		OR = {
 			any_owned_province = {
@@ -10814,12 +10809,10 @@ demand_capital_concession = {
 		OR = {
 			NOT = { owner = { is_culture_group = east_asian } }
 			NOT = { any_owned_province = { is_core = CHI } }
-			OR = {
-				any_owned_province = { region = CHI_1493 #East Canton }
-				any_owned_province = { region = CHI_1499 #West Canton }
-				any_owned_province = { region = CHI_1604 #North Zhejiang }
-				any_owned_province = { region = CHI_1610 #South Zhejiang }
-			}
+			any_owned_province = { region = CHI_1493 }
+			any_owned_province = { region = CHI_1499 }
+			any_owned_province = { region = CHI_1604 }
+			any_owned_province = { region = CHI_1610 }
 		}
 	}
 	
@@ -11141,9 +11134,11 @@ demand_weebcession_casus_belli = {
 
     always = no
     can_use = {
-		OR = {
-			tag = JAP
-			tag = TKG
+		THIS = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
 		}
         OR = {
             NOT = { has_country_modifier = war_focus }
@@ -11169,6 +11164,11 @@ demand_weebcession_casus_belli = {
         OR = {
             war_with = THIS
             THIS = { military_score = 1 }
+        }
+        OR = {
+            THIS = { NOT = { nationalism_n_imperialism = 1 } }
+            NOT = { has_global_flag = berlin_conference }
+            has_country_flag = post_colonial_country
         }
         OR = {
             war_with = THIS
@@ -11207,12 +11207,6 @@ demand_weebcession_casus_belli = {
 		AND = {
 			owner = { is_culture_group = east_asian }
 			any_owned_province = { is_core = CHI }
-			NOT = {
-				any_owned_province = { region = CHI_1493 #East Canton }
-				any_owned_province = { region = CHI_1499 #West Canton }
-				any_owned_province = { region = CHI_1604 #North Zhejiang }
-				any_owned_province = { region = CHI_1610 #South Zhejiang }
-			}
 		}
 		
 		OR = {
@@ -11266,18 +11260,24 @@ demand_capital_weebcession = {
 	good_relation_militancy_factor = 1
 
 	can_use = {
+		THIS = {
+			OR = {
+				tag = JAP
+				tag = TKG
+			}
+		}
 		NOT = { is_our_vassal = THIS }
 		number_of_states = 2 # annex if you want their last state
 		any_owned_province = {
 			not = { is_core = THIS }
 			is_colonial = no
 		}
-		AND = {
-			civilized = no
-			THIS = {
-				civilized = yes
-			}
-		}
+			AND = {
+				civilized = no
+				THIS = {
+					civilized = yes
+				}
+		   }
 	}
 	
 	allowed_states = {
@@ -11291,12 +11291,6 @@ demand_capital_weebcession = {
 		AND = {
 			owner = { is_culture_group = east_asian }
 			any_owned_province = { is_core = CHI }
-			NOT = {
-				any_owned_province = { region = CHI_1493 #East Canton }
-				any_owned_province = { region = CHI_1499 #West Canton }
-				any_owned_province = { region = CHI_1604 #North Zhejiang }
-				any_owned_province = { region = CHI_1610 #South Zhejiang }
-			}
 		}
 	}
 	
