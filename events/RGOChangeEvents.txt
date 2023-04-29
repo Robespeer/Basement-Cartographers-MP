@@ -1793,6 +1793,11 @@ province_event = {
         trade_goods = coal
         add_province_modifier = { name = switched_production duration = 365 }
     }
+	
+	option = {
+        name = "EVTOPTE199038" #Leave it as is
+        ai_chance = { factor = 0 }
+    }
 }
 
 #Iron found
@@ -1946,6 +1951,11 @@ province_event = {
             }
         }
     }
+	
+	option = {
+        name = "EVTOPTE199038" #Leave it as is
+        ai_chance = { factor = 0 }
+    }
 }
 
 #Sulphur/Phosphate found
@@ -2036,6 +2046,11 @@ province_event = {
         name = "EVTOPTA199037"
         trade_goods = sulphur
         add_province_modifier = { name = switched_production duration = 365 }
+    }
+	
+	option = {
+        name = "EVTOPTE199038" #Leave it as is
+        ai_chance = { factor = 0 }
     }
 }
 
@@ -6551,5 +6566,10 @@ province_event = {
         name = "EVTOPTA199073"
         trade_goods = tea
         add_province_modifier = { name = switched_production duration = 1825 }
+    }
+	
+	option = {
+        name = "EVTOPTE199038" #Leave it as is
+        ai_chance = { factor = 0 }
     }
 }
