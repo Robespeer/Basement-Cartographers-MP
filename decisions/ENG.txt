@@ -498,30 +498,26 @@ political_decisions = {
                 accepted_culture = irish
                 has_country_flag = invest_in_irish
             }
+        }
+
+        allow = {
+            money = 1000000
+            NOT = { citizenship_policy = residency }
+            nationalism_n_imperialism = 1
+            phenomenalism = 1
+            steam_turbine = 1
             OR = {
                 government = democracy
                 government = hms_government
                 government = proletarian_dictatorship
             }
-            OR = {
-                has_country_flag = help_for_the_irish
-                has_country_flag = irish_republican_brotherhood
-            }
-            any_owned_province = { is_core = IRE }
-        }
-
-        allow = {
-            prestige = 50
-            money = 100000
-            NOT = { citizenship_policy = residency }
-            social_science = 1
+			any_owned_province = { is_core = IRE }
         }
 
         effect = {
             set_country_flag = invest_in_irish
 			add_accepted_culture = irish
-            prestige = -50
-            treasury = -100000
+            treasury = -1000000
             any_owned = {
                 remove_province_modifier = irish_oppression
                 remove_province_modifier = enclosures
