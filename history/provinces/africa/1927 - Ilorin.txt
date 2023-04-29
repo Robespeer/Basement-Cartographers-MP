@@ -1,5 +1,5 @@
-owner = OYO
-controller = OYO
+owner = SOK
+controller = SOK
 add_core = SOK
 add_core = OYO
 trade_goods = grain
