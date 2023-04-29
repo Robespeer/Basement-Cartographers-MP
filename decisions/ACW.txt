@@ -1155,54 +1155,7 @@ political_decisions = {
             factor = 1
         }
     }
-
-    webster_ashburton_treaty = {
-        potential = {
-            tag = ENG
-            NOT = { has_global_flag = webster_ashburton_signed }
-            OR = {
-                USA = { any_owned_province = { region = USA_247 } }
-                NEN = { any_owned_province = { region = USA_247 } }
-            }
-        }
-
-        allow = {
-            owns = 250
-            OR = {
-                AND = {
-                    USA = { owns = 249 }
-                    NOT = { war_with = USA }
-                }
-                AND = {
-                    NEN = { owns = 249 }
-                    NOT = { war_with = NEN }
-                }
-            }
-        }
-
-        effect = {
-            249 = { remove_core = CAN }
-            250 = { remove_core = CAN }
-            250 = { remove_core = ENG }
-            250 = { remove_core = MRU }
-            badboy = -2
-            prestige = 10
-            249 = { owner = { country_event = 44122 } }
-            set_global_flag = webster_ashburton_signed
-        }
-
-        ai_will_do = {
-            factor = 1
-            modifier = {
-                factor = 0
-                NOT = { badboy = 0.08 }
-            }
-            modifier = {
-                factor = 0
-                NOT = { year = 1842 }
-            }
-        }
-    }
+	
     rio_grande_treaty = {
     picture = rio_grande_treaty
         potential = {
