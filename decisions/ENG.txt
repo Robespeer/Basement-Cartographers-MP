@@ -496,21 +496,14 @@ political_decisions = {
             NOT = {
                 exists = IRE
                 accepted_culture = irish
-                has_country_flag = invest_in_irish
             }
         }
 
         allow = {
             money = 1000000
-            NOT = { citizenship_policy = residency }
             nationalism_n_imperialism = 1
             phenomenalism = 1
             steam_turbine = 1
-            OR = {
-                government = democracy
-                government = hms_government
-                government = proletarian_dictatorship
-            }
 			any_owned_province = { is_core = IRE }
         }
 
