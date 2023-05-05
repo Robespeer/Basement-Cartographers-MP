@@ -1254,7 +1254,7 @@ add_to_sphere = {
 	construction_speed = 0.5
 
     can_use = {
-		# this = { NOT = { badboy = 1 } }
+		NOT = { total_pops = 30000000 }
 		this = { is_greater_power = yes }
 		is_greater_power = no
 		part_of_sphere = no
