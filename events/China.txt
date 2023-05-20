@@ -53,8 +53,6 @@ country_event = {
                 }
             owner = { political_reform = open_borders }
         }
-        add_country_modifier = { name = global_baby_boom duration = 730 }
-        prestige = 10
         remove_country_modifier = educational_reform
         remove_country_modifier = military_reform
         remove_country_modifier = western_influences
