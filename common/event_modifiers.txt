@@ -2565,3 +2565,7 @@ emergency_tax_measures2 = {
 nv_change_cooldown = {
 	prestige = -0.001
 }
+
+india_cooldown = {
+	prestige = -0.001
+}

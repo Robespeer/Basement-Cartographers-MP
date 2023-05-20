@@ -577,11 +577,6 @@ political_decisions = {
     the_great_game_makran = {
         picture = gtfo
         potential = {
-            OR = {
-                government = absolute_monarchy
-                government = prussian_constitutionalism
-                government = hms_government
-            }
             is_greater_power = yes
             tag = ENG
             has_country_flag = empress_of_india
@@ -594,7 +589,7 @@ political_decisions = {
         }
 
         allow = {
-            MAK = { average_militancy = 3 }
+            tag = ENG
         }
 
         effect = {
@@ -605,11 +600,6 @@ political_decisions = {
     the_great_game_panjab = {
         picture = gtfo
         potential = {
-            OR = {
-                government = absolute_monarchy
-                government = prussian_constitutionalism
-                government = hms_government
-            }
             is_greater_power = yes
             tag = ENG
             has_country_flag = empress_of_india
@@ -622,7 +612,7 @@ political_decisions = {
         }
 
         allow = {
-            PNJ = { average_militancy = 4 }
+            tag = ENG
         }
 
         effect = {
@@ -633,11 +623,6 @@ political_decisions = {
     the_great_game_sindh = {
         picture = gtfo
         potential = {
-            OR = {
-                government = absolute_monarchy
-                government = prussian_constitutionalism
-                government = hms_government
-            }
             is_greater_power = yes
             tag = ENG
             has_country_flag = empress_of_india
@@ -650,7 +635,7 @@ political_decisions = {
         }
 
         allow = {
-            SIN = { average_militancy = 3 }
+            tag = ENG
         }
 
         effect = {
@@ -1192,5 +1177,40 @@ political_decisions = {
         }
 
         ai_will_do = { factor = 1 }
+    }
+	
+	eat_indian_minor = {
+        picture = gtfo
+        potential = {
+            is_greater_power = yes
+            tag = ENG
+            has_country_flag = empress_of_india
+			OR = {
+				exists = HYD
+				exists = NAG
+				exists = BER
+				exists = AWA
+				exists = MAH
+				exists = BUN
+				exists = TRA
+				exists = GWA
+				exists = BHO
+				exists = KAL
+				exists = IND
+				exists = ORI
+				exists = KUT
+				exists = BAS
+				exists = BHP
+			}
+        }
+
+        allow = {
+            tag = ENG
+			NOT = { has_country_modifier = india_cooldown }
+        }
+
+        effect = {
+            country_event = 980001
+        }
     }
 }
