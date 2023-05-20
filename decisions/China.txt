@@ -1400,7 +1400,7 @@ political_decisions = {
         effect = {
             prestige = 1
             set_global_flag = heavenly_capital_decreted
-            2221 = { change_province_name = "Tianjing" }
+            2221 = { change_province_name = "Tienking" }
             capital = 2221
         }
 
@@ -1422,7 +1422,7 @@ political_decisions = {
 
         effect = {
             clr_global_flag = heavenly_capital_decreted
-            2221 = { change_province_name = "Nanjing" }
+            2221 = { change_province_name = "Nanking" }
         }
 
         ai_will_do = { factor = 1 }
