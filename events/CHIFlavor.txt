@@ -50,7 +50,7 @@ country_event = {
     }
 
     mean_time_to_happen = {
-        months = 30
+        months = 1
         modifier = {
             factor = 0.025
             capital_scope = { controlled_by_rebels = yes }
