@@ -102,7 +102,6 @@ country_event = {
         QNG = { all_core = { remove_core = QNG } }
         CHI_1468 = { remove_core = CHI }
         CHI_1465 = { remove_core = CHI }
-        add_accepted_culture = min
         any_pop = {
             limit = { has_pop_culture = beifaren }
             militancy = -2
@@ -112,9 +111,13 @@ country_event = {
             militancy = -1
         }
 		any_pop = {
-            limit = { has_pop_culture = min }
+            limit = { has_pop_culture = manchu }
             militancy = -4
         }
+        change_tag = CHI
+        primary_culture = beifaren
+        add_accepted_culture = nanfaren
+        add_accepted_culture = manchu
         random_owned = {
             limit = {
                 province_id = 1616
@@ -122,6 +125,19 @@ country_event = {
             }
             owner = { capital = 1616 }
         }
+        random_owned = {
+            limit = {
+                province_id = 2221
+            }
+            change_province_name = "Nanking"
+        }
+        government = presidential_dictatorship
+        ruling_party_ideology = conservative
+        political_reform = appointed
+        political_reform = yes_meeting
+        political_reform = censored_press
+        political_reform = harassment
+        political_reform = open_borders
         any_owned = { remove_province_modifier = peasant_revolt }
         add_country_modifier = {
             name = national_confusion
@@ -152,21 +168,22 @@ country_event = {
         CHI_1468 = { remove_core = CHI }
         CHI_1465 = { remove_core = CHI }
 
-        government = democracy
+        government = presidential_dictatorship
         ruling_party_ideology = liberal
-        political_reform = universal_weighted_voting
         political_reform = party_appointed
         political_reform = yes_meeting
-        political_reform = state_press
+        political_reform = free_press
         political_reform = state_controlled
         political_reform = harassment
+        political_reform = open_borders
         CHI = {
             all_core = { add_core = KMT }
         }
         change_tag = KMT
         primary_culture = nanfaren
         add_accepted_culture = beifaren
-		add_accepted_culture = min
+		add_accepted_culture = yue
+        add_accepted_culture = min
         any_pop = {
             limit = { has_pop_culture = nanfaren }
             militancy = -8
@@ -179,12 +196,22 @@ country_event = {
             limit = { has_pop_culture = min }
             militancy = -4
         }
+		any_pop = {
+            limit = { has_pop_culture = yue }
+            militancy = -4
+        }
         random_owned = {
             limit = {
-                province_id = 1616
+                province_id = 2221
                 is_capital = no
             }
-            owner = { capital = 1616 }
+            owner = { capital = 2221 }
+        }
+        random_owned = {
+            limit = {
+                province_id = 2221
+            }
+            change_province_name = "Nanking"
         }
         any_owned = {
             remove_province_modifier = peasant_revolt
@@ -213,6 +240,40 @@ country_event = {
         ai_chance = {
             factor = 20
         }
+    }
+	
+    option = {
+        name = "EVT164599OPTC"
+        QNG = { all_core = { remove_core = QNG } }
+        CHI_1468 = { remove_core = CHI }
+        CHI_1465 = { remove_core = CHI }
+        CHI = {
+            all_core = { add_core = TPG }
+        }
+		add_accepted_culture = zhuang
+        any_pop = {
+            limit = { has_pop_culture = beifaren }
+            militancy = -2
+        }
+        any_pop = {
+            limit = { has_pop_culture = nanfaren }
+            militancy = -1
+        }
+		any_pop = {
+            limit = { has_pop_culture = zhuang }
+            militancy = -4
+        }
+        political_reform = open_borders
+        any_owned = { remove_province_modifier = peasant_revolt }
+        add_country_modifier = {
+            name = national_confusion
+            duration = 365
+        }
+        any_country = {
+            limit = { is_greater_power = yes }
+            diplomatic_influence = { who = THIS value = -200 }
+        }
+        ai_chance = { factor = 80 }
     }
 }
 
