@@ -1180,7 +1180,7 @@ political_decisions = {
     }
 	
 	eat_indian_minor = {
-        picture = gtfo
+        picture = map_india
         potential = {
             is_greater_power = yes
             tag = ENG
@@ -1202,6 +1202,7 @@ political_decisions = {
 				exists = BAS
 				exists = BHP
 			}
+			NOT = { has_country_flag = eat_indian_minor }
         }
 
         allow = {
@@ -1211,6 +1212,7 @@ political_decisions = {
 
         effect = {
             country_event = 980001
+			set_country_flag = eat_indian_minor
         }
     }
 }

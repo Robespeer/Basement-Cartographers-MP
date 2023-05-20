@@ -3651,38 +3651,43 @@ country_event = {
 #Events to eat indian minors
 country_event = {
     id = 980001
-    title = "EVTNAME980001"
-    desc = "EVTDESC980001"
-    picture = "gtfo"
+    title = "Integration of the Princely States Menu"
+    desc = "Chose which size of vassal you want to eat."
+    picture = "map_india"
 
     is_triggered_only = yes
 
     option = {
-		name = "EVT980001PTA"
+		name = ">1 million pops"
 		country_event = 980002
 	}
 	
 	option = {
-		name = "EVT98001PTB"
+		name = ">300k pops"
 		country_event = 980003
 	}
 	
 	option = {
-		name = "EVT98001PTC"
+		name = "<300k pops"
 		country_event = 980004
+	}
+	
+	option = {
+		name = "It's all so tiresome"
+		clr_country_flag = eat_indian_minor
 	}
 }
 
 country_event = {
     id = 980002
-    title = "EVTNAME980002"
-    desc = "EVTDESC980002"
-    picture = "gtfo"
+    title = "Integration of the Big Princely States"
+    desc = "§RDO NOT CLICK A COUNTRY YOU ALREADY ATE"
+    picture = "map_india"
 
     is_triggered_only = yes
 
     option = {
-		name = "EVT980002PTA"
+		name = "Hyderabad"
 		badboy = 4
 		treasury = -1000000
 		add_country_modifier = {
@@ -3690,10 +3695,11 @@ country_event = {
 			duration = 1095
 		}
 		inherit = HYD
+		clr_country_flag = eat_indian_minor
 	}
 	
 	option = {
-		name = "EVT980002PTB"
+		name = "Nagpur"
 		badboy = 4
 		treasury = -1000000
 		add_country_modifier = {
@@ -3701,10 +3707,11 @@ country_event = {
 			duration = 1095
 		}
 		inherit = NAG
+		clr_country_flag = eat_indian_minor
 	}
 	
 	option = {
-		name = "EVT980002PTC"
+		name = "Beroda"
 		badboy = 4
 		treasury = -1000000
 		add_country_modifier = {
@@ -3712,10 +3719,11 @@ country_event = {
 			duration = 1095
 		}
 		inherit = BER
+		clr_country_flag = eat_indian_minor
 	}
 	
 	option = {
-		name = "EVT980002PTD"
+		name = "Awadh"
 		badboy = 4
 		treasury = -1000000
 		add_country_modifier = {
@@ -3723,19 +3731,25 @@ country_event = {
 			duration = 1095
 		}
 		inherit = AWA
+		clr_country_flag = eat_indian_minor
+	}
+	
+	option = {
+		name = "It's all so tiresome"
+		country_event = 980001
 	}
 }
 
 country_event = {
     id = 980003
-    title = "EVTNAME980003"
-    desc = "EVTDESC980003"
-    picture = "gtfo"
+    title = "Integration of the Medium Princely States"
+    desc = "§RDO NOT CLICK A COUNTRY YOU ALREADY ATE"
+    picture = "map_india"
 
     is_triggered_only = yes
 
     option = {
-		name = "EVT980003PTA"
+		name = "Maharashtra"
 		badboy = 2
 		treasury = -500000
 		add_country_modifier = {
@@ -3743,10 +3757,11 @@ country_event = {
 			duration = 730
 		}
 		inherit = MAH
+		clr_country_flag = eat_indian_minor
 	}
 	
 	option = {
-		name = "EVT980003PTB"
+		name = "Bundelkhand"
 		badboy = 2
 		treasury = -500000
 		add_country_modifier = {
@@ -3754,10 +3769,11 @@ country_event = {
 			duration = 730
 		}
 		inherit = BUN
+		clr_country_flag = eat_indian_minor
 	}
 	
 	option = {
-		name = "EVT980003PTC"
+		name = "Travancore"
 		badboy = 2
 		treasury = -500000
 		add_country_modifier = {
@@ -3765,19 +3781,25 @@ country_event = {
 			duration = 730
 		}
 		inherit = TRA
+		clr_country_flag = eat_indian_minor
+	}
+	
+	option = {
+		name = "It's all so tiresome"
+		country_event = 980001
 	}
 }
 
 country_event = {
-    id = 980004 #Small
-    title = "EVTNAME980004"
-    desc = "EVTDESC980004"
-    picture = "gtfo"
+    id = 980004
+    title = "Integration of the Small Princely States"
+    desc = "§RDO NOT CLICK A COUNTRY YOU ALREADY ATE"
+    picture = "map_india"
 
     is_triggered_only = yes
 
     option = {
-		name = "EVT980004PTA"
+		name = "Gwalior"
 		badboy = 1
 		treasury = -250000
 		add_country_modifier = {
@@ -3785,10 +3807,11 @@ country_event = {
 			duration = 365
 		}
 		inherit = GWA
+		clr_country_flag = eat_indian_minor
 	}
 	
 	option = {
-		name = "EVT980004PTB"
+		name = "Bhopal and Kalat"
 		badboy = 1
 		treasury = -250000
 		add_country_modifier = {
@@ -3797,10 +3820,11 @@ country_event = {
 		}
 		inherit = BHO
 		inherit = KAL
+		clr_country_flag = eat_indian_minor
 	}
 	
 	option = {
-		name = "EVT980004PTC"
+		name = "Indore"
 		badboy = 1
 		treasury = -250000
 		add_country_modifier = {
@@ -3808,10 +3832,11 @@ country_event = {
 			duration = 365
 		}
 		inherit = IND
+		clr_country_flag = eat_indian_minor
 	}
 	
 	option = {
-		name = "EVT980004PTD"
+		name = "Orissa and Kutch"
 		badboy = 1
 		treasury = -250000
 		add_country_modifier = {
@@ -3820,10 +3845,11 @@ country_event = {
 		}
 		inherit = ORI
 		inherit = KUT
+		clr_country_flag = eat_indian_minor
 	}
 	
 	option = {
-		name = "EVT980004PTE"
+		name = "Bastar and Bahawalpur"
 		badboy = 1
 		treasury = -250000
 		add_country_modifier = {
@@ -3832,5 +3858,11 @@ country_event = {
 		}
 		inherit = BAS
 		inherit = BHP
+		clr_country_flag = eat_indian_minor
+	}
+	
+	option = {
+		name = "It's all so tiresome"
+		country_event = 980001
 	}
 }
