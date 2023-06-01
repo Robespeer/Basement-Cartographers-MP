@@ -132,6 +132,7 @@ status_quo
 separate_truce
 demand_weebcession_casus_belli
 demand_capital_weebcession
+acquire_core_substate_region
 }
 
 # Great War CB's
