@@ -1408,33 +1408,6 @@ country_event = {
     }
 }
 
-
-country_event = {
-    id = 85031
-    title = "EVTNAME85031" #Japan will lose cores on Korea after the timer runs out - Candidate for decision
-    desc = "EVTDESC85031"
-    picture = "tonghak_rebellion"
-
-    trigger = {
-        exists = yes
-        ai = yes
-        war = no
-        OR = {
-            JAP = { exists = yes has_country_flag = claimed_korea NOT = { has_country_modifier = foreign_claims } }
-            TKG = { exists = yes has_country_flag = claimed_korea NOT = { has_country_modifier = foreign_claims } }
-        }
-    }
-
-    mean_time_to_happen = { months = 3 }
-
-    fire_only_once = yes
-
-    option = {
-        name = "EVT85031OPTA"
-        KOR = { all_core = { remove_core = JAP remove_core = TKG } }
-    }
-}
-
 #Japan/China gets informed that Korea is resisting
 country_event = {
     id = 85032
