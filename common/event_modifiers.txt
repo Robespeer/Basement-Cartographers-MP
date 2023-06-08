@@ -2569,3 +2569,48 @@ nv_change_cooldown = {
 india_cooldown = {
 	prestige = -0.001
 }
+
+coal_event_cooldown = {
+}
+
+iron_event_cooldown = {
+}
+
+sulphur_event_cooldown = {
+}
+
+cotton_event_cooldown = {
+}
+
+tea_event_cooldown = {
+}
+
+wool_event_cooldown = {
+}
+
+fruit_event_cooldown = {
+}
+
+tobacco_event_cooldown = {
+}
+
+coffee_event_cooldown = {
+}
+
+silk_event_cooldown = {
+}
+
+fish_event_cooldown = {
+}
+
+timber_event_cooldown = {
+}
+
+tropical_wood_event_cooldown = {
+}
+
+cattle_event_cooldown = {
+}
+
+grain_event_cooldown = {
+}
